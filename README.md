@@ -1,12 +1,12 @@
-# 🧠 SemEval-2026 Task 11: Disentangling Reasoning and Content in LLMs
+# SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models
 
 Welcome to the official repository for **SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models**.
 
 ---
 
-### The Challenge: Content Bias in LLMs
+### The Challenge: Content Biases in LLMs
 
-A major challenge for Large Language Models (LLMs) is their tendency to confuse logical reasoning with real-world knowledge. This phenomenon, known as the **content effect**, means LLMs often:
+A major challenge for Large Language Models (LLMs) is their tendency to confuse formal logical validity with the plausibility of arguments. This phenomenon, known as the **content effect**, means LLMs often:
 
 * Overestimate the validity of arguments that align with common knowledge.
 
@@ -16,13 +16,13 @@ This issue highlights a fundamental problem: the pre-training process inherently
 
 ---
 
-### Our Goal: A Multilingual Approach
+### A Multilingual Evaluation of Content Effect on Reasoning
 
 SemEval-2026 Task 11 aims to tackle this challenge by focusing on **multilingual syllogistic reasoning**. Participants will build models that can assess the formal validity of logical arguments, completely independent of their plausibility, across a variety of languages.
 
-To achieve this, we are releasing a novel, large-scale dataset of syllogistic arguments. This dataset will help us measure not only a model's accuracy but also how the content effect manifests and varies across different languages.
+To achieve this, we will release a novel, large-scale dataset of syllogistic arguments. This dataset will help us measure not only a model's accuracy but also how the content effect manifests and varies across different languages.
 
-We encourage participants to explore solutions based on open-source or open-weight models that offer insights into the internal reasoning mechanisms.
+We encourage participants to explore solutions based on natively multilingual open-source or open-weight models that offer insights into the internal reasoning mechanisms.
 
 ---
 
