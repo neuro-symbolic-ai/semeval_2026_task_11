@@ -1,4 +1,4 @@
-# SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models
+# SemEval-2026 Task 11
 
 Welcome to the official repository for **SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models**.
 
