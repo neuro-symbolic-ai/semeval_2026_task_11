@@ -1,8 +1,8 @@
-# SemEval-2026 Task 11
+# 🧠 SemEval-2026 Task 11: Disentangling Reasoning and Content in LLMs
 
 Welcome to the official repository for **SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models**.
 
-Official website: https://sites.google.com/view/semeval-2026-task-11
+Official website: <https://sites.google.com/view/semeval-2026-task-11>
 
 ---
 
@@ -38,18 +38,20 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 **Example from the training set:**
 
-```json
-{
-    "id": "0",
-    "syllogism": "Not all canines are aquatic creatures known as fish. It is certain that no fish belong to the class of mammals. Therefore, every canine falls under the category of mammals.",
-    "validity": false,
-    "plausibility": true
-}
-```
+    ```json
+    {
+        "id": "0",
+        "syllogism": "Not all canines are aquatic creatures known as fish. It is certain that no fish belong to the class of mammals. Therefore, every canine falls under the category of mammals.",
+        "validity": false,
+        "plausibility": true
+    }
+    ```
 
 * **Note:** The model must correctly predict `validity: false`, ignoring the `plausibility: true` (which is based on world knowledge).
 
-#### Subtask 1: Syllogistic Reasoning in English
+---
+
+### Subtask 1: Syllogistic Reasoning in English
 
 * **Goal:** Determine the formal validity of syllogisms in English.
 
@@ -61,7 +63,9 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 * **Ranking:** Based on the ratio of Accuracy to Content Effect. A higher ratio indicates a more robust model.
 
-#### Subtask 2: Syllogistic Reasoning with Irrelevant Premises in English
+---
+
+### Subtask 2: Syllogistic Reasoning with Irrelevant Premises in English
 
 * **Goal:** Determine validity while filtering out "noisy" or irrelevant premises in English.
 
@@ -71,7 +75,9 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
   * **Premise Selection:** An F1 score to measure the model's ability to identify relevant premises.
 
-#### Subtask 3: Multilingual Syllogistic Reasoning
+---
+
+### Subtask 3: Multilingual Syllogistic Reasoning
 
 * **Goal:** Extend binary classification to multiple languages.
 
@@ -83,7 +89,9 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 * **Ranking:** Based on the ratio of Accuracy to Multilingual Content Effect.
 
-#### Subtask 4: Multilingual Syllogistic Reasoning with Irrelevant Premises
+---
+
+### Subtask 4: Multilingual Syllogistic Reasoning with Irrelevant Premises
 
 * **Goal:** The ultimate challenge—handle noisy, irrelevant premises in multiple languages.
 
