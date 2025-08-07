@@ -123,7 +123,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 * \[1\] Seals, T. and Shalin, V. (2024). Evaluating the deductive competence of large language models. NAACL 2024.
 
-* \[2\] Kim, G., Valentino, M. and Freitas, A. (2024). A mechanistic interpretation of syllogistic reasoning in auto-regressive language models. ACL 2025.
+* \[2\] Kim, G., Valentino, M. and Freitas, A. (2024). Reasoning circuits in language models: A mechanistic interpretation of syllogistic inference. Findings of ACL 2025.
 
 * \[3\] Wysocka, M., Carvalho, D., Wysocki, O., Valentino, M., and Freitas, A. (2024). Syllobio-NLI: Evaluating large language models on biomedical syllogistic reasoning. NAACL 2025.
 
