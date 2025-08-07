@@ -2,6 +2,8 @@
 
 Welcome to the official repository for **SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models**.
 
+Official website: https://sites.google.com/view/semeval-2026-task-11
+
 ---
 
 ### The Challenge: Content Biases in LLMs
