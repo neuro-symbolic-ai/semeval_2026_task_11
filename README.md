@@ -1,4 +1,4 @@
-# 🧠 SemEval-2026 Task 11: Disentangling Reasoning and Content in LLMs
+# 🧠 SemEval-2026 Task 11
 
 Welcome to the official repository for **SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models**.
 
@@ -38,14 +38,14 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 **Example from the training set:**
 
-    ```json
-    {
-        "id": "0",
-        "syllogism": "Not all canines are aquatic creatures known as fish. It is certain that no fish belong to the class of mammals. Therefore, every canine falls under the category of mammals.",
-        "validity": false,
-        "plausibility": true
-    }
-    ```
+```json
+{
+    "id": "0",
+    "syllogism": "Not all canines are aquatic creatures known as fish. It is certain that no fish belong to the class of mammals. Therefore, every canine falls under the category of mammals.",
+    "validity": false,
+    "plausibility": true
+}
+```
 
 * **Note:** The model must correctly predict `validity: false`, ignoring the `plausibility: true` (which is based on world knowledge).
 
