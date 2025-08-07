@@ -1,0 +1,482 @@
+[
+    {
+        "id": "0",
+        "syllogism": "Not all canines are aquatic creatures known as fish. It is certain that no fish belong to the class of mammals. Therefore, every canine falls under the category of mammals.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "1",
+        "syllogism": "All birds lay eggs. All chickens lay eggs. All chickens are birds.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "2",
+        "syllogism": "There are some bridges that are considered artifacts. All items categorized as structures are artifacts. It is true that every bridge is a structure.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "3",
+        "syllogism": "Every apparatus that indicates time can be classified as an instrument. Any tool specifically designed for measurement is, by definition, an instrument. Therefore, every apparatus that indicates time is a tool specifically designed for measurement.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "4",
+        "syllogism": "There are certain activities that can be classified as coverings. Some acts of protecting function as coverings. Every act of protecting qualifies as an activity.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "5",
+        "syllogism": "Some sadnesses are not trees. All sadnesses are emotions. No trees are emotions.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "6",
+        "syllogism": "Every creature classified as an arthropod is an invertebrate. Some invertebrates are known to be centipedes. Consequently, every centipede is an arthropod.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "7",
+        "syllogism": "Some musicians possess creativity. Every musician is an artist. Consequently, every artist is a creative individual.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "8",
+        "syllogism": "Certain trees belong to the category of plants. Some plants, however, are not fish. Therefore, no tree is a fish.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "9",
+        "syllogism": "A portion of sculptures are considered plastic arts. Statues are among the various forms of plastic arts. Every single statue is a type of sculpture.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "10",
+        "syllogism": "A fraction of all organisms are classified as postdiluvian. Among those that are postdiluvian, a certain group does not include succulents. No members of the organism kingdom are succulents.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "11",
+        "syllogism": "A subset of end products are considered oeuvres. Some artistic works (oeuvres) are not biological organs. It is impossible for any end product to be an organ.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "12",
+        "syllogism": "All members of the class 'birds' possess wings. Every creature known as an 'eagle' is observed to have wings. Consequently, every creature identified as an eagle is, without exception, a bird.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "13",
+        "syllogism": "Not a single colony can be considered a camera. There are instances where bodies are not cameras. As a result, every colony is classified as a body.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "14",
+        "syllogism": "There exist families that are also foster families. Some of the individuals who are foster families are not hammers. No family is a hammer.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "15",
+        "syllogism": "Some fish are not pine trees. All pine trees are trees. No trees are fish.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "16",
+        "syllogism": "Teachers are never considered to be precipitations. No precipitations are people who are teaching fellows. It logically follows that all individuals who are teaching fellows are also teachers.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "17",
+        "syllogism": "Absolutely no aviators are considered vehicles. Some vehicles are not classified as pilots. Every individual who is a pilot is also an aviator.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "18",
+        "syllogism": "No biospheres are individual fighters. Certain geographical zones are not occupied by combatants. Every zone of life is a geographical area.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "19",
+        "syllogism": "Palaces are not communities. Mansions are not communities. Some buildings classified as palaces can also be considered mansions.",
+        "validity": false,
+        "plausibility": true
+    },
+    {
+        "id": "20",
+        "syllogism": "Every dog belongs to the category of mammals. No mammal is a bird. No creature classified as a bird can be a dog.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "21",
+        "syllogism": "Every single plankton is an organism. No cheese is a plankton. Consequently, there exist organisms that are not cheeses.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "22",
+        "syllogism": "Every armor serves as a protective covering. All protective coverings are considered coverings. Therefore, every armor is a type of covering.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "23",
+        "syllogism": "Every sanctuary is classified as a type of place. All sanctuaries belong to the category of geographical areas. It follows that some geographical areas are indeed places.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "24",
+        "syllogism": "None of the things classified as vegetations belong to the category of Godheads. All entities that are hypostases are included in the category of Godheads. It logically follows that nothing from the category of vegetations can be an hypostasis.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "25",
+        "syllogism": "All zebras are members of the equine family. Among the odd-toed ungulates, a certain number of them are zebras. Therefore, some equines are also odd-toed ungulates.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "26",
+        "syllogism": "Every canine creature is a mammal. No canine creature belongs to the category of fish. It follows that certain mammals are not piscine creatures.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "27",
+        "syllogism": "Each and every cathedral is a type of church. No structure considered a church is ever a statue. Thus, no building that is a cathedral can also be a statue.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "28",
+        "syllogism": "All doctors are professionals. All doctors are people who help others. Some professionals are people who help others.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "29",
+        "syllogism": "None of the things identified as instruments are marauders. Every marauder is also an attacker. It logically follows that a subset of attackers are not instruments.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "30",
+        "syllogism": "It is impossible for any cookbook to be a doctor. Every item classified as a cookbook is inherently a reference book. Consequently, a certain portion of reference books are not doctors.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "31",
+        "syllogism": "No library is a type of percussion instrument. All instruments that are percussions are forms of music. Consequently, certain types of music are not libraries.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "32",
+        "syllogism": "No item that functions as a balloon is a type of mirror. Every single car mirror belongs to the category of mirrors. Thus, no object that is a car mirror is ever a balloon.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "33",
+        "syllogism": "Dogs are never cats. Some domestic animals are indeed felines. Therefore, a portion of domestic animals is not dogs.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "34",
+        "syllogism": "Anyone who manufactures is also someone who makes things. Every single manufacturer is a creator. It follows that some individuals who create are also individuals who make.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "35",
+        "syllogism": "It is a fact that no creature classified as a bird is also a mammal. Every single sparrow falls into the classification of a bird. Therefore, there are certainly some mammals that are not sparrows.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "36",
+        "syllogism": "Every single piece of percussion is considered music. Some types of percussion involve drumming. It logically follows that certain drumming activities are a form of music.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "37",
+        "syllogism": "It is established that no animals classified as preys are actual nerve pathways. However, within the category of nerve pathways, certain instances are identified as peduncles. Consequently, some of these peduncles are certainly not prey animals.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "38",
+        "syllogism": "No individual belonging to the species of zebra can be an astronaut. All zebras are classified as equines. It logically follows that certain members of the equine family are not astronauts.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "39",
+        "syllogism": "Each and every class is a type of collection. All classes are indeed considered groups. It follows that some collections are also groups.",
+        "validity": true,
+        "plausibility": true
+    },
+    {
+        "id": "40",
+        "syllogism": "No dogs are cats. Some cats are not animals. All animals are dogs.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "41",
+        "syllogism": "A subset of storage units includes anchoring devices. Every single biological tissue functions as a storage unit. Certain anchoring devices consist of biological tissues.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "42",
+        "syllogism": "Teapots are never classified as utensils. Some soldiers are not considered utensils. Consequently, some soldiers are indeed teapots.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "43",
+        "syllogism": "Some oceans are emotions. All computers are oceans. Some emotions are computers.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "44",
+        "syllogism": "It is true that some tissues are steeds. There are some biomes that are steeds. It logically follows that all biomes are tissues.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "45",
+        "syllogism": "There are ecological systems that are not categorized as footbridges. Absolutely no footbridges constitute bridges. Consequently, a portion of bridges are also ecosystems.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "46",
+        "syllogism": "Each and every train is a type of vehicle. All items known as slates are also classified as vehicles. It follows that every train is a slate.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "47",
+        "syllogism": "There are certain tools that are not medical professionals. No medical doctors are indeed medical professionals. Consequently, some tools are medical doctors.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "48",
+        "syllogism": "Not every piece of art is visual. Certain art pieces possess physical characteristics. Nothing that is visual can be physical.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "49",
+        "syllogism": "Not every engineer is a statue. There are some engineers who are not treasures. Every statue is considered a treasure.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "50",
+        "syllogism": "Among the group of hammers, some individuals are also marksmen. All individuals who are marksmen belong to the category of ladles. It logically follows that every object classified as a ladle must also be a hammer.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "51",
+        "syllogism": "Any system for conveyance is a natural dwelling. Certain elevated roadways are not systems for conveyance. Certain elevated roadways are not natural dwellings.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "52",
+        "syllogism": "Squirrels are in no way meteorological balloons. Meteorological balloons are not considered to be balloons. Every single squirrel is a type of balloon.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "53",
+        "syllogism": "No sounds are vibrations. Some containers are not vibrations. Some containers are sounds.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "54",
+        "syllogism": "Among instances of precipitation, some do not possess the attribute of being creators. There are precipitations that are also farmers. No individual who is a farmer is also a creator.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "55",
+        "syllogism": "A subset of satellites constitutes manufacturers. All memorials are to be considered satellites. It is true that some manufacturers are also memorials.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "56",
+        "syllogism": "Omnivores are never individuals who consume food. There are no instances where an omnivore is also a bottle. Each and every bottle possesses the characteristic of being an eater.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "57",
+        "syllogism": "All areas of dense tropical forest are considered periods of deep thought. All areas of dense tropical forest are also considered styles of food preparation. It logically follows that all culinary practices are forms of deep thought.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "58",
+        "syllogism": "Arrangements cannot be formations. A subset of vases exists that are not formations. Therefore, all things classified as arrangements are vases.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "59",
+        "syllogism": "It is not true that every farmer is an attacker. Each and every farmer is a marauder. No marauders are known to be attackers.",
+        "validity": false,
+        "plausibility": false
+    },
+    {
+        "id": "60",
+        "syllogism": "Every single cuisine is a biome. All biomes are types of consumers. Thus, at least one cuisine is a consumer.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "61",
+        "syllogism": "Every single artist is inherently a protection. There exist steeds that do not fall under the classification of protections. It logically follows that a number of steeds are not artists.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "62",
+        "syllogism": "Some organisms classified as protists are cameras. No item that is a camera can be categorized as photographic equipment. Consequently, some organisms known as protists are not photographic equipment.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "63",
+        "syllogism": "Every mathematician is an acrobat. No acrobat is a serious scholar. Consequently, no serious scholar is a mathematician.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "64",
+        "syllogism": "All forms of bacteria are classified as communities. There are some organs that do not belong to the category of communities. Therefore, some organs are not types of bacteria.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "65",
+        "syllogism": "Every single structure is, by definition, a Colosseum. Any item that is a Colosseum is also a percussion instrument. It logically follows that every structure is a percussion instrument.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "66",
+        "syllogism": "There exist some fortresses that do not possess windows. Every single fortress is an implement. It follows that certain implements are not windows.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "67",
+        "syllogism": "No mammals are rocks. All birds are rocks. Some birds are not mammals.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "68",
+        "syllogism": "There are notebooks that are contemplations. Every single contemplation is an animal. Therefore, a subset of notebooks can be considered animals.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "69",
+        "syllogism": "Rockets are in no way considered vehicles. Every single rocket functions as a scavenger. A portion of scavengers exists that are not vehicles.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "70",
+        "syllogism": "Anything that is a mollusk invariably falls into the category of machineries. No item classified as a machinery is ever considered a machine. It is not the case that any device which is a machine is also a mollusk.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "71",
+        "syllogism": "No rug is considered a floor covering. All facilities known as factories are floor coverings. It logically follows that certain rugs are not factories.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "72",
+        "syllogism": "It is not the case that any ocean is a body of water. Every factory is, without exception, a body of water. Consequently, certain oceans do not consist of factories.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "73",
+        "syllogism": "Every missile falls into the category of adjustments. No domestication belongs to the category of adjustments. It is the case that some domestications are not missiles.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "74",
+        "syllogism": "Apples are entirely distinct from edible fruits. A subset of spheres exists within the category of edible fruits. Consequently, it follows that some spheres cannot be apples.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "75",
+        "syllogism": "Every amphibian is a physician. No physician works as a medical practitioner. Consequently, no amphibian performs medical procedures.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "76",
+        "syllogism": "Every single creature that lives in water is a high-speed projectile. All groups involved in manufacturing are aquatic creatures. It logically follows that all entities that manufacture things are high-speed projectiles.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "77",
+        "syllogism": "Every single thoroughfare is a type of carnivore. No creature that is a procyonid is a carnivore. Consequently, some thoroughfares are not members of the procyonid family.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "78",
+        "syllogism": "Taxonomic groups include no species at all. All items considered devices are, in fact, species. A portion of taxonomic groups are not classified as devices.",
+        "validity": true,
+        "plausibility": false
+    },
+    {
+        "id": "79",
+        "syllogism": "Every organism is a mountain. Every organism is a rug. Thus, it logically follows that some rugs are mountains.",
+        "validity": true,
+        "plausibility": false
+    }
+]
