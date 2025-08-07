@@ -74,7 +74,8 @@ The training set is exclusively in English to simulate a low-resource setting. A
   * **Binary Prediction:** Same accuracy and content effect metrics as Subtask 1.
 
   * **Premise Selection:** An F1 score to measure the model's ability to identify relevant premises.
-
+    
+* **Ranking:** Based on the ratio of Accuracy and F1 to Content Effect. A higher ratio indicates a more robust model.
 ---
 
 #### Subtask 3: Multilingual Syllogistic Reasoning
@@ -101,7 +102,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
   * **Premise Selection:** F1 score for identifying relevant premises.
 
-* **Ranking:** Based on the ratio of Accuracy to Multilingual Content Effect.
+* **Ranking:** Based on the ratio of Accuracy and F1 to Multilingual Content Effect.
 
 ---
 
