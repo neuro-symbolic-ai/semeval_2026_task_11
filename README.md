@@ -51,7 +51,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 ---
 
-### Subtask 1: Syllogistic Reasoning in English
+#### Subtask 1: Syllogistic Reasoning in English
 
 * **Goal:** Determine the formal validity of syllogisms in English.
 
@@ -65,7 +65,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 ---
 
-### Subtask 2: Syllogistic Reasoning with Irrelevant Premises in English
+#### Subtask 2: Syllogistic Reasoning with Irrelevant Premises in English
 
 * **Goal:** Determine validity while filtering out "noisy" or irrelevant premises in English.
 
@@ -77,7 +77,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 ---
 
-### Subtask 3: Multilingual Syllogistic Reasoning
+#### Subtask 3: Multilingual Syllogistic Reasoning
 
 * **Goal:** Extend binary classification to multiple languages.
 
@@ -91,7 +91,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 ---
 
-### Subtask 4: Multilingual Syllogistic Reasoning with Irrelevant Premises
+#### Subtask 4: Multilingual Syllogistic Reasoning with Irrelevant Premises
 
 * **Goal:** The ultimate challenge—handle noisy, irrelevant premises in multiple languages.
 
