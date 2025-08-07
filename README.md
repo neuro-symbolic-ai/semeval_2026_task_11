@@ -93,7 +93,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 #### Subtask 4: Multilingual Syllogistic Reasoning with Irrelevant Premises
 
-* **Goal:** The ultimate challenge—handle noisy, irrelevant premises in multiple languages.
+* **Goal:** Handle noisy, irrelevant premises in multiple languages.
 
 * **Metrics:**
 
