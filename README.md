@@ -6,7 +6,7 @@ Official website: <https://sites.google.com/view/semeval-2026-task-11>
 
 ---
 
-### The Challenge: Content Biases in LLMs
+### Content Biases in LLMs
 
 A major challenge for Large Language Models (LLMs) is their tendency to confuse formal logical validity with the plausibility of arguments. This phenomenon, known as the **content effect**, means LLMs often:
 
