@@ -59,11 +59,11 @@ The training set is exclusively in English to simulate a low-resource setting. A
 
 * **Metrics:**
 
-  * **Accuracy:** The percentage of correct validity predictions.
-
-  * **Content Effect:** The difference in accuracy between plausible and implausible syllogisms. A lower score is better.
-
-* **Ranking:** Based on the ratio of Accuracy to Content Effect. A higher ratio indicates a more robust model.
+    * **Accuracy:** The percentage of correct validity predictions.
+    * **Intra-Plausibility Content Effect:** The average difference in accuracy between valid and invalid arguments given a plausibility value (measures biases towards a specific validity label). 
+    * **Cross-Plausibility Content Effect:** The average difference in accuracy between plausible and implausible arguments given a formal validity value (measures biases towards the plausibility value). 
+    * **Total Content Effect:** The average between intra and cross-plausibility content effect. A lower content effect is preferable, as it indicates that the model is relying on logical structure rather than real-world content or biases.
+Ranking will be based on the ratio of accuracy to total content effect. A higher ratio indicates a model that is both accurate and robust against content bias.
 
 ---
 
