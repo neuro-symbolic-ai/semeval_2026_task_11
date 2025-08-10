@@ -101,7 +101,7 @@ Ranking will be based on the ratio of accuracy to total content effect. A higher
 
 * **Metrics:**
 
-  * **Binary Prediction:** Same accuracy and content effect metrics as Subtask 2.
+  * **Binary Prediction:** Same accuracy and content effect metrics as Subtask 3.
 
   * **Premise Selection:** F1 score for identifying relevant premises.
 
