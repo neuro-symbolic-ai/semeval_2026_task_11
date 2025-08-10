@@ -63,6 +63,7 @@ The training set is exclusively in English to simulate a low-resource setting. A
     * **Intra-Plausibility Content Effect:** The average difference in accuracy between valid and invalid arguments given a plausibility value (measures biases towards a specific validity label). 
     * **Cross-Plausibility Content Effect:** The average difference in accuracy between plausible and implausible arguments given a formal validity value (measures biases towards the plausibility value). 
     * **Total Content Effect:** The average between intra and cross-plausibility content effect. A lower content effect is preferable, as it indicates that the model is relying on logical structure rather than real-world content or biases.
+ 
 Ranking will be based on the ratio of accuracy to total content effect. A higher ratio indicates a model that is both accurate and robust against content bias.
 
 ---
