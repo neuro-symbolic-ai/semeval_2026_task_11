@@ -14,6 +14,8 @@ A major challenge for Large Language Models (LLMs) is their tendency to confuse 
 
 * Underestimate the validity of arguments that seem implausible, even if they are logically sound.
 
+* Exhibit biases towards validity assessment depending on the content of the argument (including plausibility, concrete entities and languages)
+
 This issue highlights a fundamental problem: the pre-training process inherently entangles reasoning with content, limiting the reliability and application of LLMs in critical real-world scenarios. While various methods have been proposed to address this, a truly effective solution remains elusive, especially across different languages.
 
 ---
