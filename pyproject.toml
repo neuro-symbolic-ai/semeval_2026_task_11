@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nlp-semeval-11"
+version = "0.1.0"
+description = "Syllogistic reasoning experiments"
+authors = ["guelhanm0 <s54mguel@uni-bonn.de>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = ">=1.0.0"
+dotenv = "^0.9.9"
+pydantic = ">=2.0.0"
+openai = ">=1.0.0"
+requests = ">=2.31.0"
+tqdm = ">=4.65.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -85,11 +85,60 @@ Respond with JSON:
     return prompt
 
 
+def normalization_prompt(syllogism: str) -> str:
+    """
+    Prompt for rewriting the three sentences of a syllogism
+    into canonical categorical form.
+    """
+
+    prompt = f"""You are a logic expert. Your task is to normalize a syllogistic argument into canonical form.
+
+INPUT STRUCTURE:
+You will receive exactly THREE sentences in this order:
+1. First sentence = MAJOR PREMISE
+2. Second sentence = MINOR PREMISE  
+3. Third sentence = CONCLUSION
+
+CRITICAL TASK:
+Map each sentence to EXACTLY one of these four canonical forms:
+- "All X are Y."
+- "No X are Y."
+- "Some X are Y."
+- "Some X are not Y."
+
+CRUCIAL RULES:
+1. PRESERVE the exact order: major premise, minor premise, conclusion
+2. Do NOT reorder or swap sentences
+3. Do NOT add, remove, or infer information
+4. Do NOT change the logical meaning
+5. ONLY change the wording to match one of the four canonical forms
+6. Keep the same terms - do NOT introduce synonyms
+7. Each sentence MUST end with a period
+
+QUANTIFIER MAPPING EXAMPLES:
+- "All", "every", "any", "each" → "All"
+- "No", "none", "not any" → "No"  
+- "Some", "a few", "many", "most", "there are", "there exist" → "Some"
+- "Some...not", "not all", "not every" → "Some...not"
+
+
+SYLLOGISM TO NORMALIZE:
+{syllogism}
+
+OUTPUT FORMAT:
+Respond with ONLY the three normalized sentences, separated by spaces. No JSON, no markdown, no explanation, no numbering.
+
+Format: [major premise]. [minor premise]. [conclusion]."""
+
+    return prompt
+
 # Dictionary of available prompt templates
 PROMPT_TEMPLATES: dict[str, Callable[[str], str]] = {
     "direct": direct_prompt,
     "chain_of_thought": chain_of_thought_prompt,
-    "cot": chain_of_thought_prompt,  # alias
+    "cot": chain_of_thought_prompt,          
+    "normalization": normalization_prompt,   
+    "normalize": normalization_prompt,
 }
 
 
