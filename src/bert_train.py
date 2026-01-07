@@ -118,23 +118,43 @@ def train(config: Config = None):
     print("\nStarting training...")
     trainer.train()
 
-    # Final evaluation on validation set
-    print("\nFinal evaluation on validation set:")
-    val_results = trainer.evaluate(val_dataset)
-    print(f"  Validation Accuracy: {val_results['eval_accuracy']:.4f}")
-
-    # Evaluation on test set
-    print("\nEvaluation on test set:")
-    test_results = trainer.evaluate(test_dataset)
-    print(f"  Test Accuracy: {test_results['eval_accuracy']:.4f}")
-
     # Save best model
     best_model_path = os.path.join(config.output_dir, "best_model")
     trainer.save_model(best_model_path)
     tokenizer.save_pretrained(best_model_path)
     print(f"\nBest model saved to: {best_model_path}")
 
-    return trainer, {'val': val_results, 'test': test_results}
+    # Evaluation on train set
+    print("\n" + "="*50)
+    print("Evaluation on TRAIN set:")
+    print("="*50)
+    train_results = trainer.evaluate(train_dataset)
+    print(f"  Train Accuracy: {train_results['eval_accuracy']:.4f}")
+
+    # Evaluation on test set
+    print("\n" + "="*50)
+    print("Evaluation on TEST set:")
+    print("="*50)
+    test_results = trainer.evaluate(test_dataset)
+    print(f"  Test Accuracy: {test_results['eval_accuracy']:.4f}")
+
+    # Evaluation on all data (train + val + test combined)
+    print("\n" + "="*50)
+    print("Evaluation on ALL data (train + val + test):")
+    print("="*50)
+    all_data = train_data + val_data + test_data
+    all_dataset = SyllogismDataset(all_data, tokenizer, config.max_length)
+    all_results = trainer.evaluate(all_dataset)
+    print(f"  All Data Accuracy: {all_results['eval_accuracy']:.4f}")
+
+    print("\n" + "="*50)
+    print("SUMMARY:")
+    print("="*50)
+    print(f"  Train Accuracy:    {train_results['eval_accuracy']:.4f}")
+    print(f"  Test Accuracy:     {test_results['eval_accuracy']:.4f}")
+    print(f"  All Data Accuracy: {all_results['eval_accuracy']:.4f}")
+
+    return trainer, {'train': train_results, 'test': test_results, 'all': all_results}
 
 
 if __name__ == "__main__":
