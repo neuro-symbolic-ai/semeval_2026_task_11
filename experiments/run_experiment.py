@@ -5,7 +5,7 @@ Usage:
     python experiments/run_experiment.py \\
         --model "anthropic/claude-3.5-sonnet" \\
         --prompt "direct" \\
-        --input "test_data/subtask 1/test_data_subtask_1.json" \\
+        --input "train_data/subtask 1/train_data.json" \\
         --output "predictions/test_predictions.json" \\
         --evaluate \\
         --reference "train_data/subtask 1/train_data.json"

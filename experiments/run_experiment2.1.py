@@ -11,13 +11,13 @@ using an LLM, while keeping the JSON schema IDENTICAL to the input:
 ]
 
 Usage:
-    poetry run python experiments/run_experiment2.py --model "qwen/qwen2.5-vl-235b-a22b-instruct" --prompt "normalization" --input "test_data/subtask 1/test_data_subtask_1.json" --output "data/polished/polished_syllogisms.json"
+    poetry run python experiments/run_experiment2.1.py --model "qwen/qwen3-vl-235b-a22b-instruct" --prompt "normalization" --input "train_data/subtask 1/train_data.json" --output "data/polished/polished_syllogisms.json"
 
 Optional:
     --limit 100
 
 Example: 
-    poetry run python experiments/run_experiment2.py --model "qwen/qwen3-coder:free" --prompt "normalization" --input "test_data/subtask 1/test_data_subtask_1.json" --output "data/polished/polished_syllogisms.json" --limit 10
+    poetry run python experiments/run_experiment2.1.py --model "qwen/qwen3-vl-235b-a22b-instruct" --prompt "normalization" --input "train_data/subtask 1/train_data.json" --output "data/polished/polished_syllogisms.json" --limit 10
 """
 
 import argparse

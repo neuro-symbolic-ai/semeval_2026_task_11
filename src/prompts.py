@@ -132,13 +132,68 @@ Format: [major premise]. [minor premise]. [conclusion]."""
 
     return prompt
 
+def normalization_replace_prompt(syllogism: str) -> str:
+    """
+    Normalizes the syllogism AND replaces all concrete terms
+    with abstract variables A, B, C (canonical form).
+    """
+
+    prompt = f"""You are a logic expert. Your task is to normalize a syllogistic argument into PURELY FORMAL canonical form.
+
+INPUT STRUCTURE:
+You will receive exactly THREE sentences in this order:
+1. MAJOR PREMISE
+2. MINOR PREMISE
+3. CONCLUSION
+
+STEP 1 — NORMALIZATION:
+Rewrite each sentence into EXACTLY one of:
+- "All X are Y."
+- "No X are Y."
+- "Some X are Y."
+- "Some X are not Y."
+
+STEP 2 — VARIABLE REPLACEMENT:
+Replace ALL concrete terms with abstract variables:
+- Use single capital letters: A, B, C
+- Use the MINIMUM number of variables
+- The SAME original term must map to the SAME variable everywhere
+- Different terms must map to DIFFERENT variables
+
+EXAMPLE:
+Input:
+All cats are mammals. All mammals are animals. Therefore all cats are animals.
+
+Output:
+All A are B. All B are C. All A are C.
+
+RULES:
+- Preserve sentence order
+- Do NOT reorder premises
+- Do NOT add or remove information
+- Do NOT explain anything
+- Each sentence MUST end with a period
+
+SYLLOGISM:
+{syllogism}
+
+OUTPUT FORMAT:
+Exactly three sentences, separated by spaces.
+No JSON. No markdown. No explanations.
+"""
+
+    return prompt
+
+
 # Dictionary of available prompt templates
 PROMPT_TEMPLATES: dict[str, Callable[[str], str]] = {
     "direct": direct_prompt,
     "chain_of_thought": chain_of_thought_prompt,
-    "cot": chain_of_thought_prompt,          
-    "normalization": normalization_prompt,   
+    "cot": chain_of_thought_prompt,
+    "normalization": normalization_prompt,
     "normalize": normalization_prompt,
+    "normalization_replace": normalization_replace_prompt,
+    "normalize_replace": normalization_replace_prompt,
 }
 
 
