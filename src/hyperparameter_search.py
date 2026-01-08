@@ -1,13 +1,16 @@
 """
 Hyperparameter search script for BERT fine-tuning on SemEval-2026 Task 11.
 
-Tests different models and hyperparameter configurations to find the best setup.
-Logs all results to CSV and JSON files.
+Tests 3 models (BERT, RoBERTa, BERT-Large) with 3 learning rates each.
+Uses early stopping with patience=3, fixed warmup/weight decay.
+Batch sizes optimized for 16GB VRAM.
+
+Total: 9 experiments (3 models × 3 learning rates)
 
 Usage:
-    python hyperparameter_search.py                    # Run full search
-    python hyperparameter_search.py --quick            # Quick test with fewer configs
-    python hyperparameter_search.py --models-only      # Only test different models
+    python hyperparameter_search.py                    # Run search
+    python hyperparameter_search.py --no-balance       # Without balanced sampling
+    python hyperparameter_search.py --seed 123         # Custom seed
 """
 
 import argparse
@@ -15,9 +18,7 @@ import csv
 import json
 import os
 import time
-from dataclasses import asdict
 from datetime import datetime
-from itertools import product
 from typing import Dict, List, Any
 
 import numpy as np
@@ -28,6 +29,7 @@ from transformers import (
     AutoModelForSequenceClassification,
     TrainingArguments,
     Trainer,
+    EarlyStoppingCallback,
     set_seed,
 )
 
@@ -40,30 +42,28 @@ from bert_dataset import (
 )
 
 
-# Search space definitions
-MODELS = [
-    "bert-base-uncased",
-    "bert-base-cased",
-    "bert-large-uncased",
-    "roberta-base",
-    "roberta-large",
-    "albert-base-v2",
-    "distilbert-base-uncased",
-    "microsoft/deberta-v3-base",
-]
+# Model configurations with batch sizes optimized for 16GB VRAM
+MODEL_CONFIGS = {
+    "bert-base-uncased": {
+        "batch_size": 16,
+        "learning_rates": [1e-5, 2e-5, 3e-5],
+    },
+    "roberta-base": {
+        "batch_size": 16,
+        "learning_rates": [1e-5, 2e-5, 3e-5],
+    },
+    "bert-large-uncased": {
+        "batch_size": 8,  # Smaller batch for larger model
+        "learning_rates": [5e-6, 1e-5, 2e-5],  # Lower LR for large model
+    },
+}
 
-LEARNING_RATES = [1e-5, 2e-5, 3e-5, 5e-5]
-BATCH_SIZES = [8, 16, 32]
-EPOCHS = [3, 4, 5, 6]
-WARMUP_RATIOS = [0.0, 0.1, 0.2]
-WEIGHT_DECAYS = [0.0, 0.01, 0.1]
-MAX_LENGTHS = [128, 256, 512]
-
-# Quick search (fewer options for testing)
-QUICK_MODELS = ["bert-base-uncased", "distilbert-base-uncased"]
-QUICK_LEARNING_RATES = [2e-5, 3e-5]
-QUICK_BATCH_SIZES = [16]
-QUICK_EPOCHS = [3, 4]
+# Fixed hyperparameters
+NUM_EPOCHS = 10
+WARMUP_RATIO = 0.1
+WEIGHT_DECAY = 0.01
+MAX_LENGTH = 256
+EARLY_STOPPING_PATIENCE = 3
 
 
 def compute_metrics(eval_pred):
@@ -81,6 +81,7 @@ def run_experiment(
     warmup_ratio: float,
     weight_decay: float,
     max_length: int,
+    early_stopping_patience: int,
     train_data: List[Dict],
     val_data: List[Dict],
     test_data: List[Dict],
@@ -99,6 +100,7 @@ def run_experiment(
         "warmup_ratio": warmup_ratio,
         "weight_decay": weight_decay,
         "max_length": max_length,
+        "early_stopping_patience": early_stopping_patience,
         "seed": seed,
         "status": "running",
         "error": None,
@@ -120,6 +122,7 @@ def run_experiment(
         # Training info
         "training_time_seconds": None,
         "best_epoch": None,
+        "actual_epochs": None,  # Epochs before early stopping
     }
 
     start_time = time.time()
@@ -169,24 +172,28 @@ def run_experiment(
             save_total_limit=1,  # Save disk space
         )
 
-        # Initialize trainer
+        # Initialize trainer with early stopping
         trainer = Trainer(
             model=model,
             args=training_args,
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics,
+            callbacks=[EarlyStoppingCallback(early_stopping_patience=early_stopping_patience)],
         )
 
         # Train
         train_output = trainer.train()
 
-        # Get best epoch from training state
+        # Get actual epochs trained and best epoch
+        result["actual_epochs"] = int(trainer.state.epoch)
         if hasattr(trainer.state, 'best_model_checkpoint') and trainer.state.best_model_checkpoint:
-            # Extract epoch number from checkpoint path
             checkpoint_name = os.path.basename(trainer.state.best_model_checkpoint)
             try:
-                result["best_epoch"] = int(checkpoint_name.split('-')[-1]) // len(train_dataset) * batch_size + 1
+                # checkpoint format: checkpoint-{step}
+                step = int(checkpoint_name.split('-')[-1])
+                steps_per_epoch = len(train_dataset) // batch_size
+                result["best_epoch"] = (step // steps_per_epoch) + 1
             except:
                 result["best_epoch"] = None
 
@@ -219,54 +226,26 @@ def run_experiment(
     return result
 
 
-def generate_configurations(quick: bool = False, models_only: bool = False) -> List[Dict]:
-    """Generate all hyperparameter configurations to test."""
+def generate_configurations() -> List[Dict]:
+    """
+    Generate hyperparameter configurations to test.
 
-    if models_only:
-        # Only vary models, use default hyperparameters
-        configs = []
-        for model in MODELS:
-            configs.append({
-                "model_name": model,
-                "learning_rate": 2e-5,
-                "batch_size": 16,
-                "num_epochs": 4,
-                "warmup_ratio": 0.1,
-                "weight_decay": 0.01,
-                "max_length": 256,
-            })
-        return configs
-
-    if quick:
-        models = QUICK_MODELS
-        learning_rates = QUICK_LEARNING_RATES
-        batch_sizes = QUICK_BATCH_SIZES
-        epochs = QUICK_EPOCHS
-        warmup_ratios = [0.1]
-        weight_decays = [0.01]
-        max_lengths = [256]
-    else:
-        models = MODELS
-        learning_rates = LEARNING_RATES
-        batch_sizes = BATCH_SIZES
-        epochs = EPOCHS
-        warmup_ratios = WARMUP_RATIOS
-        weight_decays = WEIGHT_DECAYS
-        max_lengths = MAX_LENGTHS
-
+    3 models × 3 learning rates = 9 total experiments
+    """
     configs = []
-    for model, lr, bs, ep, wr, wd, ml in product(
-        models, learning_rates, batch_sizes, epochs, warmup_ratios, weight_decays, max_lengths
-    ):
-        configs.append({
-            "model_name": model,
-            "learning_rate": lr,
-            "batch_size": bs,
-            "num_epochs": ep,
-            "warmup_ratio": wr,
-            "weight_decay": wd,
-            "max_length": ml,
-        })
+
+    for model_name, model_cfg in MODEL_CONFIGS.items():
+        for lr in model_cfg["learning_rates"]:
+            configs.append({
+                "model_name": model_name,
+                "learning_rate": lr,
+                "batch_size": model_cfg["batch_size"],
+                "num_epochs": NUM_EPOCHS,
+                "warmup_ratio": WARMUP_RATIO,
+                "weight_decay": WEIGHT_DECAY,
+                "max_length": MAX_LENGTH,
+                "early_stopping_patience": EARLY_STOPPING_PATIENCE,
+            })
 
     return configs
 
@@ -394,8 +373,6 @@ def print_summary(results: List[Dict], best: Dict):
 
 def main():
     parser = argparse.ArgumentParser(description="Hyperparameter search for BERT fine-tuning")
-    parser.add_argument("--quick", action="store_true", help="Quick search with fewer configurations")
-    parser.add_argument("--models-only", action="store_true", help="Only test different models")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--output", type=str, default=None, help="Output directory for results")
     parser.add_argument("--no-balance", action="store_true", help="Disable balanced sampling")
@@ -409,8 +386,19 @@ def main():
     config = Config()
     set_seed(args.seed)
 
+    # Print search configuration
+    print("=" * 70)
+    print("HYPERPARAMETER SEARCH CONFIGURATION")
+    print("=" * 70)
+    print(f"Models: {list(MODEL_CONFIGS.keys())}")
+    print(f"Epochs: {NUM_EPOCHS} (with early stopping, patience={EARLY_STOPPING_PATIENCE})")
+    print(f"Warmup ratio: {WARMUP_RATIO}")
+    print(f"Weight decay: {WEIGHT_DECAY}")
+    print(f"Max length: {MAX_LENGTH}")
+    print(f"Seed: {args.seed}")
+
     # Load data once
-    print("Loading data...")
+    print("\nLoading data...")
     data = load_data(config.train_file)
     print(f"Loaded {len(data)} samples")
 
@@ -426,8 +414,9 @@ def main():
     print(f"Train: {len(train_data)}, Val: {len(val_data)}, Test: {len(test_data)}")
 
     # Generate configurations
-    configs = generate_configurations(quick=args.quick, models_only=args.models_only)
+    configs = generate_configurations()
     print(f"\nTotal configurations to test: {len(configs)}")
+    print("(3 models × 3 learning rates = 9 experiments)")
 
     # Run experiments
     results = []
@@ -448,6 +437,7 @@ def main():
             warmup_ratio=cfg["warmup_ratio"],
             weight_decay=cfg["weight_decay"],
             max_length=cfg["max_length"],
+            early_stopping_patience=cfg["early_stopping_patience"],
             train_data=train_data,
             val_data=val_data,
             test_data=test_data,
@@ -458,7 +448,9 @@ def main():
         results.append(result)
 
         if result["status"] == "completed":
-            print(f"\n  Accuracy:")
+            print(f"\n  Epochs: {result['actual_epochs']}/{cfg['num_epochs']} "
+                  f"(best: {result['best_epoch']})")
+            print(f"  Accuracy:")
             print(f"    Train: {result['train_accuracy']:.4f}  |  "
                   f"Val: {result['val_accuracy']:.4f}  |  "
                   f"Test: {result['test_accuracy']:.4f}  |  "
