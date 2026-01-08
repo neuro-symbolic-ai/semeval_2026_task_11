@@ -1,0 +1,497 @@
+"""
+Hyperparameter search script for BERT fine-tuning on SemEval-2026 Task 11.
+
+Tests different models and hyperparameter configurations to find the best setup.
+Logs all results to CSV and JSON files.
+
+Usage:
+    python hyperparameter_search.py                    # Run full search
+    python hyperparameter_search.py --quick            # Quick test with fewer configs
+    python hyperparameter_search.py --models-only      # Only test different models
+"""
+
+import argparse
+import csv
+import json
+import os
+import time
+from dataclasses import asdict
+from datetime import datetime
+from itertools import product
+from typing import Dict, List, Any
+
+import numpy as np
+from sklearn.metrics import accuracy_score
+
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSequenceClassification,
+    TrainingArguments,
+    Trainer,
+    set_seed,
+)
+
+from bert_config import Config, PROJECT_ROOT
+from bert_dataset import (
+    SyllogismDataset,
+    load_data,
+    split_data,
+    get_balanced_data,
+)
+
+
+# Search space definitions
+MODELS = [
+    "bert-base-uncased",
+    "bert-base-cased",
+    "bert-large-uncased",
+    "roberta-base",
+    "roberta-large",
+    "albert-base-v2",
+    "distilbert-base-uncased",
+    "microsoft/deberta-v3-base",
+]
+
+LEARNING_RATES = [1e-5, 2e-5, 3e-5, 5e-5]
+BATCH_SIZES = [8, 16, 32]
+EPOCHS = [3, 4, 5, 6]
+WARMUP_RATIOS = [0.0, 0.1, 0.2]
+WEIGHT_DECAYS = [0.0, 0.01, 0.1]
+MAX_LENGTHS = [128, 256, 512]
+
+# Quick search (fewer options for testing)
+QUICK_MODELS = ["bert-base-uncased", "distilbert-base-uncased"]
+QUICK_LEARNING_RATES = [2e-5, 3e-5]
+QUICK_BATCH_SIZES = [16]
+QUICK_EPOCHS = [3, 4]
+
+
+def compute_metrics(eval_pred):
+    """Compute accuracy for evaluation."""
+    logits, labels = eval_pred
+    predictions = np.argmax(logits, axis=-1)
+    return {'accuracy': accuracy_score(labels, predictions)}
+
+
+def run_experiment(
+    model_name: str,
+    learning_rate: float,
+    batch_size: int,
+    num_epochs: int,
+    warmup_ratio: float,
+    weight_decay: float,
+    max_length: int,
+    train_data: List[Dict],
+    val_data: List[Dict],
+    test_data: List[Dict],
+    output_dir: str,
+    seed: int = 42,
+) -> Dict[str, Any]:
+    """Run a single training experiment with given configuration."""
+
+    set_seed(seed)
+
+    result = {
+        "model_name": model_name,
+        "learning_rate": learning_rate,
+        "batch_size": batch_size,
+        "num_epochs": num_epochs,
+        "warmup_ratio": warmup_ratio,
+        "weight_decay": weight_decay,
+        "max_length": max_length,
+        "seed": seed,
+        "status": "running",
+        "error": None,
+        # Dataset sizes
+        "train_size": len(train_data),
+        "val_size": len(val_data),
+        "test_size": len(test_data),
+        "total_size": len(train_data) + len(val_data) + len(test_data),
+        # Accuracy metrics
+        "train_accuracy": None,
+        "val_accuracy": None,
+        "test_accuracy": None,
+        "all_accuracy": None,  # Combined train + val + test
+        # Loss metrics
+        "train_loss": None,
+        "val_loss": None,
+        "test_loss": None,
+        "all_loss": None,
+        # Training info
+        "training_time_seconds": None,
+        "best_epoch": None,
+    }
+
+    start_time = time.time()
+
+    try:
+        # Load tokenizer and model
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForSequenceClassification.from_pretrained(
+            model_name,
+            num_labels=2,
+            problem_type="single_label_classification"
+        )
+
+        # Create datasets
+        train_dataset = SyllogismDataset(train_data, tokenizer, max_length)
+        val_dataset = SyllogismDataset(val_data, tokenizer, max_length)
+        test_dataset = SyllogismDataset(test_data, tokenizer, max_length)
+
+        # Combined dataset for "all data" evaluation
+        all_data = train_data + val_data + test_data
+        all_dataset = SyllogismDataset(all_data, tokenizer, max_length)
+
+        # Experiment-specific output directory
+        exp_output_dir = os.path.join(
+            output_dir,
+            f"{model_name.replace('/', '_')}_lr{learning_rate}_bs{batch_size}_ep{num_epochs}"
+        )
+
+        # Training arguments
+        training_args = TrainingArguments(
+            output_dir=exp_output_dir,
+            num_train_epochs=num_epochs,
+            per_device_train_batch_size=batch_size,
+            per_device_eval_batch_size=batch_size * 2,
+            learning_rate=learning_rate,
+            weight_decay=weight_decay,
+            warmup_ratio=warmup_ratio,
+            eval_strategy="epoch",
+            save_strategy="epoch",
+            load_best_model_at_end=True,
+            metric_for_best_model="accuracy",
+            greater_is_better=True,
+            logging_steps=50,
+            fp16=True,
+            report_to="none",
+            seed=seed,
+            save_total_limit=1,  # Save disk space
+        )
+
+        # Initialize trainer
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset,
+            eval_dataset=val_dataset,
+            compute_metrics=compute_metrics,
+        )
+
+        # Train
+        train_output = trainer.train()
+
+        # Get best epoch from training state
+        if hasattr(trainer.state, 'best_model_checkpoint') and trainer.state.best_model_checkpoint:
+            # Extract epoch number from checkpoint path
+            checkpoint_name = os.path.basename(trainer.state.best_model_checkpoint)
+            try:
+                result["best_epoch"] = int(checkpoint_name.split('-')[-1]) // len(train_dataset) * batch_size + 1
+            except:
+                result["best_epoch"] = None
+
+        # Evaluate on all datasets
+        train_results = trainer.evaluate(train_dataset)
+        val_results = trainer.evaluate(val_dataset)
+        test_results = trainer.evaluate(test_dataset)
+        all_results = trainer.evaluate(all_dataset)
+
+        # Log accuracy metrics
+        result["train_accuracy"] = train_results["eval_accuracy"]
+        result["val_accuracy"] = val_results["eval_accuracy"]
+        result["test_accuracy"] = test_results["eval_accuracy"]
+        result["all_accuracy"] = all_results["eval_accuracy"]
+
+        # Log loss metrics
+        result["train_loss"] = train_results["eval_loss"]
+        result["val_loss"] = val_results["eval_loss"]
+        result["test_loss"] = test_results["eval_loss"]
+        result["all_loss"] = all_results["eval_loss"]
+
+        result["status"] = "completed"
+
+    except Exception as e:
+        result["status"] = "failed"
+        result["error"] = str(e)
+
+    result["training_time_seconds"] = time.time() - start_time
+
+    return result
+
+
+def generate_configurations(quick: bool = False, models_only: bool = False) -> List[Dict]:
+    """Generate all hyperparameter configurations to test."""
+
+    if models_only:
+        # Only vary models, use default hyperparameters
+        configs = []
+        for model in MODELS:
+            configs.append({
+                "model_name": model,
+                "learning_rate": 2e-5,
+                "batch_size": 16,
+                "num_epochs": 4,
+                "warmup_ratio": 0.1,
+                "weight_decay": 0.01,
+                "max_length": 256,
+            })
+        return configs
+
+    if quick:
+        models = QUICK_MODELS
+        learning_rates = QUICK_LEARNING_RATES
+        batch_sizes = QUICK_BATCH_SIZES
+        epochs = QUICK_EPOCHS
+        warmup_ratios = [0.1]
+        weight_decays = [0.01]
+        max_lengths = [256]
+    else:
+        models = MODELS
+        learning_rates = LEARNING_RATES
+        batch_sizes = BATCH_SIZES
+        epochs = EPOCHS
+        warmup_ratios = WARMUP_RATIOS
+        weight_decays = WEIGHT_DECAYS
+        max_lengths = MAX_LENGTHS
+
+    configs = []
+    for model, lr, bs, ep, wr, wd, ml in product(
+        models, learning_rates, batch_sizes, epochs, warmup_ratios, weight_decays, max_lengths
+    ):
+        configs.append({
+            "model_name": model,
+            "learning_rate": lr,
+            "batch_size": bs,
+            "num_epochs": ep,
+            "warmup_ratio": wr,
+            "weight_decay": wd,
+            "max_length": ml,
+        })
+
+    return configs
+
+
+def save_results(results: List[Dict], output_dir: str, timestamp: str):
+    """Save results to CSV and JSON files."""
+
+    # Save to JSON
+    json_path = os.path.join(output_dir, f"results_{timestamp}.json")
+    with open(json_path, 'w') as f:
+        json.dump(results, f, indent=2)
+
+    # Save to CSV
+    csv_path = os.path.join(output_dir, f"results_{timestamp}.csv")
+    if results:
+        fieldnames = results[0].keys()
+        with open(csv_path, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(results)
+
+    return json_path, csv_path
+
+
+def find_best_config(results: List[Dict]) -> Dict:
+    """Find the best configuration based on test accuracy."""
+    completed = [r for r in results if r["status"] == "completed"]
+    if not completed:
+        return None
+    return max(completed, key=lambda x: x["test_accuracy"])
+
+
+def print_summary(results: List[Dict], best: Dict):
+    """Print a summary of the search results."""
+    completed = [r for r in results if r["status"] == "completed"]
+    failed = [r for r in results if r["status"] == "failed"]
+
+    print("\n" + "=" * 70)
+    print("HYPERPARAMETER SEARCH SUMMARY")
+    print("=" * 70)
+    print(f"Total experiments: {len(results)}")
+    print(f"Completed: {len(completed)}")
+    print(f"Failed: {len(failed)}")
+
+    if completed:
+        # Accuracy statistics for all splits
+        print(f"\n{'─' * 70}")
+        print("ACCURACY STATISTICS")
+        print(f"{'─' * 70}")
+
+        for split_name, key in [("Train", "train_accuracy"),
+                                 ("Val", "val_accuracy"),
+                                 ("Test", "test_accuracy"),
+                                 ("All Data", "all_accuracy")]:
+            accuracies = [r[key] for r in completed if r[key] is not None]
+            if accuracies:
+                print(f"\n  {split_name}:")
+                print(f"    Mean: {np.mean(accuracies):.4f}  |  "
+                      f"Std: {np.std(accuracies):.4f}  |  "
+                      f"Min: {np.min(accuracies):.4f}  |  "
+                      f"Max: {np.max(accuracies):.4f}")
+
+        # Loss statistics
+        print(f"\n{'─' * 70}")
+        print("LOSS STATISTICS")
+        print(f"{'─' * 70}")
+
+        for split_name, key in [("Train", "train_loss"),
+                                 ("Val", "val_loss"),
+                                 ("Test", "test_loss"),
+                                 ("All Data", "all_loss")]:
+            losses = [r[key] for r in completed if r[key] is not None]
+            if losses:
+                print(f"\n  {split_name}:")
+                print(f"    Mean: {np.mean(losses):.4f}  |  "
+                      f"Std: {np.std(losses):.4f}  |  "
+                      f"Min: {np.min(losses):.4f}  |  "
+                      f"Max: {np.max(losses):.4f}")
+
+    if best:
+        print(f"\n{'=' * 70}")
+        print("BEST CONFIGURATION (by test accuracy)")
+        print("=" * 70)
+        print(f"\n  Hyperparameters:")
+        print(f"    Model:         {best['model_name']}")
+        print(f"    Learning Rate: {best['learning_rate']}")
+        print(f"    Batch Size:    {best['batch_size']}")
+        print(f"    Epochs:        {best['num_epochs']}")
+        print(f"    Warmup Ratio:  {best['warmup_ratio']}")
+        print(f"    Weight Decay:  {best['weight_decay']}")
+        print(f"    Max Length:    {best['max_length']}")
+
+        print(f"\n  Accuracy:")
+        print(f"    Train:    {best['train_accuracy']:.4f}")
+        print(f"    Val:      {best['val_accuracy']:.4f}")
+        print(f"    Test:     {best['test_accuracy']:.4f}")
+        print(f"    All Data: {best['all_accuracy']:.4f}")
+
+        print(f"\n  Loss:")
+        print(f"    Train:    {best['train_loss']:.4f}")
+        print(f"    Val:      {best['val_loss']:.4f}")
+        print(f"    Test:     {best['test_loss']:.4f}")
+        print(f"    All Data: {best['all_loss']:.4f}")
+
+        print(f"\n  Dataset Sizes:")
+        print(f"    Train: {best['train_size']}  |  Val: {best['val_size']}  |  "
+              f"Test: {best['test_size']}  |  Total: {best['total_size']}")
+
+        print(f"\n  Training Time: {best['training_time_seconds']:.1f}s")
+
+    # Top 5 configurations
+    if len(completed) > 1:
+        print(f"\n{'=' * 70}")
+        print("TOP 5 CONFIGURATIONS (by test accuracy)")
+        print("=" * 70)
+        top5 = sorted(completed, key=lambda x: x["test_accuracy"], reverse=True)[:5]
+        for i, cfg in enumerate(top5, 1):
+            print(f"\n{i}. {cfg['model_name']}")
+            print(f"   Params: lr={cfg['learning_rate']}, bs={cfg['batch_size']}, ep={cfg['num_epochs']}")
+            print(f"   Accuracy: train={cfg['train_accuracy']:.4f}, val={cfg['val_accuracy']:.4f}, "
+                  f"test={cfg['test_accuracy']:.4f}, all={cfg['all_accuracy']:.4f}")
+            print(f"   Loss: train={cfg['train_loss']:.4f}, val={cfg['val_loss']:.4f}, "
+                  f"test={cfg['test_loss']:.4f}, all={cfg['all_loss']:.4f}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Hyperparameter search for BERT fine-tuning")
+    parser.add_argument("--quick", action="store_true", help="Quick search with fewer configurations")
+    parser.add_argument("--models-only", action="store_true", help="Only test different models")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed")
+    parser.add_argument("--output", type=str, default=None, help="Output directory for results")
+    parser.add_argument("--no-balance", action="store_true", help="Disable balanced sampling")
+    args = parser.parse_args()
+
+    # Setup
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_dir = args.output or str(PROJECT_ROOT / "hyperparameter_search")
+    os.makedirs(output_dir, exist_ok=True)
+
+    config = Config()
+    set_seed(args.seed)
+
+    # Load data once
+    print("Loading data...")
+    data = load_data(config.train_file)
+    print(f"Loaded {len(data)} samples")
+
+    if not args.no_balance:
+        print("Balancing data...")
+        data = get_balanced_data(data, seed=args.seed)
+        print(f"Balanced dataset size: {len(data)}")
+
+    # Split data
+    train_data, val_data, test_data = split_data(
+        data, val_split=0.1, test_split=0.1, seed=args.seed
+    )
+    print(f"Train: {len(train_data)}, Val: {len(val_data)}, Test: {len(test_data)}")
+
+    # Generate configurations
+    configs = generate_configurations(quick=args.quick, models_only=args.models_only)
+    print(f"\nTotal configurations to test: {len(configs)}")
+
+    # Run experiments
+    results = []
+    for i, cfg in enumerate(configs, 1):
+        print(f"\n{'=' * 70}")
+        print(f"Experiment {i}/{len(configs)}")
+        print(f"{'=' * 70}")
+        print(f"Model: {cfg['model_name']}")
+        print(f"LR: {cfg['learning_rate']}, BS: {cfg['batch_size']}, "
+              f"Epochs: {cfg['num_epochs']}, Warmup: {cfg['warmup_ratio']}, "
+              f"WD: {cfg['weight_decay']}, MaxLen: {cfg['max_length']}")
+
+        result = run_experiment(
+            model_name=cfg["model_name"],
+            learning_rate=cfg["learning_rate"],
+            batch_size=cfg["batch_size"],
+            num_epochs=cfg["num_epochs"],
+            warmup_ratio=cfg["warmup_ratio"],
+            weight_decay=cfg["weight_decay"],
+            max_length=cfg["max_length"],
+            train_data=train_data,
+            val_data=val_data,
+            test_data=test_data,
+            output_dir=output_dir,
+            seed=args.seed,
+        )
+
+        results.append(result)
+
+        if result["status"] == "completed":
+            print(f"\n  Accuracy:")
+            print(f"    Train: {result['train_accuracy']:.4f}  |  "
+                  f"Val: {result['val_accuracy']:.4f}  |  "
+                  f"Test: {result['test_accuracy']:.4f}  |  "
+                  f"All: {result['all_accuracy']:.4f}")
+            print(f"  Loss:")
+            print(f"    Train: {result['train_loss']:.4f}  |  "
+                  f"Val: {result['val_loss']:.4f}  |  "
+                  f"Test: {result['test_loss']:.4f}  |  "
+                  f"All: {result['all_loss']:.4f}")
+            print(f"  Time: {result['training_time_seconds']:.1f}s")
+        else:
+            print(f"\nFailed: {result['error']}")
+
+        # Save intermediate results after each experiment
+        save_results(results, output_dir, timestamp)
+
+    # Final save and summary
+    json_path, csv_path = save_results(results, output_dir, timestamp)
+    best = find_best_config(results)
+
+    print_summary(results, best)
+
+    print(f"\nResults saved to:")
+    print(f"  JSON: {json_path}")
+    print(f"  CSV:  {csv_path}")
+
+    # Save best config separately
+    if best:
+        best_path = os.path.join(output_dir, f"best_config_{timestamp}.json")
+        with open(best_path, 'w') as f:
+            json.dump(best, f, indent=2)
+        print(f"  Best: {best_path}")
+
+
+if __name__ == "__main__":
+    main()
