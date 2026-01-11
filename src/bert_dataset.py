@@ -140,3 +140,38 @@ def analyze_data_distribution(data: List[Dict]) -> Dict:
         'total_valid': groups[(True, True)] + groups[(True, False)],
         'total_invalid': groups[(False, True)] + groups[(False, False)],
     }
+
+
+def merge_polished_with_labels(
+    polished_file: str,
+    original_file: str
+) -> List[Dict]:
+    """
+    Merge polished syllogisms with labels from original training data.
+
+    Polished files contain abstract syllogisms (A, B, C variables).
+    Labels (validity, plausibility) are taken from original data by matching IDs.
+    """
+    polished_data = load_data(polished_file)
+    original_data = load_data(original_file)
+
+    # Create lookup dict from original data
+    original_lookup = {item['id']: item for item in original_data}
+
+    # Merge polished syllogisms with original labels
+    merged_data = []
+    for polished_item in polished_data:
+        item_id = polished_item['id']
+        if item_id in original_lookup:
+            original = original_lookup[item_id]
+            merged_item = {
+                'id': item_id,
+                'syllogism': polished_item['syllogism'],
+                'validity': original['validity'],
+                'plausibility': original['plausibility'],
+            }
+            merged_data.append(merged_item)
+        else:
+            print(f"Warning: ID {item_id} not found in original data")
+
+    return merged_data

@@ -1,0 +1,3842 @@
+[
+  {
+    "id": "50146f21-d265-4e3a-8d93-8165cdbe89a3",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "dfafb4f6-4e1d-4cd5-aeb4-75d36aafdf1a",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "e30b1f83-a4c3-49cb-8aaf-5f64208c625b",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "a30e07d5-0fb3-4097-9892-4b145b0c54f5",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "5b8161b7-b1bf-4e16-a854-cd52cdce8a1b",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "bec15083-5e98-4b5b-87ff-39ccbd7c708c",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "57178844-d267-4d84-90ea-d2a29f973cda",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "974fa1fe-accf-472a-80fc-1d65f12ffdd6",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "2ace5ae0-70b9-43bd-a8c2-24664230d730",
+    "syllogism": "No A are B. All C are A. All C are B."
+  },
+  {
+    "id": "07c1b3ad-3718-4db7-9047-6265e2a89541",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "4fd3411a-3f94-4ebb-91e8-9e50c856af27",
+    "syllogism": "Some A are B. All A are C. No C are B."
+  },
+  {
+    "id": "fa03648a-a269-4249-b481-7a12cd672f0b",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "3b92be82-c8c1-4be8-92eb-a6301d39617b",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "aff588cb-12e4-423f-b36c-0b7f10ba8bda",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "2cd1f13b-eb67-42b7-a345-da72e5fb4d80",
+    "syllogism": "Some A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "fc477a4d-acad-4c3b-a989-ef97e9454f41",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "83ac1ca9-a215-43a1-98b6-0c65af285baf",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "321e05bd-2e8f-412d-beff-9ec29ac7ed43",
+    "syllogism": "Some A are not B. All A are C. Some C are B."
+  },
+  {
+    "id": "14cb2005-b721-40ef-8182-d28a07014f8d",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "3ffa69d7-8ae1-49e3-97ce-102a0df6db2e",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "f9e0aef5-2abd-4515-8daf-6a4bf83c42ed",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "88d37702-8d01-42e5-93a9-66394796e42a",
+    "syllogism": "No A are B. All C are A. No B are C."
+  },
+  {
+    "id": "c6a92b4e-ca9a-475c-9fec-967fbec7ab36",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "1825a5b1-ce1d-4b0c-a925-c4e37c0c7a8a",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "120750b7-c851-4669-8ec1-d76af5def5de",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "013bbe5b-4863-4f9f-a0e7-fcec256129b3",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "5e8aeb75-acdb-49d0-bd8c-f0285f65144a",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "6b02110b-77c6-4547-a4ad-f874027d9bba",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "b9e979ff-4eb8-45be-8b2f-ef1e41279c7d",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "96c9e18a-0d96-46ed-8234-5d369c2ba459",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "c890f2c1-9631-4153-a60e-02a9a89ad258",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "ce1e081e-8930-4195-a306-447d9f30f18c",
+    "syllogism": "Some A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "244cf8ba-d6bd-4acb-83db-841c05330954",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "d1335273-381d-48fd-b681-e32114f7cf90",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "a6cae303-c3b4-47e8-9d24-684efce69c15",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "36fdea7c-f8c5-4b3e-9989-7ef62a3e4cec",
+    "syllogism": "No A are B. All C are A. All C are B."
+  },
+  {
+    "id": "fafcc44f-e5ec-4fe9-8bed-96eb1ad1ab3d",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "ba26d7cc-4c9a-40f2-817d-73b6f91781ab",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "9bf9af39-9b60-43da-a871-23190a6d5e52",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "4d7aa5d5-4fdc-49d1-b879-1d6fca829c8e",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "3cd77d99-1835-4e01-bc28-735872543a65",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "1f6dfbc9-0387-40b0-88fa-e3205947edf3",
+    "syllogism": "All A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "c2029414-d28e-4fbd-acc8-12f855acf46c",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "6633c065-240e-49e5-95cc-efde4ee297e9",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "634576cd-c53e-4b24-902a-97f9f6017d81",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "64499fcd-3761-46d4-8fd9-3c15d4cf5405",
+    "syllogism": "No A are B. No C are A. Some C are A."
+  },
+  {
+    "id": "67f51404-e5be-4394-ae67-b7fef1dddf8b",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "4d476b7d-8af6-4690-8a19-2dc753c37d8a",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "fb44e9f7-2a9f-42d5-b533-699306c4ea55",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "7984c936-c1c3-4738-9457-30cdb2154ab1",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "f2b6985a-8b9d-47a2-8707-5e50b8348639",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "dd82fade-0432-4f9c-a72a-d2e6ba056b77",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "c4cd23fd-f1d6-4bca-af94-e443e063a809",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "331bc8f9-e5c1-40f3-ace4-77fbe5ad4719",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "8e758feb-cf87-4301-893d-6d70aaa8976e",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "72fa74c7-77a1-492e-b3ca-50f86c8c0ae4",
+    "syllogism": "All A are B. No A are C. Some A are not C."
+  },
+  {
+    "id": "75ec1d48-d566-4b82-a934-4ca52bfb7ed4",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "8cd07a48-a1a5-408d-97ab-6827a4176f99",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "166ef094-68ea-4c29-88fb-a7ae68694ba2",
+    "syllogism": "Some A are not B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "073ed5ec-8986-46df-8f40-c331dd8de902",
+    "syllogism": "All A are B. No C are A. All C are B."
+  },
+  {
+    "id": "47a4ad18-32f0-4dfd-a80a-e74b7a6c5e0b",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "9c06e896-d5b8-47ed-875e-43c6fc526c44",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "a6e185ca-a3ef-4331-a018-88d696548ce8",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "f55fb37b-2c59-40d7-9d2c-0542f4b4d1d2",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "1b777e34-ed5d-4ffe-9de6-43a33229f1ab",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "35c45723-f9be-40f0-b525-0dd530196630",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "0845a009-1b8b-4727-9c20-7f46b8416612",
+    "syllogism": "Some A are not B. All C are B. Some C are A."
+  },
+  {
+    "id": "90b5d022-b2d7-4fbe-9386-f956381db9af",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "0820d34a-6e2d-4f52-a975-d6f640f2ffe7",
+    "syllogism": "No A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "f6b3b0ad-76d8-4628-94d1-1a7aedb82cb5",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "c6c8dd70-9d83-4a8b-9f51-e1d5225aaaf9",
+    "syllogism": "No A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "4a21a53f-3e8b-46ca-b904-9e8eaf8a638f",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "54c5b3f8-ba16-4eaf-86a1-71d78b771192",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "299b601b-795b-47fa-8fae-2bee0a555b0e",
+    "syllogism": "No A are B. Some C are A. Some B are C."
+  },
+  {
+    "id": "0d6a4be3-97f2-4681-ab04-5a342bedfe4e",
+    "syllogism": "No A are B. All C are B. No A are C."
+  },
+  {
+    "id": "eda05d11-5c82-4cc0-a078-4896b726afc8",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "c1a76792-1837-4828-87cd-86b5870e8706",
+    "syllogism": "No A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "077078f3-93b5-4e7d-8376-66acd052c2c0",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "9c38a362-17ab-4f2e-a883-d6bd3ff7fa2e",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "6c246ba6-8a91-453a-a027-c41877ac446c",
+    "syllogism": "Some A are not B. All A are C. Some C are B."
+  },
+  {
+    "id": "47f1b584-9689-4744-a190-7112a13c9cb2",
+    "syllogism": "Some A are B. All C are A. All C are B."
+  },
+  {
+    "id": "f093ca09-2dbe-4258-a4f4-28823d3eaefb",
+    "syllogism": "All A are B. All C are B. All A are C."
+  },
+  {
+    "id": "88f1d8e5-30a4-47e4-abda-cd1f50fa77e0",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "1f4cfe1c-bd8f-4c54-8c08-a8ee3ad42904",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "9c6100d8-e495-4a1e-b797-a45b2e68b4d0",
+    "syllogism": "Some A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "0752c43f-402a-4032-8b0b-d30a4ef6c669",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "af093ce5-5c2e-4190-8421-5cbf7e6fef3d",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "ea73e9d5-ebb1-403c-9ea4-f7458c313107",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "9f087d4f-5b6f-4d89-b9a0-2ed39ea55950",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "a5b70f2f-0463-40e2-a48a-1806106578ad",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "ee91ca83-4f5e-48ac-ae52-93ad7842c9fb",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "3b4c6ca3-db28-4693-b2aa-577606295336",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "535b8c6e-ffc6-43f1-8660-73b8877862cd",
+    "syllogism": "All A are B. No A are C. No C are B."
+  },
+  {
+    "id": "45599b2f-5e2e-4fe6-ab81-0a05a9ab3eef",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "d391cce1-9ad3-4ef0-8549-6f19e2d96d90",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "e57dd7c0-a696-481c-90f9-2529ca71feb7",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "a21c713d-5074-418b-abd7-c49abb0de57c",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "4c5effb9-426b-4d87-b8bb-a92cccef1b85",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "f243d632-c0c2-487b-8e12-1c35bdc7c321",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "f96c05f3-3cc5-465b-a17d-3b7d30e5607e",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "4b4d8668-e0ae-4785-bcc5-bdd2eaa02eeb",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "d1c92c02-bd97-4456-a14d-9b82b65cd5b1",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "778ba99e-1bed-4d97-b358-1ee48a6c9429",
+    "syllogism": "No A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "b15f5ad1-2553-4a6f-95bd-07e4329ac851",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "1e1519e3-f441-4496-9305-1c5a6a4e67e6",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "7bd2fd32-89de-4452-9e86-6a8dc57ef575",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "712feadb-84db-4b6d-9ef4-3a4d670f0d66",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "93bed46d-aedf-4815-89b1-472bcdc8be3e",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "84b624a9-4de1-40a4-a584-7d961b6d017c",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "e465903e-2d8d-4f52-b3f6-b3751715ab50",
+    "syllogism": "No A are B. All B are C. Some A are C."
+  },
+  {
+    "id": "90896290-4510-43fe-98a6-4a75e7d31150",
+    "syllogism": "No A are B. Some C are not A. Some C are B."
+  },
+  {
+    "id": "fbff2acc-3c75-4e1e-9ee6-57534e7b958b",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "3f5f67b4-3d96-44d3-b94e-e4422a21ac05",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "53ebb02d-437a-481d-a71f-b83ef47b5b61",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "7e33d84f-4a3e-4ec4-a5ad-df409ed4bbd7",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "12233461-2fe7-4df7-accf-0abbbe78552f",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "f80d23ac-7850-4f7e-8d85-bcdcaf460d28",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "df24dcd9-6c90-418a-aef9-4f321e1d8386",
+    "syllogism": "No A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "5a1f112a-255f-4a5d-9388-e9cf667f6536",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "7258b953-a6a7-46f3-8c1b-04322353da9f",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "ab1b1f7c-4328-4345-b449-99e1b7e58b05",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "2a533cd3-5dab-425d-9dca-9f2d6cfcb4c7",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "b626e3e8-f26b-4503-b6b8-a52f059f3906",
+    "syllogism": "Some A are not B. Some C are B. All C are A."
+  },
+  {
+    "id": "62b1e53b-5c4e-4af8-b02a-809222c5ecf0",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "7eb64f6f-5665-43a6-bb00-a3dccba8a3d9",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "dc619e1d-03de-41c4-9639-d01e174c5284",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "f5d61309-4d28-4e37-a062-8bc81f17ff93",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "4e129e3f-4ae0-41ba-9321-a04e949f6eb6",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "37244c2f-0d09-431f-9e20-29f78f14aab7",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "b2e875c8-2a19-4aab-a7d0-b5116bde9dc6",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "c88bec75-1d67-4660-8898-d3f8d060d626",
+    "syllogism": "No A are B. All B are C. Some A are C."
+  },
+  {
+    "id": "31dad269-5af0-4f1d-9a02-947fd1150eeb",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "095c8569-a07c-42c1-9859-b99e50f8a168",
+    "syllogism": "No A are B. All A are C. All C are B."
+  },
+  {
+    "id": "aa1592a2-ee31-4516-a215-5435d25844df",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "c57395fe-25dd-4f44-acfa-71ecd87ed2b4",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "6c22b36f-ad54-4762-8fc6-7f9136e770b5",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "d395b65f-fa01-475b-a5f9-1043660ab986",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "51e6e1c1-ce40-415c-b2ac-753b7f19d3c3",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "dc5e8a17-f9ee-4f1c-a6e1-e55e3893609d",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "44ec00e8-6a39-473e-94e8-d90a52360f1f",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "f6b34421-9ef7-42fc-b441-393edd441d41",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "8abb5cfd-db81-4fe4-8c3c-f25e8f2bdb74",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "892da397-cedc-4341-b9d1-d59eb6ed7865",
+    "syllogism": "No A are not B. All C are A. Some C are B."
+  },
+  {
+    "id": "31d135e6-37bd-449a-b01e-2dd1d4c48111",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "ffba71c8-04fc-496e-809f-6655735d3be8",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "11c65905-5cf1-495e-aa9e-720c9f8687fd",
+    "syllogism": "No A are B. All C are B. No A are C."
+  },
+  {
+    "id": "3fd2289b-672d-490c-a5d6-61d711814d7f",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "5580c76a-7c97-4b7a-a43d-d12866c99ae2",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "1258c011-5342-478f-aed4-de905c7a0ce5",
+    "syllogism": "No A are B. All B are C. All C are A."
+  },
+  {
+    "id": "50decd9c-f2ed-430f-8103-bc9a386d1f5b",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "c9a543c7-82de-4734-a9e2-e059894c58b4",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "38d07379-8307-4a7f-a73d-731ed989dc84",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "fe3ded4a-77a5-405e-8edb-2cc97d6fa84d",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "55542618-500d-49c5-95d5-a522bc938522",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "be226ccb-e7b4-4f8c-b7d0-ef9640c705cb",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "0a5ff024-0265-4fe8-8dd7-57dd3d61a466",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "b8ce3ed1-0261-4bf8-b8c3-4022ae92ee7f",
+    "syllogism": "No A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "3930cca0-23f8-465b-a869-6199c3415dc2",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "46521c95-a338-47b0-96dd-a68ba25c5a34",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "dc79b4b7-8f59-43b5-8414-6c5cb46e94c7",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "6ee9c1d0-989a-4ff4-a935-021d6e294533",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "50008a27-be0f-44a2-a7ad-bb41c1b54ac5",
+    "syllogism": "All A are B. Some C are B. Some C are not B."
+  },
+  {
+    "id": "ef813b31-ae4f-4041-b9cc-b1d3378ba884",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "5837618c-ebb9-414e-b085-208c1437a3fc",
+    "syllogism": "No A are B. All C are B. No A are C."
+  },
+  {
+    "id": "1147615b-a8a5-4626-8e2d-171220edf00d",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "d6151c99-5b23-4164-b1b2-c51ce19b5c73",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "b67cba63-9ae7-4878-a8a7-f7e663f58bcc",
+    "syllogism": "No A are B. No C are B. All C are A."
+  },
+  {
+    "id": "6c70f8c4-cfed-4ee2-9de2-0ad6c7e39a4d",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "11bab54e-dbbb-4b2e-9d4d-2fc9b2c69d9e",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "5663e778-8153-48c2-83b3-c559449cfb13",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "a7b40ecc-5e8f-4fcd-9c62-cbfe30351899",
+    "syllogism": "All A are B. All C are B. No C are B."
+  },
+  {
+    "id": "d10c848c-ce58-4a0c-b56b-3f75b2ca0bfc",
+    "syllogism": "All A are B. No C are B. Some A are not C."
+  },
+  {
+    "id": "55a5e039-5ab2-479a-84d6-55d177cc648d",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "80ba297a-c9c9-4925-851e-72eb42dafd61",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "19bc7c4d-5dfa-409e-b62b-16e82606eb24",
+    "syllogism": "No A are B. All C are B. All C are A."
+  },
+  {
+    "id": "289953c0-645f-47c9-92a3-35b7fbadbf2f",
+    "syllogism": "All A are B. Some A are C. All C are B."
+  },
+  {
+    "id": "091c270b-32c3-44b5-ac07-f147bfe049fd",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "ff2717d7-987b-4b07-b9a8-a228207e5ffa",
+    "syllogism": "No A are B. No C are B. All C are A."
+  },
+  {
+    "id": "53331624-13d7-4d3d-b3d7-3c5cb0aff3d2",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "1677a357-b1cb-40ad-adce-909007c0bca3",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "45ff036a-75a0-4f0f-bad0-4ed93ea7046b",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "951df8bb-e9dc-4272-9db7-92fe5d28d337",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "f942476a-e905-4659-a4a0-b5aa00622fbc",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "70b2849f-72c6-4f1f-9fff-8c159405b8c8",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "c18abe00-c1e3-419e-b081-30fb76b046de",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "8d571f6e-3af0-4428-b572-365fbc4f139d",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "7fccb781-3cf9-4aaf-8ec4-efcad82df3b3",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "4a6f96f2-f3fb-414b-88b2-ec007c595e9b",
+    "syllogism": "No A are B. Some C are not A. All C are B."
+  },
+  {
+    "id": "adc52cf4-381b-4203-8745-cee844d750b1",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "5a74296e-6a5d-4aaa-9cad-23d3c6b98e12",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "1a8a31a0-21a8-4372-8d78-084d54b33d20",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "76f5bd8e-eb80-4bb9-983b-49ce10706337",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "07a90f4b-0f4f-4cd1-98e4-fb8d24f15662",
+    "syllogism": "All A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "075ee36a-6966-403e-b55e-288e2358c226",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "462a2603-e5b1-4dc2-bc70-152c024816e0",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "1ddd8a6a-d17b-4723-b115-a245cd44028d",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "58415d94-edbc-4d45-8c14-128c99bb2da5",
+    "syllogism": "All A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "4d7b1239-23dc-46e3-bbfa-a455fde88d27",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "fd1c29dd-41e2-4937-bd16-11dc1dfc6802",
+    "syllogism": "All A are B. Some C are not B. Some C are A."
+  },
+  {
+    "id": "85898b99-2e8c-49ee-8595-1a1c9cdf12e6",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "60fe7ed8-873b-4fb0-ac87-1dc330032a3a",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "3f27ae02-9e64-4c34-96d4-4e241a1c356c",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "13b6fa09-35e7-4bf1-9bee-12474c668503",
+    "syllogism": "No A are B. No C are B. Some A are not C."
+  },
+  {
+    "id": "1ddf5f37-b195-43ff-a681-6bbf256e74e0",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "9b4f2ed1-786d-4b4f-a076-2c5dcfdc637b",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "a2c6000f-14cf-4763-98a8-247ebc65773f",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "66becbb7-c25e-4311-9351-8ae03584a7f6",
+    "syllogism": "No A are B. All C are B. No A are C."
+  },
+  {
+    "id": "4510d170-3c4e-455b-a819-2c2e88fe1655",
+    "syllogism": "All A are B. No C are B. No A are C."
+  },
+  {
+    "id": "dff7e3d0-0d22-47b4-a2df-100757a822f5",
+    "syllogism": "All A are C. All B are C. All A are B."
+  },
+  {
+    "id": "b436f6f9-ef9a-4109-9d2e-6c1de2d3bea0",
+    "syllogism": "Some A are B. No B are C. No C are A."
+  },
+  {
+    "id": "290712e0-73c5-4144-af4e-1ffca0c6ed18",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "7af1f61d-43ed-4320-b76a-3f4137373e22",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "fc0f46f1-7745-4e5b-8448-f15f54ba1970",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "8a7cff1f-9701-43ed-81cb-17e5fe597f0f",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "7365d303-9046-46f0-8fdc-d668a2845007",
+    "syllogism": "No A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "1d4de649-8f04-436a-b489-abb438c23bcb",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "c734ea25-7d1d-4611-b3f5-9a7a5928bb21",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "777cdc8f-1a66-4ad2-bf27-633f430f0183",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "b4528712-3ba2-4790-8758-0b31c91d3d20",
+    "syllogism": "Some A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "68e9865c-5c39-473d-84ab-16216fa77d7e",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "f37a0e86-98bb-459b-8d6d-60b3455de955",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "26d7b707-2358-4873-bc57-d4aa724f7f22",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "4f301646-128a-4478-96f3-94ddd9ba282d",
+    "syllogism": "Some A are not B. All C are B. All C are A."
+  },
+  {
+    "id": "5ab729fc-d0d1-45fa-8588-7b270389800f",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "1b1b97d3-969d-4921-9095-42863228cbab",
+    "syllogism": "All A are B. Some C are A. All C are D."
+  },
+  {
+    "id": "7b01a111-ae3b-4cf5-85ea-31dfe1da204c",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "348536c7-1f02-4527-9794-f6ab7fdf1144",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "f3fecb37-13d4-413b-b97c-7bd23d52e3f8",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "8078870d-5ee2-4765-a771-bd795e0a10cf",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "6a373226-2cee-4447-a3e5-1edd8c8af430",
+    "syllogism": "Some A are B. All A are C. Some C are not A."
+  },
+  {
+    "id": "977d509f-bff0-4f82-b5bb-440e1ce5f8d0",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "e6449020-f9d5-4bc0-b0a2-561fa0d15d30",
+    "syllogism": "All A are B. All C are A. Some B are not C."
+  },
+  {
+    "id": "8485cc49-e043-42b7-ae68-49245e4954fe",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "42ac3db3-2da4-4208-9db9-9affc3d18dc4",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "930de84a-a92b-430d-893f-263036dbffec",
+    "syllogism": "Some A are B. All C are A. All C are B."
+  },
+  {
+    "id": "8040b38f-9c99-420a-b661-c0897591b31b",
+    "syllogism": "No A are B. No C are A. All C are B."
+  },
+  {
+    "id": "6904b1e8-8a48-4ef1-b450-d8f54773bf96",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "13f2e9a6-8df5-459d-987d-2348f712aadc",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "f487c925-ab9d-43a0-9139-1a598deacc51",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "a45774a3-287d-449e-8015-57d0a0b6e3d4",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "675842ed-60c4-40ab-9f9b-cf0c90280d88",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "b62e49b6-12d4-47d9-87df-e7df1d978057",
+    "syllogism": "No A are B. No C are B. No C are A."
+  },
+  {
+    "id": "8da50b76-04db-4f6c-b820-de5f57498334",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "475ce940-a63d-4940-9254-be1e35243cfa",
+    "syllogism": "Some A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "a387bf65-5020-4833-bfed-c12eb551e259",
+    "syllogism": "All A are B. C is A. Some C are B."
+  },
+  {
+    "id": "a6abf627-c349-4eff-9138-1989a2c50491",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "baeb9911-e69d-433c-9934-36988fdc2f53",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "c0f8e211-64fb-4b10-8a12-14d0def3f5b9",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "c81d6f35-5656-4c9e-8e8c-bd50cbc341e5",
+    "syllogism": "No A are B. All A are C. All C are B."
+  },
+  {
+    "id": "fe7ee440-ef75-481a-b562-4bd665bb11c9",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "59598fb3-62fa-42dd-9498-8ae6fdc51cbc",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "4a0e2133-b509-468a-8d8c-93362fc9cc82",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "f6b85a4a-31b9-4180-b404-3890742180a2",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "02a6d9c3-9704-4290-905b-f427482c06c8",
+    "syllogism": "All A are B. Some C are not A. Some C are not B."
+  },
+  {
+    "id": "81346be1-76d7-4051-b57c-05f0145dcd9c",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "eff0c9a8-448c-42ea-a85d-516e2cfa8a91",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "0112296e-72b9-40a8-89d9-6423f59a958a",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "97bd1911-5aca-41a1-ba6f-835f2ba45abf",
+    "syllogism": "All A are B. No C are A. All C are B."
+  },
+  {
+    "id": "ac9700ee-cf8e-428b-9f4a-88a7a21a73bf",
+    "syllogism": "All A are B. Some C are B. All C are A."
+  },
+  {
+    "id": "92732329-128c-43fa-a364-94c90d08162f",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "050b76be-03f5-4435-a74d-9e93cefce5f5",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "f00f038d-2271-4b3f-9044-069732724dd5",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "da09c581-be6d-4d5e-952c-94c944e8a751",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "1e137e72-636d-4cc6-9547-2266ee83ed53",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "cbfc916b-9232-4bcb-8641-edcf556260a0",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "b0363392-5e97-4d9d-b9a5-6e3af4510d4e",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "68943d30-671d-4073-9a96-ee59872b9843",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "9deb885f-2862-4ceb-86b7-c0fbc19e2691",
+    "syllogism": "No A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "47de8cdb-8488-455b-bb84-d99fce683591",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "f15e7b0d-2dab-45f1-b6cf-7d62415c7119",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "5207dc42-0a3f-40d0-b022-43b3864dc8b1",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "f9127a5c-d34b-4472-aa6f-82d8c32f0c42",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "cf153c16-caa8-4381-ba89-271ab817b327",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "9cab23f7-fba3-4286-ad44-0fe56268ff98",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "96b67dc0-7b49-45dd-9435-5e34c73a408d",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "893389ed-b336-4b90-9b1c-9f6bcc595862",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "7ac17eef-bc85-42eb-a4bd-0c356cb90ad2",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "f8f7078c-79ba-4085-8343-21a4b63d4c21",
+    "syllogism": "Some A are not B. All A are C. Some C are B."
+  },
+  {
+    "id": "7f48e605-47b8-4f1d-914c-d0f3c42593a3",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "9d0f6e59-163b-4aac-bede-cac5938a90a3",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "17888115-1faa-438c-8260-5dc06d9c0c64",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "4c424337-e384-43c6-a130-fcc14a34f3fb",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "cd4bdf9a-bb6a-49bc-973b-bd0aa6c4b732",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "484629f1-3062-4086-b455-4892eb08d4e6",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "e1f1def4-57f6-41e8-8e37-11c23329583c",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "d7afe323-d509-4dec-a2e0-28e03a26902e",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "9a3154a2-4a7e-4f26-ae0d-e97e2cec7ef0",
+    "syllogism": "Some A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "ea4ed2ab-8c5b-43f2-b726-218533f2939f",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "e1d85847-da07-45e8-aae3-34ee3008c4b7",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "a118c2fa-37f7-4086-a209-5fb8b90e4c78",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "b3b36ad2-d5c0-4e89-834d-65bb2d69c3c4",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "c648392e-e91c-4046-97fc-4acb588a0a42",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "5c343f7b-d752-4ebe-92c2-1055da055868",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "5938206b-fa51-46ed-8a8d-549d39ee4249",
+    "syllogism": "No A are B. All A are C. All B are C."
+  },
+  {
+    "id": "b41d3226-616d-475f-8112-11a869a6cfa7",
+    "syllogism": "No A are B. All C are B. No A are C."
+  },
+  {
+    "id": "34b58acf-6301-4373-90cc-aa8b04fb151d",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "8723ea49-3989-4559-86ee-efe1fbd90384",
+    "syllogism": "No A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "c061e039-e726-41ad-a8a6-e782b7bf417b",
+    "syllogism": "No A are B. All B are C. Some A are C."
+  },
+  {
+    "id": "bcaacbd3-c582-4316-bc1c-327a00965f63",
+    "syllogism": "All A are B. No A are C. No C are B."
+  },
+  {
+    "id": "06689352-cd51-48f4-8767-0864666d0941",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "2351a576-f65f-4566-b885-6dfc14525c09",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "72458ea2-0688-472b-bb76-2790c794ba46",
+    "syllogism": "Some A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "80d2725e-50ab-4668-81c2-5d009dab1bec",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "cf2dcde2-450d-45e2-b775-0f97c9ebb406",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "0e536e76-40a1-4af6-b344-b2e04598d3bc",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "ec3d4144-b083-43d2-a400-20da589c8627",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "aa8571b5-b9e0-4010-b67d-dcf832c29429",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "fc9ba5ef-3933-4ed5-a40a-d70c483eee95",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "b3a91f20-41e0-45b3-a152-92f28e8999c1",
+    "syllogism": "No A are B. All A are C. All C are B."
+  },
+  {
+    "id": "1e545339-9d43-4dc5-8d0a-8a64858b3fbb",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "0092296f-5c8d-4c79-9641-8df244a2c6ba",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "cc170ddf-ad97-48d0-aa6f-ec21373c1c9c",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "c5d0501c-c25b-40c1-91c0-603b613de0cf",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "1be779ce-f518-4780-9c11-ddbdfb91a860",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "ace56295-ca7c-490f-b69b-8f1293edeede",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "74516312-5969-4166-b84e-a34afc2d12bf",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "22a7186f-60ee-4566-8853-3f3f07b652b3",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "664267a1-59e1-481f-a04a-191ed6ed7a83",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "6dfa2e90-5139-4564-bb80-b6c343f867b0",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "b99063c8-66a9-43a6-add5-5a10d18780d2",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "8c994dd2-d609-47b8-b002-c10f92225451",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "fdd91c7e-cceb-4813-898c-9dd9159f5305",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "5442d653-ac16-4a02-a968-da6ac2c6d636",
+    "syllogism": "No A are B. No C are B. No C are A."
+  },
+  {
+    "id": "d33723e6-311d-4079-9752-a198fcfb0180",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "0cb166c1-cc61-4585-bf4b-baad5b3028a2",
+    "syllogism": "All A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "45fcf3e0-d667-4856-8268-4df37fd3a8bb",
+    "syllogism": "Some A are B. Some A are not C. No C are B."
+  },
+  {
+    "id": "ca7aa5a8-fa01-460c-9791-99317715aa93",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "1638fd0c-b370-4d7a-8036-97f0468e886d",
+    "syllogism": "No A are B. No C are B. Some C are A."
+  },
+  {
+    "id": "5f470790-9bf1-4f1f-898e-c7d7ca738cf9",
+    "syllogism": "No A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "90ae3f81-b254-45fb-99c6-1636309c7715",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "31c63f8f-d490-467e-a885-4dfe4bfddc8b",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "020fa6a9-78fa-42d2-987a-7aa9c21ed5ff",
+    "syllogism": "Some A are B. All B are C. All C are A."
+  },
+  {
+    "id": "6b8e7633-e0e5-4bd2-808f-97bd90d5a065",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "e678f76a-260f-4b2f-b2c6-3d3a5a992e6d",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "bcf96192-4ae8-4834-ab5d-7b2f8c36465b",
+    "syllogism": "No A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "8acb7e95-5790-4e97-abde-feb0e3b60129",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "5014a30a-93f6-421c-900d-175499c326ff",
+    "syllogism": "No A are B. All A are C. All C are B."
+  },
+  {
+    "id": "19e7c1c2-9130-43bd-abfc-f7cbaf4c2a6b",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "09a2e249-2d06-47db-a7cb-d6da64814054",
+    "syllogism": "No A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "f0e91b6c-be2c-4558-b627-2ecb7b09e00a",
+    "syllogism": "All A are B. Some C are not B. All C are not A."
+  },
+  {
+    "id": "a938e32a-2811-4406-8d78-092fc55e1eb5",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "3b1f2da1-913d-4fef-a40b-394545bdd73d",
+    "syllogism": "Some A are B. All C are A. No C are B."
+  },
+  {
+    "id": "fda01b69-75f5-4d16-8604-0ddb8cdec3c1",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "31696c08-057b-4e85-9a88-c730c82831da",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "25865228-432c-496c-997a-304fdb99a0c3",
+    "syllogism": "All A are B. Some C are A. Some B are C."
+  },
+  {
+    "id": "9283054f-e98c-4299-b6e7-8dd6f7a081d5",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "6f8772d9-64c8-4296-85fb-898046c33a6e",
+    "syllogism": "No A are B. No B are C. No A are C."
+  },
+  {
+    "id": "ef38a966-b81e-4116-82ab-97eb995ca2fe",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "851af011-a610-4890-bef7-fc9865d28ebe",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "ebc9f1a5-9193-4a67-b187-2bf5781c3abd",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "362d75b6-69fd-409f-8b73-fd61a1b208cc",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "87969ab1-7991-427e-be3c-4045e303f301",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "349c7b91-ee3d-4f96-af31-4d00249e65cc",
+    "syllogism": "No A are B. No C are A. All A are C."
+  },
+  {
+    "id": "1bfaf1e4-1a78-4bf7-9435-b52586ffbe36",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "f4795f98-61d3-4194-87d9-6aa2ba5e4d92",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "b39d5a7e-40c0-4236-80d4-24238aa65f8f",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "36bba00b-4596-453f-aa17-dcf20ad0768c",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "eb9ea924-9bf6-46d7-bbad-5cf8d659a05d",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "d542c648-c8d9-4c3d-bdc4-e42cfe604d37",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "2ae9a652-1291-412b-b435-33983a7f6313",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "25278ae4-b026-4403-bd11-23918d616995",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "8549a2e9-abf7-40df-83ef-ab7b3d75829b",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "811914ca-d99d-4e96-b2b6-5d5400211a7f",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "0a6a2c61-1d0e-47a6-8faa-5a5086a59dc9",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "b67c4d7c-40e5-41d6-8821-98b427bd94ce",
+    "syllogism": "No A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "da4f979d-1acc-4b60-9c09-f2637309561c",
+    "syllogism": "No A are B. No C are B. All C are A."
+  },
+  {
+    "id": "c05e6536-84d3-44c5-a5f3-32d838d2134c",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "a6990bc2-71c7-4745-a1b3-959943fad22c",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "073d458a-fb37-46f1-9557-dee68b73552f",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "0453793d-3578-490a-a79c-35984eba5964",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "671be363-8174-498e-959c-5aa930502041",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "5e2a9a8e-9469-4b16-a243-f18f3f159709",
+    "syllogism": "No A are B. Some C are not B. All C are A."
+  },
+  {
+    "id": "ad6117fb-795b-4d97-80a3-1f17c770ee50",
+    "syllogism": "All A are B. Some A are C. All C are B."
+  },
+  {
+    "id": "581cfd7a-fb09-42f9-8759-d28809d96a4c",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "92375de2-c1c8-4b7c-abc6-793165b6b3ea",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "42e667da-e467-4797-a862-23132f3c9dc0",
+    "syllogism": "No A are B. Some C are not A. Some C are B."
+  },
+  {
+    "id": "007efb0e-6d0c-40c9-8d96-a25a1fbbbf93",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "5826f9b5-c6e7-4b2d-834d-de148f9bd15c",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "18ca9b49-d0cf-44f4-83bf-eb4739bc9317",
+    "syllogism": "No A are B. Some C are B. All C are not A."
+  },
+  {
+    "id": "3210a16c-a687-4030-8697-bb2214492501",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "0bafb494-84dd-4bab-9e35-4ee2c22d7f73",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "f829409c-4e08-476e-bc07-864702de5a37",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "74642dd5-9eb6-4a00-a493-4b25f3aac128",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "123bf7d7-01dd-421d-bd85-5af87b2663dd",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "66621d65-5d64-4e5e-90a2-fd1eea48d437",
+    "syllogism": "No A are not B. All C are A. Some C are B."
+  },
+  {
+    "id": "fca654b0-e91a-4199-9869-8892e450f591",
+    "syllogism": "All A are B. All C are B. No C are A."
+  },
+  {
+    "id": "8ef5d7a4-e986-4fc4-99fa-4c74fc40e7fe",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "bd43b96a-b4cd-4380-af60-6f6052586580",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "61f8ac6f-5f91-4904-8e41-22bd80f2b1ae",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "2bf18e1f-3d35-4725-a6a0-73bcf655c976",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "c15f8962-f325-45d6-9cc6-c0a25435d4a1",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "8158cb68-1891-4050-93f6-d7776e724658",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "6b013055-b913-4742-94ab-a9dc40d1881f",
+    "syllogism": "No A are B. No C are B. No C are A."
+  },
+  {
+    "id": "c7b40258-763b-4059-8ab3-378b76d6a0a8",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "9b9b24ec-59d6-43ca-8165-0ae4d688cda0",
+    "syllogism": "All A are B. Some B are C. All C are A."
+  },
+  {
+    "id": "6fa051ab-5673-4ce7-8234-3baf75bd1d64",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "8a2350fa-dd4e-430a-a1f7-3ea99a1d0749",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "77d1fbe7-3450-4d5d-92c6-7bf4d02c20ae",
+    "syllogism": "All A are B. Some B are C. Some A are not C."
+  },
+  {
+    "id": "a907b7ac-65e7-4dbf-83db-21957c0c2a8f",
+    "syllogism": "All A are B. No C are not A. Some C are B."
+  },
+  {
+    "id": "604c4371-08b2-478a-85a3-273194f6153e",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "b289a588-133e-40b7-a1ba-014af94a8522",
+    "syllogism": "Some A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "b598df99-7a53-4672-adeb-d14c026a9fff",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "78b7fd54-43d6-400c-a28c-efda282272c1",
+    "syllogism": "All A are B. No A are C. Some C are B."
+  },
+  {
+    "id": "8bb41f23-ab9f-4ed2-898a-f5c6f2fff389",
+    "syllogism": "All A are B. Some B are A. All B are C."
+  },
+  {
+    "id": "10c004f6-6468-4756-a2bb-cf97b0f34a89",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "54a39670-9d4d-4f11-bbd9-29c01e27210d",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "e9e598d7-7e99-486a-bb97-d9291a13ce23",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "8bdb2703-2d29-40a2-9c80-9c4b8385a438",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "8ef93cb4-e88e-47aa-86a0-2ed732f20a99",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "d8794f2a-f535-4be9-a29b-71a98af6bf08",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "52c7696c-f9c1-4611-9300-db39de41cf50",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "d4f7a83b-5939-4873-9a45-1083a6dc2df6",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "95d56d9f-c7ed-4537-b582-7076beccbd92",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "d7842911-1759-4c23-836c-3f81f873af73",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "67c048fb-e79b-4267-b6cc-5605a1b92810",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "041da415-c737-4996-a959-f1f65fe391db",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "b8ec446c-cd3b-48cb-bf36-7c0cb3f026d2",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "b97a902a-7e57-4ae9-aaaf-edd77e73fbf6",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "b038f6a1-7259-4ddd-b549-c24e7b799cf8",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "903efee0-a3c6-4577-af64-e1589aa528e9",
+    "syllogism": "No A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "6307f80f-af36-4c0e-b69a-714cfd070f21",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "cafd8eaf-668f-4c69-ae03-ec38709e4b9e",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "481ceb04-c39f-4f7a-b645-18dc5aa717b2",
+    "syllogism": "No A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "0088d914-814d-4abd-8924-b4191edca9b8",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "10378e06-9ec7-4344-a589-0d1fbbca4396",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "0d670133-b450-4117-8cee-c7b73af9d8f5",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "12946b9f-6889-4906-bf58-81f946d2e823",
+    "syllogism": "All A are B. Some C are not A. Some C are not B."
+  },
+  {
+    "id": "832f59aa-bfee-4e92-b247-d8719f1844ae",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "b40039e8-e634-450a-a221-81c77ffb0517",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "f4e0bda0-00ec-4938-acd5-21d3cc260e58",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "cc8ddde6-b7cf-408c-a0a0-92e200117c30",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "c11d7833-78e3-45ba-af17-3fdb4217555b",
+    "syllogism": "No A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "32c2f0fa-083f-4f90-b33d-201e95816ea6",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "0d98be0f-0057-41ac-bb47-fcdab1a96c6f",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "0c5bbda6-c0e7-42ac-943a-b09a2dcea726",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "cdf4f5aa-8b47-4edd-9be2-4c9184f7b721",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "ab27dbac-d446-4199-a267-16d010b7588f",
+    "syllogism": "Some A are B. No C are B. All C are A."
+  },
+  {
+    "id": "40b42a57-63c2-4f06-af7e-87b8bdfef9fd",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "30d11495-2d7d-49a1-a542-0ebc22ce160f",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "e1f5938b-bf0b-4cfe-8b2a-8b83c91dcbb1",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "7841eb47-8f72-475c-852d-4d709ae0965e",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "732e20b3-c504-4115-914d-496d0c4ee6da",
+    "syllogism": "All A are B. No C are B. No A are C."
+  },
+  {
+    "id": "a9a258b5-4403-491d-87a1-707fcb480564",
+    "syllogism": "No A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "1fcd8f80-1760-4051-9181-025b909589cf",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "2d3a1de0-fdb2-45f4-aef8-6f4e3f64f55b",
+    "syllogism": "No A are B. No C are B. All C are A."
+  },
+  {
+    "id": "c8a91594-47cb-47e7-829a-a3e094917c92",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "43ae00ee-0cf2-4a62-beab-56f90d170347",
+    "syllogism": "No A are B. No C are A. Some C are A."
+  },
+  {
+    "id": "c38a9bc0-efdd-49af-af59-17a6567d8817",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "df7bae54-40d1-4be5-b827-b4da77465505",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "2b535ac3-2104-4754-b57a-dd89319e6a16",
+    "syllogism": "No A are B. All A are C. Some C are A."
+  },
+  {
+    "id": "cd79e6f0-75ac-4c80-b4d2-31711a961bac",
+    "syllogism": "All A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "61ba9569-1368-4d47-9706-b54a7034bab5",
+    "syllogism": "All A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "fe71763e-e04e-47e9-a49d-6bae7ff6de6f",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "25f8f3fc-d38a-4b43-9a7a-4324cbc869bc",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "0ed786f8-51d0-40c7-b692-441bc96ec29d",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "af0270f5-da4b-45f3-8677-9ff69a4c55fa",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "5cb83caf-678a-43b8-a8d7-beedd3b39f55",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "c73d301b-6e16-4a04-8f5d-13c379e2ec3d",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "8c835a2b-e7f5-4be2-a3f2-f249660ec877",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "70ae91e5-486a-46d0-8c37-66d67c1b5e18",
+    "syllogism": "All A are B. All C are B. No C are A."
+  },
+  {
+    "id": "bd80aa79-4ef9-4adb-bb86-2fe99e5e0445",
+    "syllogism": "Some A are B. All C are A. All C are B."
+  },
+  {
+    "id": "49ece5f3-1a1b-48e2-b806-2a0c711e4721",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "9d42d0c9-9b18-4bb9-9a6c-3917d7f8dbbe",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "eba06587-ca00-480c-ae24-0330858b5584",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "3adadf58-1822-4358-a40b-b7c4ca7f9afa",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "a91b60be-febd-4dc5-900e-969c31eba6ae",
+    "syllogism": "All A are B. Some C are not A. Some C are not B."
+  },
+  {
+    "id": "1ce77016-2e3d-431a-af11-e015722c98fe",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "1a6a9f12-15dc-467c-8311-2ee796d95c22",
+    "syllogism": "No A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "91e3ba86-4129-4142-8e1d-89a43c8a7246",
+    "syllogism": "No A are B. All A are C. Some C are A."
+  },
+  {
+    "id": "9372c576-58df-4872-8663-2e6c8b210274",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "3f047c98-7589-4e41-8055-1f023c4d9707",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "60f556a7-b0c7-4bde-82ce-e49b1cf72ec5",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "27f93d6e-ae4d-46da-9235-7c900780b18c",
+    "syllogism": "No A are B. No B are C. No C are A."
+  },
+  {
+    "id": "172f9030-2726-49a1-8acf-40c8d9661aab",
+    "syllogism": "All A are B. No C are B. Some A are not C."
+  },
+  {
+    "id": "013da35a-1a78-4298-9660-495f8e0c9530",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "9207083f-0077-4ac2-a8c1-be3e589f559e",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "04ef6520-e8a0-4f08-a903-44fd4902ec3f",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "499ba307-8c1b-4244-9a41-15129f3f000e",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "7a74a7dc-cc6f-4f5e-95fa-5bd9528c9d8d",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "45d795eb-780a-4694-bf87-6819b272cd49",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "aea757a2-6727-4816-bcb7-1f0bdad9e4cc",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "84d6b2e4-f71e-45eb-9647-acf23c90a863",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "95637ce9-5489-45cb-aa6c-73934ab7e489",
+    "syllogism": "All A are B. All B are C. All C are B."
+  },
+  {
+    "id": "a23659e2-d0fc-4b82-b5a5-a526c9c22dda",
+    "syllogism": "No A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "371da820-c909-468d-a7d8-333db7019688",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "e79947da-dcf7-459b-8d64-417bd24ace94",
+    "syllogism": "No A are B. No A are C. No C are B."
+  },
+  {
+    "id": "940e3b1d-dd3d-4119-a379-178a8b6f8397",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "9898c43c-c5d9-4c03-aa4f-46e30e136037",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "92a2576e-da7a-4853-90a3-9f9171a6ed51",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "a7504ed6-5b8e-42d0-bb8b-11754ac5953a",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "894cbefc-041e-4078-8175-4d5a1b60b171",
+    "syllogism": "All A are B. All C are B. No C are A."
+  },
+  {
+    "id": "ddb9db4b-c186-4ee3-a305-7fcf317b255d",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "50d3b41d-0d2b-49ec-8d6e-1c012d831aab",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "d8e827ad-b91a-45a7-8d28-7527f8b59d1d",
+    "syllogism": "No A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "e3e1b6fb-ddf8-452d-8990-3efd9f006a28",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "4ec66db0-ee0c-4ed9-ac5e-e7f8a3f6d1dd",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "67821bb9-63a7-4517-a335-8cd6d735ad81",
+    "syllogism": "No A are B. No C are A. All C are B."
+  },
+  {
+    "id": "d518fc34-889a-45f9-92e8-f50d237731ad",
+    "syllogism": "Some A are B. All B are C. Some A are C."
+  },
+  {
+    "id": "788c386f-8839-45b5-9c62-98c2334673e7",
+    "syllogism": "All A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "56dea4d9-94ad-4daf-893b-945bfe93bb7b",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "164f7e16-7ac9-4774-a7c7-c2cbef298b62",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "6dc080d8-0813-4880-bd7e-3d1045a738b4",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "3ced0425-c600-49d7-a41e-a958eea666d2",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "7249592f-7e6a-4976-9b19-10241d09dc6b",
+    "syllogism": "No A are B. All B are C. All C are A."
+  },
+  {
+    "id": "5f809928-5ead-4ebc-8fb0-c9eb220743f0",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "5e7507ca-56d4-4de4-907f-8f0b1e17ac18",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "002a6051-f7b3-4040-b571-50cfea46aaff",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "c86fa01b-37ba-42be-9d5a-6de70b504e54",
+    "syllogism": "No A are B. No B are C. All C are A."
+  },
+  {
+    "id": "267512dd-01fb-4729-b167-a9df3f430683",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "db2abe54-05ba-4564-bb8b-6ccace6583d3",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "d7f88cf8-7e75-4e88-a1e5-4f8ee0f7df4f",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "44dc4bd3-0d89-4d86-94f8-775692c4125c",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "0ca27016-be9b-4156-9e2a-509010ee8b89",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "ab8d4f5a-c4f4-4d1d-afea-b973c560be29",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "388a5385-6f40-43a8-b439-31f7de303b45",
+    "syllogism": "All A are B. No C are B. All C are A."
+  },
+  {
+    "id": "fb36a074-649e-4d1c-99c0-9ee82e69775f",
+    "syllogism": "No A are B. No C are B. All C are A."
+  },
+  {
+    "id": "def100cc-5fa6-4026-bf80-73c1534c3728",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "98fda6b1-7e7b-48ea-9307-e27dfba67bb2",
+    "syllogism": "All A are B. No C are A. No C are A."
+  },
+  {
+    "id": "0b639393-0cbf-4162-90a6-80cd8a7dc982",
+    "syllogism": "No A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "65473904-b2b6-44f0-83c3-66265f64d972",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "0b8e8e21-cd62-4650-8381-d0502187cab3",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "6482e79d-72f3-4f68-9f0b-756c4324cf4a",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "78e5d104-977c-4233-94ac-519017f63a3b",
+    "syllogism": "No A are B. No C are B. No C are A."
+  },
+  {
+    "id": "d109b3fe-c6b0-401b-b185-250fa2af3ef7",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "f21a4aa3-4c4f-4f0c-a5be-28553f28a383",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "82567966-505e-45fe-a4b0-c34de685c0a7",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "dc67f615-0f81-4c0b-8870-1a0a7d995ab6",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "d7ff6706-7df0-4f45-98ff-54593558d4ee",
+    "syllogism": "No A are B. No C are B. Some C are A."
+  },
+  {
+    "id": "7b5fba34-77db-4a14-a9f4-810833a4d47b",
+    "syllogism": "No A are B. Some B are C. Some A are C."
+  },
+  {
+    "id": "bc22f637-3a98-4ae4-bb0f-26189c876e78",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "5631278b-7761-4a8c-ae61-1694dd27d01a",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "ff71268e-b08f-48c4-a612-460a70e936ec",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "e2672031-d897-486a-adc7-82ce6404a832",
+    "syllogism": "No A are B. No B are C. Some C are A."
+  },
+  {
+    "id": "b9cd6b85-d8d8-4cf0-98e0-5a436b58820a",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "9f914ab3-38b2-420a-a2f6-fcf43f939219",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "de7fde47-808e-40d6-9096-51fc9478b3e6",
+    "syllogism": "Some A are B. All B are C. All C are A."
+  },
+  {
+    "id": "8ea7335f-a484-4c94-b951-36f19e074fc5",
+    "syllogism": "No A are B. Some C are B. No C are A."
+  },
+  {
+    "id": "febb0646-5f5b-4cee-bc66-a3444c562560",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "4f6235d2-3f86-4257-908e-212e5e216d2e",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "a42796dd-7101-4b03-9025-ed548108bb4d",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "286eaae9-9661-46d3-9bce-ad2ccd9ec762",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "53a60516-2faa-44ff-bf3b-bafc0c977589",
+    "syllogism": "No A are B. No B are C. No C are A."
+  },
+  {
+    "id": "6fd2b434-4215-415b-9e9b-5cf25fdc219f",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "c59a7a28-08ea-4b9f-9c08-9620ad08c302",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "318c3850-46c9-4bc9-b5e9-cf6b80f593dd",
+    "syllogism": "No A are B. No A are C. No C are B."
+  },
+  {
+    "id": "5176c307-a806-4e4e-9298-5d6a45abe380",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "29250e54-2aae-4cb6-a6d3-f2b461c30e62",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "f78276e5-b847-4878-aba1-f920d12288f4",
+    "syllogism": "All A are B. Some A are B. Some A are not B."
+  },
+  {
+    "id": "1230d4f7-42c5-4131-bbf3-5fe5387c93ea",
+    "syllogism": "No A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "338b8556-2613-4481-a5d3-01653a6d9e69",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "17e81c6e-6a6e-453a-aabf-99a82ee26f26",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "8fdb598b-6ead-4c42-8de3-b075661b2942",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "a943b701-942e-4df8-bb91-4cee9349502a",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "4843f8dc-ce23-4871-924d-f7f8c0fdc05a",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "60e5025b-d3b4-4b3c-a306-6486cd5a5f22",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "ed17a05a-a553-4df8-a45b-384eadb243e1",
+    "syllogism": "No A are B. No A are C. No C are B."
+  },
+  {
+    "id": "c6aae9b7-d793-4aa7-a0cd-b1d9aed1b06b",
+    "syllogism": "Some A are B. All B are C. All C are A."
+  },
+  {
+    "id": "105da322-1326-48c0-8e48-6d74d8411eb9",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "cb4e2e4c-9882-43d9-8109-e4f96bbd15c1",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "f31cf4aa-e20f-4e2b-8bf0-18cc0c5ad48b",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "58b506bc-66d0-4871-b98a-265bcf54830f",
+    "syllogism": "No A are B. No B are C. No A are C."
+  },
+  {
+    "id": "ac5ce699-15c3-4842-8f1e-7d70227b0787",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "688d3214-2f0e-4f44-b6ad-e92a7fa5a462",
+    "syllogism": "All A are B. No A are C. No C are B."
+  },
+  {
+    "id": "38e06b78-6374-4cb0-8ba9-a177a7b62c31",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "1dad7389-e8ab-4962-8d10-83b42c2fa4fe",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "8c136b17-300a-4f32-85bb-6853fcdd0a01",
+    "syllogism": "Some A are not B. No C are A. No C are B."
+  },
+  {
+    "id": "82c35dfc-be1a-4fff-aaa9-454da55392ae",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "ec7a26c0-9309-4abc-9e9a-c1d472b2260c",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "5f1077d7-b61a-47a2-82ba-edae062acd77",
+    "syllogism": "All A are B. Some B are not C. All C are A."
+  },
+  {
+    "id": "99ba63a6-3b6a-4f63-a0f7-6cef1c11818f",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "b3ea77c5-3d0e-4d54-9a4d-115a8d0ddd2e",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "442ed46c-5aa5-445f-9ac3-4bf910bc7b3a",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "c85824aa-aa42-497f-8997-ed7e9aa3b2f2",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "7f71a082-108e-4c3c-a1ad-1af6c5bc3088",
+    "syllogism": "Some A are B. Some C are A. Some B are not C."
+  },
+  {
+    "id": "d6419856-fddb-4f1b-b11a-9121c08dd577",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "c79f942d-c2a0-48d1-91d2-678a3fd36186",
+    "syllogism": "All A are B. Some C are not B. All C are A."
+  },
+  {
+    "id": "c5035d70-ed49-4e5f-b18b-611693942991",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "435fcf21-2212-486d-86b2-92fe61151294",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "7c1ad437-c35c-456c-a34c-087eec67ee7a",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "f5cb79a6-006c-4630-a820-e5b7cf16671d",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "2390b1c3-032f-44a1-a8ad-6515fa87aaf5",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "7ff44cd7-5970-4c43-ac34-920d4f533b1f",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "7d017cf6-f94b-41d9-a6d6-a7bb8767f430",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "da3044ed-e1a7-40a7-8bd2-cdeb09f5dbdb",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "7a442090-27f1-4565-b453-2183e6a605ea",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "bdb97c21-a08a-4fe1-b156-292e216a75ef",
+    "syllogism": "No A are B. No C are B. Some C are A."
+  },
+  {
+    "id": "c0895494-c8b9-49b8-ae50-85e05a9c2bad",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "55f37da9-53b1-41bd-8f9c-59909de052fd",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "b0c77d6f-3671-41cc-a15a-b980c56044fb",
+    "syllogism": "No A are B. No B are C. No A are C."
+  },
+  {
+    "id": "d8f5c7fb-a431-4ab6-890a-c4122be4c314",
+    "syllogism": "No A are B. All A are C. All C are B."
+  },
+  {
+    "id": "8fc55b1f-be82-47a2-b48a-7ee31ee1c000",
+    "syllogism": "Some A are not B. All C are A. Some B are not A."
+  },
+  {
+    "id": "6bb8be4b-69eb-4f96-8612-09547807c00b",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "264785f1-ad8f-422d-ba64-9b9f60adffcc",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "7083216a-6754-498f-8a93-53d551efe0c7",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "3b7c4fd5-632a-4a84-b2c2-482b84cf6f45",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "38d3e6e5-e550-4d91-8d3c-c79d2f803f12",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "b06dffbf-bd41-46ca-84ed-7433e3acd848",
+    "syllogism": "All A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "fd57b6c3-2eb7-4c4d-a7fd-7067584e69bc",
+    "syllogism": "No A are B. No A are C. No C are B."
+  },
+  {
+    "id": "c50941bc-7c9e-43cb-90bd-d5289a7b7f5b",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "eb04a408-b062-4c93-ba18-ffc28e0e8e4d",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "f351b1ff-84fb-47d7-9035-e009d5d5a987",
+    "syllogism": "All A are B. Some B are not C. Some C are not A."
+  },
+  {
+    "id": "c0c3e36b-70c0-4cc8-b13d-3ae4ba0424b8",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "e12158a1-5a17-43f2-b721-5790f55a7b89",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "e11356eb-8b5e-43cf-9a95-539dd813e106",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "5a021fdb-c72e-4a97-b112-a4a4011dee86",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "367fccf2-1e41-4ca2-88b0-e3b9890c549d",
+    "syllogism": "No A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "6a1a94e0-943a-400b-a1d9-3d5810d3f215",
+    "syllogism": "No A are B. No B are C. All C are A."
+  },
+  {
+    "id": "f3380f24-0f41-4d1f-a641-cbb86e5b8b08",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "2b14c9c4-7150-4fcc-afdf-274eefa46c96",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "a2832fb1-b2b4-46e1-9a7c-59c426c6e84f",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "e7ceac1a-9b69-4033-b75a-7784340595b6",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "31e903dc-43a9-4fb6-8841-5a724bdf53ca",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "82fcecfd-04c6-4a02-a513-0b7ed47b9e1d",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "4b3cd5b6-0e44-4c83-a3ef-3fecca0982a8",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "425e7e61-535a-4719-bf90-fc33991b40ba",
+    "syllogism": "All A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "7747bb27-234e-4882-b1cd-ddaebfec1203",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "fe6f084b-7a46-4d5f-a2f9-5f0e80774da8",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "f7af5fc9-8a51-4ef4-8d9a-67efc9ec9208",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "759f4e1f-e7b9-4d07-aefb-e62155c300d3",
+    "syllogism": "Some A are B. No C are B. No C are A."
+  },
+  {
+    "id": "176e3ca1-2c5c-4500-8b42-792ce58d4098",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "b3396042-e3fe-4bcb-9cc3-0281c8e0a856",
+    "syllogism": "All A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "3f9d3a77-23b4-4ea3-8246-5d39dc5f6d49",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "906d3863-253f-4a03-9396-aa6ac915b954",
+    "syllogism": "No A are B. All C are B. No A are C."
+  },
+  {
+    "id": "de23d5a3-4fb9-46cc-84d8-e0cff6132ab1",
+    "syllogism": "Some A are B. No C are A. No C are B."
+  },
+  {
+    "id": "154d3137-be50-4fff-85ad-80f687f7806a",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "e3ef3dd1-8520-4e8f-b3e0-e12fde645d76",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "f859c7bc-5b00-483b-8ca7-5ca519182fe7",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "19d18525-ca90-4aef-b6d0-3b8a0e15430e",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "473c1a59-2fbf-498c-b237-ac7513a2901d",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "0b232bb6-4474-4e36-b13e-e6e8bbf83663",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "550d9d17-634f-43b0-a389-f8faaead4a7a",
+    "syllogism": "No A are B. All C are not A. Some C are B."
+  },
+  {
+    "id": "a37f602d-1c58-42da-bff0-9886d5b37547",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "89cab2a7-6be0-43c5-9000-d6e5160a2ede",
+    "syllogism": "All A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "b57336bd-25d5-4f2a-8edc-ecc25544f64c",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "9f14cb82-d768-436a-93b3-21de7617dc83",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "5704ad50-0947-41ed-b7bb-385a2dc1cb52",
+    "syllogism": "All A are B. All A are C. No C are B."
+  },
+  {
+    "id": "fcd92fbd-f6f8-4dee-92ae-36de10989e23",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "30b17729-94b7-43d6-973f-c3ed42b6e924",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "666ff1f1-6234-4cce-be59-4b760b692996",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "99e780ef-b889-4429-a5fe-22a193b9681e",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "bab90238-8b28-4f96-b4a1-d60539f830cb",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "54cf0041-6930-4de3-aac5-4810959586d0",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "b3566155-2b25-4d18-8fdc-653f3c93ac19",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "f11aecef-3e59-473a-b84d-c2cc26525774",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "6f498eff-ed8a-4128-b751-ea02b9d28bc7",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "ee8e00e2-7bf8-41a3-8009-40d328cb1d60",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "d20244c4-f1d9-483d-9504-66e3a29118cc",
+    "syllogism": "No A are not B. All B are C. Some C are A."
+  },
+  {
+    "id": "941ec598-d637-4f22-b558-367267161a64",
+    "syllogism": "All A are B. C is A. Some C are B."
+  },
+  {
+    "id": "a931aae3-a242-418c-9a4a-4940e4abe241",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "65aaed4e-522b-422d-b4e4-cd5dfced222e",
+    "syllogism": "All A are B. All C are A. No C are B."
+  },
+  {
+    "id": "92c0d24f-2d6f-492e-b5c9-693b39835a52",
+    "syllogism": "No A are B. All C are B. All C are A."
+  },
+  {
+    "id": "963d5e8c-7bbc-4b94-9e38-bba3f6e14854",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "5042a832-ecad-4b81-a4c8-716ac22397ef",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "d8c5466a-77d4-47cc-b862-c8df585de57c",
+    "syllogism": "All A are B. All C are B. No C are A."
+  },
+  {
+    "id": "a1bcb9af-88de-40c2-aaf3-55ee03a1ba1b",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "003f7a6d-6f45-4dd6-8a07-62805dd6d309",
+    "syllogism": "Some A are B. Some B are A. Some A are not B."
+  },
+  {
+    "id": "0403d922-4237-409b-9817-9ea3d0b266c1",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "44d442d7-5ded-41e8-ab37-ba472b6b7594",
+    "syllogism": "No A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "0b331eee-6e74-4e26-a85f-6d5eba71cf31",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "11c07653-4008-4b22-aeea-b4b1b4da83ad",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "8be74042-6920-42ad-8f7f-3c0e53ba5fe7",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "784d9ce8-5934-4f3f-b89e-96748b1a2758",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "3d7c7fbc-0adb-4101-8aa6-802808fc572f",
+    "syllogism": "All A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "1e369b67-1620-4d10-ac81-41690d525f37",
+    "syllogism": "No A are B. Some C are not A. No C are B."
+  },
+  {
+    "id": "df0aff5c-b274-4b95-9734-fff4407e5a63",
+    "syllogism": "All A are B. All B are C. All A are C."
+  },
+  {
+    "id": "f365e4e6-b827-4b74-b09a-e386043f0e89",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "99c889f6-dd98-4b0d-9fa3-2f6612880fdb",
+    "syllogism": "Some A are B. No C are A. No C are B."
+  },
+  {
+    "id": "8c0b2788-b46e-45b5-bf37-d6226804536d",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "8b839892-71f7-4ea5-9c5b-7aa33246451f",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "7e1a1cc2-c813-4e34-9278-b6ed795138ac",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "9f443de1-8727-4b33-9dcc-20936c3cdb7e",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "8fad6fdb-f462-4147-9b0f-28b1343200b8",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "3b9c1d10-9d37-4030-a1e0-7a0734ef18c3",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "dd900a56-5956-4be4-aacd-69f465bf602f",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "4eec3e1d-089f-4118-bc47-8e1339aee90e",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "0c04a1b5-b1bc-4e24-bac7-ae6083b0b922",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "1e6eb831-90f8-44bc-9af7-cf906db517a2",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "f8530683-a0a0-4237-ade3-f1a3db5048d7",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "a0d82c8d-78c5-436b-9365-c243ace27faf",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "3a9614bf-8aa3-4732-9ebd-c766b0d410d6",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "94961071-4c98-4f16-a4a5-a1740f7385ea",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "95541976-ff89-4549-8a3d-298ceea07086",
+    "syllogism": "Some A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "fba06d33-39b6-4e03-ae12-ac3e4f2cb1e0",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "17d36cec-c1cf-4ccf-bbac-f9bb5f480a53",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "4598dede-6a7f-4cbb-b3fe-b6c05c78c836",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "e7f815bb-c544-4254-ae70-2cce67c91699",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "d1fcc155-1744-4c4b-a040-daf230c6639e",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "494c1ed1-4d99-4018-b050-35170f6165b2",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "dfb8a20d-5172-4950-98fd-88c8ab747b08",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "0c25c7bd-6606-4ac2-aa9d-c4da566070f6",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "b7891f0d-55f4-4f60-9ab2-0f462e15d928",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "7f808836-92dc-4373-b549-b41528d1a39a",
+    "syllogism": "Some A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "43c15f64-aede-463a-89c8-2b4e89583f94",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "b4236af0-41a4-4acf-8f97-493fe6280b37",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "ece7ce41-fb69-40a6-b3ea-c01d505e35ae",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "ef765642-a09f-49b2-9336-a2b8bd4bb7c8",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "e9e40c9e-9f62-4551-a81c-67160af6292d",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "c49471ca-9eb9-463c-a517-fd57b9179d9e",
+    "syllogism": "No A are B. All C are A. All C are B."
+  },
+  {
+    "id": "d0d4f9ab-2fc8-4786-bbeb-ee04a17448ff",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "f9007724-6a5c-48f5-a324-1e95a7a2b660",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "abe7856c-6d01-4804-8925-024dc21d11d9",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "b5a2d8f8-8dc8-4f55-9da3-7b964f045574",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "6448127c-d151-4443-8c20-b905f2d0146d",
+    "syllogism": "No A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "d55b879b-3633-419a-8b27-6a4704f0d118",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "66f1c7d9-8f37-4f93-842e-4020d38b0e68",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "5b7d32a6-8a3c-41a1-ab3f-03143d574cbd",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "995564e9-24da-47e6-9c8b-c5352eadc638",
+    "syllogism": "All A are B. No C are B. All C are A."
+  },
+  {
+    "id": "51fdf28a-0458-4d35-9d2b-9992fcb0a57e",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "a032a04b-1692-4c50-867a-17e2cdfc0387",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "2ab78772-0f7f-4554-ab3a-8bd5d40b66e7",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "9b4a33d2-4024-4900-9a9f-13f66f1f6b84",
+    "syllogism": "All A are B. No C are B. All C are A."
+  },
+  {
+    "id": "c7a40015-f5f1-4a6e-9065-839eadd5172a",
+    "syllogism": "No A are B. No B are C. All A are C."
+  },
+  {
+    "id": "7ba0e12a-e78e-468b-a647-54332b6660b7",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "e977d9ed-ced8-4eee-a678-f1fe41b23b05",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "5caaa82f-e106-47af-a5ec-f5a195e341d1",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "4480e5d5-495a-4928-a420-a3c74b9268a9",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "eb34cdc4-fa19-4ddc-8cd2-6c8f13f1e7a5",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "c22180d9-b32d-481d-a2ed-a540c1e1853f",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "beb1df32-1d8c-40eb-a481-d08752c30625",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "5e28ca3b-7365-4519-aefc-6b8ad8270ff6",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "73e5dc2c-1c3a-4c0d-96ea-61002d03f225",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "98252dfa-fc4f-4882-b126-5929bce03dad",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "d1a8eb77-d4f7-4b1c-be1a-6e501f5b910e",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "31792188-56c1-4948-89de-1b72940f1e44",
+    "syllogism": "All A are B. No C are B. Some C are not A."
+  },
+  {
+    "id": "7047ea6a-0592-4226-9d6c-8d852a4e4d83",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "e1d73587-80f8-4605-8498-0ef21fec3ba9",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "8e73a345-d7c3-4d9f-bd1b-c0b852a03dcf",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "33d55b15-c886-478b-91bb-8af9b5b7fe31",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "35ecf751-bb19-4329-ad37-1087d9fe2a0a",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "14973340-3381-49f3-9dcd-3805c7a419bc",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "ffc1a467-4a95-445e-96bf-6064f3348b75",
+    "syllogism": "No A are B. No A are C. No C are B."
+  },
+  {
+    "id": "c4526195-4ffd-4b73-b37b-e7fcc91d6812",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "6a8f60ed-ac31-45e0-8c05-4915d090f21d",
+    "syllogism": "No A are not B. All C are A. Some C are B."
+  },
+  {
+    "id": "a9e0e8bb-07cb-4153-bfc7-cb4428463fc7",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "e9335b28-89be-4bdd-97da-cc84bec3b7dd",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "14d879e5-8e7b-41c1-882c-1a75b86844b4",
+    "syllogism": "All A are B. No C are B. No A are C."
+  },
+  {
+    "id": "28bd236c-0c71-4d83-bf97-b09721850918",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "a9d0a8e8-8892-47e4-8b25-85d1bb1394dc",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "942fb93d-8fcc-478a-a1b7-d1bb4610c661",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "8c0b8a2d-6338-4d41-9d69-ca633163341a",
+    "syllogism": "Some A are not B. Some B are not C. Some A are not C."
+  },
+  {
+    "id": "ff711f53-e1ce-448e-958b-c702260df860",
+    "syllogism": "No A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "59294bfb-c4e7-4b47-8ddf-947ebb9e14ff",
+    "syllogism": "No A are B. No C are A. All C are B."
+  },
+  {
+    "id": "187905fc-878d-4ac2-bdd6-638daa9818f8",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "e213d351-2f05-43b4-b277-c9ecded9473b",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "17929cfd-f422-400e-a2fe-a28b86424926",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "b46a6c4b-d833-453c-9718-023a87186adc",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "6304f895-d581-4b74-ac78-648b509789f5",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "4174bbf2-1f54-4ae3-a5e9-cefac102ed46",
+    "syllogism": "No A are not B. No C are A. Some C are B."
+  },
+  {
+    "id": "c7fd5116-5c07-4a94-b028-21957275f4b9",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "490459ce-a63c-4b9c-952f-4f2600c080c1",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "76d43773-397f-4d6b-8304-d4f2ce89290f",
+    "syllogism": "No A are B. No C are A. Some C are not B."
+  },
+  {
+    "id": "f91a4b0c-fc65-4d9d-9aa6-20e11f95b5a8",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "5b14aaf3-7046-4858-8069-723378b1d76c",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "a7b103d0-0445-418e-aa2d-7d7302c10c51",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "dfd5eb0f-1457-4e71-b1d9-60dd75ce5ebb",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "ec09b245-cd39-4bf3-95b5-29f73ac156ab",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "f82be88d-5ec5-48f2-98ed-84893e692052",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "17d75025-267a-445c-af3a-f1ad604d6c4d",
+    "syllogism": "All A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "c9085b40-41d0-45a8-bdcf-306b0fb9ed9a",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "45c767ec-4f15-4178-b7cd-91d61f9ffdf8",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "975254d3-6a2c-4878-8eb4-4f5bd70a0394",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "0c88cde4-2b57-4056-8871-e3d64cad89da",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "dbf38723-5390-4452-b85b-19499e555bba",
+    "syllogism": "All A are B. No C are A. No C are A."
+  },
+  {
+    "id": "b601c0d3-7033-4d4a-a8ab-59ac4fe4a4c8",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "fe103879-a542-4b78-b39f-5b3c3969a5a8",
+    "syllogism": "No A are B. Some B are C. Some C are not B."
+  },
+  {
+    "id": "cc4fa2b9-3a5c-449c-b887-703315f129ff",
+    "syllogism": "Some A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "eb1866e6-0efb-4683-874c-f8303965a818",
+    "syllogism": "No A are B. No C are B. All C are A."
+  },
+  {
+    "id": "c38ed5be-cc84-4689-b624-40e8028d6e08",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "6917eb33-a69d-4447-bd79-e891457405d4",
+    "syllogism": "Some A are B. No C are B. All C are A."
+  },
+  {
+    "id": "91cc9185-2d04-4140-a98c-61c8b582afe2",
+    "syllogism": "All A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "f4db0d1f-081b-4f3d-95a0-726adff675f6",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "a33f2989-2d8f-40f2-9680-351c1fa406ef",
+    "syllogism": "All A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "f879bc6e-b6df-4283-9c10-51fac98c9f1e",
+    "syllogism": "All A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "55acfad1-cae2-452d-897f-82ff20b9d476",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "ad3f9d03-8ff5-4351-be16-ff960693bd50",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "0cd88274-2420-4a6f-a7d5-791418d1ac9f",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "7e8b844e-cae9-489c-85d2-754e381f6ced",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "2219408c-9372-4018-a741-45e971e04512",
+    "syllogism": "No A are B. No B are C. No C are A."
+  },
+  {
+    "id": "661f36d9-ec1e-499b-b9ad-1a6ca24dd73a",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "e8e7080d-1e0d-461c-ab4d-5b4718980ffa",
+    "syllogism": "No A are B. All C are B. Some A are not C."
+  },
+  {
+    "id": "f2deff13-a6a2-47f0-8835-89a093ad2c5d",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "fe124870-b0cd-4e46-a5f5-67bd5447463a",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "ae5332c8-e538-4acc-b93e-e1db2ba41d49",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "187124ed-e532-46c1-846e-4e88789f621c",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "7c03f7df-2432-474c-b889-72c099494fbb",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "d3bb5775-efda-4bba-b4a7-c546af42cf33",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "e364a21e-cecb-4050-818a-20c1195a0f9b",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "a0f1b414-9e52-40f6-9b3f-02181b8c8577",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "1567c398-05f8-425d-8d0f-3fc7c7327cf0",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "45d94787-3541-406f-af22-4fd535dee8a8",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "6cb41e5e-32e3-4eeb-b3b2-700c7e3a692f",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "3a99d768-f046-4aff-a9fd-78b6abed373a",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "4afebaca-60c2-4a9e-aa14-81508d9f6a0c",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "982c7ee4-d97d-4ff7-927b-351beb3c89e9",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "3be34539-8d21-4398-a341-054fc05f0e60",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "312d903d-c5fc-4ac8-beb2-3ec72f6b25b9",
+    "syllogism": "No A are B. Some C are A. No C are B."
+  },
+  {
+    "id": "619eeec3-c9e1-404d-8ca6-5375df3777bb",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "555e904c-ecda-4b8b-8e97-d80dafe29a87",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "0700415b-1bd2-4bf2-baba-848f70b38c7d",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "5797d6f3-0f12-4f1f-90ae-6d1c5098dc5c",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "715d4b07-8fea-458e-9a03-b127a0a18ea5",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "42f67665-07b1-4466-b825-8ec4367d126e",
+    "syllogism": "No A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "3302e35f-aa7e-421a-8724-7186ac4bf418",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "731d69cf-0a9f-4ba4-b7b2-061858bb0c03",
+    "syllogism": "No A are B. All A are C. No C are B."
+  },
+  {
+    "id": "f5a5b2ca-22cf-4dc4-bfef-43b39b6c641c",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "745662c5-c85b-4940-83fe-cea6bd5be051",
+    "syllogism": "All A are B. All C are D. No C are A."
+  },
+  {
+    "id": "8e7c3181-8819-4648-a6f9-33b1009c59c3",
+    "syllogism": "All A are B. No C are B. All C are A."
+  },
+  {
+    "id": "166f5a4c-b0e7-4f2b-b25d-1c0a08bd59bb",
+    "syllogism": "All A are B. All C are B. No C are A."
+  },
+  {
+    "id": "1856a3b0-cc1d-49ac-86ec-c6c313dd09e8",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "ff719160-ec4d-47a3-9621-a2d1dbb6115c",
+    "syllogism": "No A are B. All C are A. All C are B."
+  },
+  {
+    "id": "ed7937f5-a98e-4385-a58a-0d24b4f23651",
+    "syllogism": "All A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "1abfb720-5619-4658-a940-990150c82d3b",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "f2dd94c2-9171-442a-92c2-fdc929df2593",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "0d500642-6df5-486f-ba53-d5ccdd5a3061",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "4c8d8de7-6547-4766-8f98-7f28dd8b4b9a",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "68b29c80-27f6-4121-8408-295bd8de466c",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "acd76fff-dd32-4375-9c2e-21909ea1bcf1",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "02f9e80f-e3ec-49b8-99e8-a0153091e603",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "1600dc48-793c-41d2-a799-317b09a81c7e",
+    "syllogism": "All A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "0872ecdb-a56f-421d-8f30-e3be4d70c054",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "f41764ae-c58b-448c-a721-5d72c5120697",
+    "syllogism": "No A are B. No B are C. No A are C."
+  },
+  {
+    "id": "76f9b327-1308-4678-af38-44f61eafb137",
+    "syllogism": "No A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "a6fde999-62a6-4246-9901-654ac4901490",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "7bddb337-7964-4154-8a1e-e61e910b2b7f",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "b0164134-d52b-4506-92ee-d71e2109d717",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "d225ab47-ffe9-454b-bb41-4915c4214497",
+    "syllogism": "All A are B. No C are A. Some C are B."
+  },
+  {
+    "id": "4780354b-3991-4ce8-9981-23d4f3030141",
+    "syllogism": "No A are B. No C are A. No C are B."
+  },
+  {
+    "id": "02e208cf-8240-466b-8460-d73f4c35c354",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "96d7a4e1-391c-4286-a7ca-7fbf1576366e",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "2e96d73d-cbad-4b86-b8d5-f02334bed473",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "6fc2d9ce-e18c-4433-97c7-9eef45031a43",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "496112d9-7a6c-4572-9956-21b646a5d0d7",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "3a245c0d-ffb8-4700-a248-70a1917ab838",
+    "syllogism": "Some A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "c3ed1a57-88e6-4451-8592-de1be8c8066d",
+    "syllogism": "No A are not B. No C are A. Some C are B."
+  },
+  {
+    "id": "e125f054-b5b7-4eba-b1a9-b942cbe8f552",
+    "syllogism": "Some A are not B. All A are C. Some C are not B."
+  },
+  {
+    "id": "2f97c41c-4b5a-407a-a57c-95fa1ea134f6",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "06d7f64b-e471-4c35-a81f-0217f4a84435",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "8bf12840-1728-41eb-a389-01098b625ecf",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "830b0cc9-935e-45ba-ab5c-1deb894fa119",
+    "syllogism": "All A are B. Some B are C. All C are B."
+  },
+  {
+    "id": "c72ea95e-851f-4e43-af9d-17d7ecc26a0d",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "f261b7cf-efcb-403d-ac2c-c5cebddab402",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "93a88d43-069b-4339-85b5-84b9ae226f88",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "3576315f-5476-4468-8a99-94e2afb295f1",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "fdfe04da-1f41-4062-9295-cc599cfae310",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "094f320d-ea3a-4e4e-be55-d09692332089",
+    "syllogism": "All A are B. All C are B. Some B are C."
+  },
+  {
+    "id": "864fb4b2-8a19-4767-83f4-1dbed28f27e7",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "1da871da-0cd9-4734-855e-3c6b5fd057d3",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "d58fd355-2a98-4501-ac04-058a05090a80",
+    "syllogism": "All A are B. All C are B. Some C are not B."
+  },
+  {
+    "id": "d32207a5-ea82-4d7d-9a51-48f1b384dd8f",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "a0b75805-fa2b-44f3-b9f5-b08dcb9b0033",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "0f476f71-6f8c-4780-8ce3-1f00300227e1",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "81d80343-1088-400b-be29-0d63312a959b",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "bdce56a3-a9d8-476a-a050-d6c653a79061",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "e31bb89a-6c5b-4745-8952-8ee9c2649776",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "3385a56c-c169-4cea-ab4b-5a48ed4980d1",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "ec60f858-72d6-455b-976f-fe289c371eaf",
+    "syllogism": "All A are B. No A are C. No C are B."
+  },
+  {
+    "id": "6a44409a-3040-47b0-8f76-a2eb6d8c27ab",
+    "syllogism": "All A are B. Some C are not A. Some C are not B."
+  },
+  {
+    "id": "68affb76-c5fc-4423-9221-1784c4509086",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "6e672b31-84e2-4b83-92ca-30f90e27bd00",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "5029f069-0076-49ad-b65e-b592fed18083",
+    "syllogism": "No A are B. All C are A. All C are B."
+  },
+  {
+    "id": "31cd942c-7484-4e2a-8552-902391d50530",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "b93c1c6a-958a-4cfb-975b-585432f3cd20",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "06a0aa7f-5aaa-4a9a-af0e-7cfc8affd23a",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "e34fafec-30b9-4a28-a470-eb952d244988",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "a7d18367-6870-4eee-9a55-60a5dcc9dd70",
+    "syllogism": "All A are B. Some C are not B. No C are A."
+  },
+  {
+    "id": "0facfad6-abe4-4a37-bd8a-5996bd3a2254",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "7c5ab39b-14be-4b8f-aea0-58f360ec1c58",
+    "syllogism": "No A are B. No B are C. No C are A."
+  },
+  {
+    "id": "69b3cfc6-9b74-4553-a6b6-6fbed67e9eba",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "3ecdc552-39d1-4b9b-8255-dda2990d7197",
+    "syllogism": "No A are B. Some C are A. Some B are not C."
+  },
+  {
+    "id": "5cc44de7-9c1c-45d1-b8e7-7711e1bafce3",
+    "syllogism": "All A are B. All A are C. All C are B."
+  },
+  {
+    "id": "b1817bad-3418-463a-8bef-82d34ee31dfd",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "08408587-3887-4246-9d6f-7a4492ad48c7",
+    "syllogism": "All A are B. Some C are not B. All C are A."
+  },
+  {
+    "id": "89694013-2061-4e74-b907-514d57cc67b2",
+    "syllogism": "Some A are B. Some C are B. Some C are A."
+  },
+  {
+    "id": "4823d0a9-5eae-4386-af0f-54d04c9cd2cf",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "4157f15c-b21e-4946-84cb-19be0df5f51f",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "9117126d-5160-40c0-81c1-3f784d8f8cef",
+    "syllogism": "All A are B. Some B are C. Some C are A."
+  },
+  {
+    "id": "d1c9c4bb-2e00-41ae-909c-425ff182f92c",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "f2a9e4e1-a969-436f-877c-bb605fb7c62e",
+    "syllogism": "Some A are not B. All B are A. Some A are C."
+  },
+  {
+    "id": "428fcd4d-5c1a-4c6b-b836-a6cf49562c77",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "199ec342-0add-469d-87ce-5c375b2f75d1",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "d8954215-16e1-4b1a-ab2f-bb98b633712d",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "88906e17-b2f0-4ba9-9a42-387949ef58d8",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "57cefbea-6a5e-4b24-b537-007d1837b288",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "cc362ec8-4aca-4868-acb7-c4b193c9dd20",
+    "syllogism": "No A are not B. All B are C. Some C are A."
+  },
+  {
+    "id": "7fc2053a-6dba-4035-89ca-1cc3397c9e15",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "3b1c7731-50f6-4d9b-a0a1-9d9afa9134e3",
+    "syllogism": "All A are B. All C are B. All A are C."
+  },
+  {
+    "id": "fd7d1283-6217-4458-8f48-40968017069c",
+    "syllogism": "No A are B. Some C are not A. All C are B."
+  },
+  {
+    "id": "342ddbb4-d0f4-41d5-9fe8-b9cfa5414ee9",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "89cbc28f-fbfa-46fd-849a-14aaaf90eece",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "f98919ca-cc46-4be8-b485-2a8085bb3303",
+    "syllogism": "Some A are B. All B are C. All C are A."
+  },
+  {
+    "id": "e630eecd-f2e5-40b2-8417-3d88982377a5",
+    "syllogism": "No A are B. Some C are B. Some C are not A."
+  },
+  {
+    "id": "4a57a2e2-b86d-45ec-9db2-f15de898af11",
+    "syllogism": "No A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "bac14978-b426-42f3-830e-d222127e8425",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "b849ab87-08a8-4ad7-9535-633e79d73ca5",
+    "syllogism": "No A are B. All C are A. No C are B."
+  },
+  {
+    "id": "a3192ff9-b4bd-45f0-a28b-29874369e42a",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "f7420d57-87e1-4e25-9dfd-9a2154f044ba",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "0a60216c-0892-42a4-9afb-f72f70ce24b9",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "9fcdef6b-4601-4603-92bc-1124b386ce5b",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "e8b5e46d-d26f-4c48-bba0-4a109e59574f",
+    "syllogism": "All A are B. Some B are not C. Some C are not A."
+  },
+  {
+    "id": "1645c4b0-8647-41e2-be04-11e6354dbd90",
+    "syllogism": "All A are B. All C are A. Some C are B."
+  },
+  {
+    "id": "fe6dd099-e8d5-4076-b047-91eaafd96b26",
+    "syllogism": "No A are B. Some A are C. No C are B."
+  },
+  {
+    "id": "dfc65c12-102b-4777-9479-e942e4f0449b",
+    "syllogism": "All A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "dae7557a-fcc6-473b-892f-211012df55af",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "cd8078e7-ae64-45ec-bd51-3c3b06dcd739",
+    "syllogism": "All A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "da6c1393-f23f-4eac-aae5-0bafb07f6839",
+    "syllogism": "All A are B. No C are B. No C are A."
+  },
+  {
+    "id": "65d32413-e8d9-49f8-a457-bda26a3a483a",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "055f965a-33f5-4607-9c66-4aa40bec3f17",
+    "syllogism": "All A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "39ef54c3-ec74-44c7-88ae-308fb8f33f9c",
+    "syllogism": "No A are B. Some C are B. No C are A."
+  },
+  {
+    "id": "3ebaf437-de7a-4dfa-9dc7-95b0cda7f532",
+    "syllogism": "All A are B. Some C are A. Some C are B."
+  },
+  {
+    "id": "ca77844f-fa81-48ad-9013-ac9ab5be20e0",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "eff43e93-d2d9-4b07-877e-d63a8bdf260d",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "84bd592a-b425-4b83-a3f1-7ea71c85910e",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "99b78ff8-443d-4c05-86a9-b7bf99330fdd",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "857910a3-46a9-4278-9d37-739de49debd6",
+    "syllogism": "No A are not B. All B are C. Some C are A."
+  },
+  {
+    "id": "49eaeadb-ba70-4eca-be9a-3aaa24144cee",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "042f9653-500e-408f-a1e5-e9ea64c7bf96",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "26349422-9759-46d4-95fe-47058f4ee109",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "a3b7dea6-fa56-4175-ae3d-e4765d415033",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "ede020f2-2276-4afd-a95d-912b5064d0b2",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "c645579b-f3ec-4448-b51d-6ac03b047bd0",
+    "syllogism": "No A are not B. No A are not C. Some C are B."
+  },
+  {
+    "id": "da09f353-9c5e-46fb-a804-3be6a4cf003e",
+    "syllogism": "Some A are B. All A are C. Some C are B."
+  },
+  {
+    "id": "a705b3cb-369e-44bf-bba4-dadf794fef77",
+    "syllogism": "No A are B. All C are B. No C are A."
+  },
+  {
+    "id": "5891fe9d-5de9-48e2-b484-98d70a27a2d4",
+    "syllogism": "No A are B. No B are C. Some C are not A."
+  },
+  {
+    "id": "1d435e7a-87e9-48a6-b87b-2cf3df3b1b1f",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "1f010b69-61c4-4d5b-8cca-ea37c60a9bf6",
+    "syllogism": "No A are not B. All C are A. Some C are B."
+  },
+  {
+    "id": "dcd52b2a-0ff8-4826-a5e1-710238698ef7",
+    "syllogism": "All A are B. All B are C. All C are A."
+  },
+  {
+    "id": "ddbd0598-37ce-41d2-89c6-73109dcf196c",
+    "syllogism": "All A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "34a587b6-0296-4a94-92a1-664fafcf8109",
+    "syllogism": "Some A are B. Some A are not C. No C are B."
+  },
+  {
+    "id": "42e1d763-31f6-4725-a17f-6fdcb0088fde",
+    "syllogism": "All A are B. All C are A. All C are B."
+  },
+  {
+    "id": "4aa7d765-8418-4e15-8bdb-60c1ac852e08",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "ce270103-67cc-4d82-a87e-901a04837037",
+    "syllogism": "No A are B. All A are C. Some C are not B."
+  },
+  {
+    "id": "fa20c4cd-223e-41f9-a5f7-4634a35cd279",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "9e8d8063-b183-4026-85a2-592f021e292b",
+    "syllogism": "No A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "fd526302-739f-45f2-95ed-73c2b00a85cb",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "21dd3f2c-d1a1-409f-9307-3f8a54ab5417",
+    "syllogism": "No A are B. All A are C. All C are B."
+  },
+  {
+    "id": "f604bd06-9e07-46d3-8554-16cc2b4fbb33",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "60d3843b-0fde-4c47-8663-aed5930df07f",
+    "syllogism": "No A are B. Some C are not B. Some C are A."
+  },
+  {
+    "id": "a3fc4115-5212-451a-888d-d044c14c1678",
+    "syllogism": "No A are B. Some A are C. Some C are not B."
+  },
+  {
+    "id": "3e50a21d-a81c-4c71-82b5-4c5a94dcd47c",
+    "syllogism": "No A are B. Some B are C. Some C are not A."
+  },
+  {
+    "id": "ae840f15-62f1-4001-9db4-28c53d3ee8d9",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "d6df77ba-b9bf-45e1-8e5b-c73c5ca30f46",
+    "syllogism": "No A are B. No C are B. No C are A."
+  },
+  {
+    "id": "4bd9a4a6-1764-45fc-8172-86c65200f855",
+    "syllogism": "No A are B. Some A are C. Some C are B."
+  },
+  {
+    "id": "5f8e74b8-1b0c-4ecd-aafc-80e050524be1",
+    "syllogism": "No A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "9ee02b68-eddc-44c9-855a-103d63c9b241",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "059182d4-4b95-4caa-9895-b79368d8c736",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "c185453e-1e55-4186-a79b-4adf21c75a83",
+    "syllogism": "All A are B. All C are B. All C are A."
+  },
+  {
+    "id": "d93e9241-f9bc-43f7-b482-b395b21e086b",
+    "syllogism": "No A are B. No B are C. No C are A."
+  },
+  {
+    "id": "0392a395-81cd-404c-bb1e-e16c0180b9d8",
+    "syllogism": "All A are B. No B are C. No C are A."
+  },
+  {
+    "id": "69678d2f-3489-4408-9179-f342e58e4fc1",
+    "syllogism": "All A are B. Some C are not B. Some C are not A."
+  },
+  {
+    "id": "0c41f657-b5c7-49f0-ba40-93192828326c",
+    "syllogism": "All A are B. No C are A. No C are B."
+  },
+  {
+    "id": "e4494df1-2233-4972-bb0c-0df36d3a45d9",
+    "syllogism": "All A are B. All C are B. Some C are A."
+  },
+  {
+    "id": "29f55c62-ba5d-437a-b1f6-0fe84b021678",
+    "syllogism": "Some A are B. All B are C. Some C are A."
+  },
+  {
+    "id": "ceded7c3-ea95-4f1f-8706-8797294b5a4a",
+    "syllogism": "No A are B. All C are A. Some C are not B."
+  },
+  {
+    "id": "6174dafb-949c-4bfa-8056-f3ba35a3a47f",
+    "syllogism": "No A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "b0448c8e-5688-4643-bc13-9379ddc605cd",
+    "syllogism": "No A are B. No C are B. No C are A."
+  },
+  {
+    "id": "6df0ab4c-8518-4efb-98d5-e1bd172b5a35",
+    "syllogism": "Some A are B. Some C are A. All C are B."
+  },
+  {
+    "id": "0db674a5-4391-43fd-8d40-b6ec2b6e77e3",
+    "syllogism": "All A are B. All C are B. Some C are not A."
+  },
+  {
+    "id": "6650eef5-2045-4ee2-8fe1-a3036d54c6b6",
+    "syllogism": "No A are B. All B are C. Some C are not A."
+  },
+  {
+    "id": "452c2309-abd1-4cd9-9cd9-1e693ef85cf6",
+    "syllogism": "No A are B. Some C are A. Some C are not B."
+  },
+  {
+    "id": "5bb97f94-d046-4219-9893-3b1bc4778d0b",
+    "syllogism": "All A are B. No C are B. All C are A."
+  }
+]

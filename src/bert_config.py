@@ -10,6 +10,14 @@ import torch
 PROJECT_ROOT = Path(__file__).parent.parent
 
 
+# Polished syllogism files
+POLISHED_FILES = {
+    "gemini": str(PROJECT_ROOT / "polished_syllogisms_variables_gemini.json"),
+    "opus": str(PROJECT_ROOT / "polished_syllogisms_variables_opus.json"),
+    "qwen": str(PROJECT_ROOT / "polished_syllogisms_variables_qwen.json"),
+}
+
+
 @dataclass
 class Config:
     """Training configuration."""
@@ -21,6 +29,7 @@ class Config:
     # Data
     train_file: str = str(PROJECT_ROOT / "train_data" / "subtask 1" / "train_data.json")
     test_file: str = str(PROJECT_ROOT / "test_data" / "subtask 1" / "test_data_subtask_1.json")
+    polished_source: str = None  # None, "gemini", "opus", or "qwen"
     val_split: float = 0.1
     test_split: float = 0.1
 

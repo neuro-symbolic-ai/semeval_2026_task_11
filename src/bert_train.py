@@ -14,13 +14,14 @@ from transformers import (
     set_seed,
 )
 
-from bert_config import Config
+from bert_config import Config, POLISHED_FILES
 from bert_dataset import (
     SyllogismDataset,
     load_data,
     split_data,
     get_balanced_data,
     analyze_data_distribution,
+    merge_polished_with_labels,
 )
 
 
@@ -52,9 +53,16 @@ def train(config: Config = None):
     )
 
     # Load and prepare data
-    print(f"\nLoading training data from: {config.train_file}")
-    data = load_data(config.train_file)
-    print(f"Loaded {len(data)} samples")
+    if config.polished_source:
+        polished_file = POLISHED_FILES[config.polished_source]
+        print(f"\nLoading polished data from: {polished_file}")
+        print(f"Using labels from: {config.train_file}")
+        data = merge_polished_with_labels(polished_file, config.train_file)
+        print(f"Loaded {len(data)} polished samples (source: {config.polished_source})")
+    else:
+        print(f"\nLoading training data from: {config.train_file}")
+        data = load_data(config.train_file)
+        print(f"Loaded {len(data)} samples")
 
     # Analyze distribution
     dist = analyze_data_distribution(data)
