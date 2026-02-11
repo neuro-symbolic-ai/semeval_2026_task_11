@@ -1,770 +1,1617 @@
 [
     {
         "id": "34ccf2ca-3f48-4493-bd28-afa6da0c45ce",
-        "syllogism": "Some housecats enjoy chasing mice. Any animal that is a cougar is a predator. Everything that is a feline is an animal. There are no mammals that lay eggs like reptiles. It is a known fact that all lions roar loudly. Every single lynx is a wild cat. Any and all cats are also animals. This implies that all cats are felines."
+        "syllogism": "Some housecats enjoy chasing mice. Any animal that is a cougar is a predator. Everything that is a feline is an animal. There are no mammals that lay eggs like reptiles. It is a known fact that all lions roar loudly. Every single lynx is a wild cat. Any and all cats are also animals. This implies that all cats are felines.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "37190acf-8bb4-4c0b-995a-05937430dfad",
-        "syllogism": "Every pea is a vegetable. Some beans are vegetables. There are many beets that are vegetables. Any radish is a vegetable. It is a fact that all turnips are vegetables. It is a fact that every potato is a vegetable. It is also true that all carrots are vegetables. Therefore, it is concluded that a few vegetables are carrots."
+        "syllogism": "Every pea is a vegetable. Some beans are vegetables. There are many beets that are vegetables. Any radish is a vegetable. It is a fact that all turnips are vegetables. It is a fact that every potato is a vegetable. It is also true that all carrots are vegetables. Therefore, it is concluded that a few vegetables are carrots.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "94ea0032-e8dd-47bf-9a0b-49359335c390",
-        "syllogism": "Some hounds are actually birds. Any retriever is a type of fish. Anything that is a poodle is also a canine. There are no animals that bark. It is a fact that all collies have scales. Every single puppy is a kitten. The entire set of poodles is contained within the set of dogs. A portion of dogs are not canines."
+        "syllogism": "Some hounds are actually birds. Any retriever is a type of fish. Anything that is a poodle is also a canine. There are no animals that bark. It is a fact that all collies have scales. Every single puppy is a kitten. The entire set of poodles is contained within the set of dogs. A portion of dogs are not canines.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "b0508840-0a8f-4a1f-8931-2146e18b07db",
-        "syllogism": "Every single car has a steering wheel. Some of the bicycles are vehicles. It is a known fact that all trucks transport goods. Any scooter is a mode of transport. Some tricycles are toys for children. Everything that can be classified as a vehicle has wheels. Therefore, some things with wheels are bicycles."
+        "syllogism": "Every single car has a steering wheel. Some of the bicycles are vehicles. It is a known fact that all trucks transport goods. Any scooter is a mode of transport. Some tricycles are toys for children. Everything that can be classified as a vehicle has wheels. Therefore, some things with wheels are bicycles.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "9ee4c131-6dbe-436b-a116-04010e3071d1",
-        "syllogism": "Any animal that roars is a fish. There are no felines that are carnivores. It is a fact that all jaguars are insects. Every single tiger is a reptile. Every single feline is a mammal. Anything that is a lion is also a mammal. It's the case that some lions fail to be felines."
+        "syllogism": "Any animal that roars is a fish. There are no felines that are carnivores. It is a fact that all jaguars are insects. Every single tiger is a reptile. Every single feline is a mammal. Anything that is a lion is also a mammal. It's the case that some lions fail to be felines.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "416857a7-75fa-47d3-919f-fd5a61602550",
-        "syllogism": "Every single ocean is a large body of saltwater. Some mountains are high-altitude geographic features. Any stream that flows is a source of water. There are no valleys that are not landforms. It is a known fact that all lakes are inland bodies of water. Anything that is a river is a body of water. Anything that is a river is a geographic feature. Consequently, some geographic features are bodies of water."
+        "syllogism": "Every single ocean is a large body of saltwater. Some mountains are high-altitude geographic features. Any stream that flows is a source of water. There are no valleys that are not landforms. It is a known fact that all lakes are inland bodies of water. Anything that is a river is a body of water. Anything that is a river is a geographic feature. Consequently, some geographic features are bodies of water.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            5,
+            6
+        ]
     },
     {
         "id": "10fee120-c4d6-498a-8c42-0851d1984507",
-        "syllogism": "There are some things which are cats that are not felines. It is true that all fish can fly. There are no rabbits that are not made of plastic. Any bird is a creature made of stone. Every single dog is a robot. Anything that is a cat is a tiger. From this, it follows that there are some tigers that are not felines."
+        "syllogism": "There are some things which are cats that are not felines. It is true that all fish can fly. There are no rabbits that are not made of plastic. Any bird is a creature made of stone. Every single dog is a robot. Anything that is a cat is a tiger. From this, it follows that there are some tigers that are not felines.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "a825c9f6-44fa-47dc-9e90-c3751b1b40c3",
-        "syllogism": "It is a known fact that all goldfish live in water. There are no pets that do not need food. Some parrots can mimic speech. Any rabbit has long ears. Every single hamster is a small animal. Among the items that are cats, some of them are pets. A portion of the things that are dogs are pets. It must be the case that some dogs are not cats."
+        "syllogism": "It is a known fact that all goldfish live in water. There are no pets that do not need food. Some parrots can mimic speech. Any rabbit has long ears. Every single hamster is a small animal. Among the items that are cats, some of them are pets. A portion of the things that are dogs are pets. It must be the case that some dogs are not cats.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "f760a398-4e5f-4269-9ae8-1208bdafd53e",
-        "syllogism": "Every single orange is a juicy fruit. Some lemons are sour to taste. Nothing in the category of berries is a citrus fruit. Any fruit with a rind is a citrus. It is a known fact that all limes are green. Among the items that are fruits, some are citrus fruits. It follows that there are some fruits which are not berries."
+        "syllogism": "Every single orange is a juicy fruit. Some lemons are sour to taste. Nothing in the category of berries is a citrus fruit. Any fruit with a rind is a citrus. It is a known fact that all limes are green. Among the items that are fruits, some are citrus fruits. It follows that there are some fruits which are not berries.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "03083605-e360-4009-92cb-01962a521a79",
-        "syllogism": "There are no husbands who are not married. It is a known fact that all mammals have vertebrae. Every human is a mammal. Any human being is a member of society. Anyone who is a bachelor is also a human. This means that some bachelors are not married."
+        "syllogism": "There are no husbands who are not married. It is a known fact that all mammals have vertebrae. Every human is a mammal. Any human being is a member of society. Anyone who is a bachelor is also a human. This means that some bachelors are not married.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "b6444591-91bd-4197-ad2c-9a51d202d1ed",
-        "syllogism": "It is true that all horses are insects. Every single mouse is a lion. There are no pigs that are not made of metal. Any cow is a reptile. All things that are dogs are cats. There is not a single cat which is a canine. It is necessarily true that no canine is a dog."
+        "syllogism": "It is true that all horses are insects. Every single mouse is a lion. There are no pigs that are not made of metal. Any cow is a reptile. All things that are dogs are cats. There is not a single cat which is a canine. It is necessarily true that no canine is a dog.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            5
+        ]
     },
     {
         "id": "cb375b46-e5a9-438e-979f-e9fb13eba109",
-        "syllogism": "Every single rock is a writing instrument. There are no clouds that are not writing instruments. It is a fact that all fingers are writing instruments. There is no overlap between pencils and writing instruments. Pens and writing instruments have no members in common. Pens and pencils are the same group."
+        "syllogism": "Every single rock is a writing instrument. There are no clouds that are not writing instruments. It is a fact that all fingers are writing instruments. There is no overlap between pencils and writing instruments. Pens and writing instruments have no members in common. Pens and pencils are the same group.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "46e32fc2-d62c-4a07-8475-9c8ccb546415",
-        "syllogism": "Every eagle is a creature with feathers. There are many penguins that are creatures with feathers. Any robin is a creature with feathers. There are no fish that can be described as creatures with feathers. Some parrots are creatures with feathers. It is undeniable that all owls are creatures with feathers. All birds are defined as creatures with feathers. Therefore, we can say that a portion of birds are not fish."
+        "syllogism": "Every eagle is a creature with feathers. There are many penguins that are creatures with feathers. Any robin is a creature with feathers. There are no fish that can be described as creatures with feathers. Some parrots are creatures with feathers. It is undeniable that all owls are creatures with feathers. All birds are defined as creatures with feathers. Therefore, we can say that a portion of birds are not fish.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "4fc99c76-6256-4bf2-b038-acb5bc92cde8",
-        "syllogism": "Any comet has a tail of ice and dust. Some moons orbit around planets. A planet is never a star. Every single sun is a hot ball of gas. There are no galaxies without stars. It is a fact that some planets are gas giants. It must be true that some gas giants are not stars."
+        "syllogism": "Any comet has a tail of ice and dust. Some moons orbit around planets. A planet is never a star. Every single sun is a hot ball of gas. There are no galaxies without stars. It is a fact that some planets are gas giants. It must be true that some gas giants are not stars.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "a0ab48c1-16d8-4f59-ba17-77ce528fa107",
-        "syllogism": "Some apartments are in high-rise blocks. There is at least a skyscraper that is a building. Every single cottage is a home. It is a known fact that all sheds are small structures. There are no palaces that are not grand. Among the group of things that are houses, some are buildings. It follows that there are houses which are not skyscrapers."
+        "syllogism": "Some apartments are in high-rise blocks. There is at least a skyscraper that is a building. Every single cottage is a home. It is a known fact that all sheds are small structures. There are no palaces that are not grand. Among the group of things that are houses, some are buildings. It follows that there are houses which are not skyscrapers.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "c0a6099e-c843-4681-a34d-6505513c182b",
-        "syllogism": "It is a known fact that all cows eat grass. Every single cat is a pet. There are no bears that are tame. Any wolf is a wild animal. Some horses gallop in fields. It is true that every terrier is a dog. All terriers are also mammals. It is the case that some mammals are not dogs."
+        "syllogism": "It is a known fact that all cows eat grass. Every single cat is a pet. There are no bears that are tame. Any wolf is a wild animal. Some horses gallop in fields. It is true that every terrier is a dog. All terriers are also mammals. It is the case that some mammals are not dogs.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "9d899c7b-cbe5-4afa-8d53-b255dfdfc420",
-        "syllogism": "There are no persians that are not golden retrievers. Any animal that meows is a beagle. Every dog is a mammal. Every single feline barks at strangers. A portion of lions are mammals. It is the case that some lions are dogs."
+        "syllogism": "There are no persians that are not golden retrievers. Any animal that meows is a beagle. Every dog is a mammal. Every single feline barks at strangers. A portion of lions are mammals. It is the case that some lions are dogs.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "7a45e6d1-8e5d-4bc2-8fe4-dab2e9d77722",
-        "syllogism": "Some pianos walk around on two legs. It is true that all drums have beating hearts. There are some musical instruments that are people. Any violin is actually a living person. All of those who are people are living creatures. Therefore, it can be said that some living creatures are musical instruments."
+        "syllogism": "Some pianos walk around on two legs. It is true that all drums have beating hearts. There are some musical instruments that are people. Any violin is actually a living person. All of those who are people are living creatures. Therefore, it can be said that some living creatures are musical instruments.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "d6d14b49-6576-48f8-be78-08c8b3595fdd",
-        "syllogism": "Some tablets are made of cheese. It is a fact that all televisions are birds. Every single phone is a banana. Anything that is an item of furniture is an object. Every single computer is an object. It follows that every computer is a piece of furniture."
+        "syllogism": "Some tablets are made of cheese. It is a fact that all televisions are birds. Every single phone is a banana. Anything that is an item of furniture is an object. Every single computer is an object. It follows that every computer is a piece of furniture.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "97e7f113-cb74-4c7c-99d2-60112ca353dd",
-        "syllogism": "It is a fact that all dentists are ghosts. There are no patients who are not made of plastic. Some surgeons are aliens. Every single nurse is a robot. Any pharmacist is a hologram. There exist no humans who also have medical degrees. Everything that is a doctor is a person with a medical degree. Doctors and humans are mutually exclusive."
+        "syllogism": "It is a fact that all dentists are ghosts. There are no patients who are not made of plastic. Some surgeons are aliens. Every single nurse is a robot. Any pharmacist is a hologram. There exist no humans who also have medical degrees. Everything that is a doctor is a person with a medical degree. Doctors and humans are mutually exclusive.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            5,
+            6
+        ]
     },
     {
         "id": "65f9a20c-6380-45e2-b633-24c90d718e36",
-        "syllogism": "Every parent is a child. There are no adults who are not newborns. Every single grandparent is a baby. Some teenagers are actually elderly. It is a fact that all toddlers are giants. None of the children are living things. This means that no living thing is a parent."
+        "syllogism": "Every parent is a child. There are no adults who are not newborns. Every single grandparent is a baby. Some teenagers are actually elderly. It is a fact that all toddlers are giants. None of the children are living things. This means that no living thing is a parent.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "b9da97df-d784-4ce8-ac02-5c3d45c7a36b",
-        "syllogism": "Every single pet is a stone statue. There are no paws that touch the ground. Any tail is a metal rod. There are no animals that are cats. It is true that all bones are made of candy. Some leashes are made of clouds. Among the cats, a few are dogs. Not all dogs are animals."
+        "syllogism": "Every single pet is a stone statue. There are no paws that touch the ground. Any tail is a metal rod. There are no animals that are cats. It is true that all bones are made of candy. Some leashes are made of clouds. Among the cats, a few are dogs. Not all dogs are animals.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "f2781c09-004d-42bb-91c4-1a8a5bde2e10",
-        "syllogism": "Every single fire is made of solid ice. Any candle flame is actually a block of ice. It is true that all deserts are covered in snow. Every single star is cold. A few suns are stars. This leads to the conclusion that some suns are cold."
+        "syllogism": "Every single fire is made of solid ice. Any candle flame is actually a block of ice. It is true that all deserts are covered in snow. Every single star is cold. A few suns are stars. This leads to the conclusion that some suns are cold.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "345712f6-065c-4a46-9d2b-58721658a4af",
-        "syllogism": "It is a fact that all tea is a liquid. There are many beverages that are liquid. Every single quantity of water is liquid. Every juice is a liquid. Anything that is soda is liquid. At least one quantity of soda is not water."
+        "syllogism": "It is a fact that all tea is a liquid. There are many beverages that are liquid. Every single quantity of water is liquid. Every juice is a liquid. Anything that is soda is liquid. At least one quantity of soda is not water.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "0681c777-9c5a-413e-9215-73c46d34456c",
-        "syllogism": "Anything that is a vehicle is a creature that is alive. It is true that all airplanes are birds. Some bicycles are creatures that eat grass. Every truck is an animal that sleeps. Every single car is a vehicle. It can be necessarily concluded that every car is alive."
+        "syllogism": "Anything that is a vehicle is a creature that is alive. It is true that all airplanes are birds. Some bicycles are creatures that eat grass. Every truck is an animal that sleeps. Every single car is a vehicle. It can be necessarily concluded that every car is alive.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            0,
+            4
+        ]
     },
     {
         "id": "2223cd9a-39b5-4cd8-aef9-ce81b21d2555",
-        "syllogism": "Every single person will eventually die. It is a known fact that all Romans were ancient people. Everything that is a human is mortal. Any citizen of Sparta was a Greek. A portion of Greeks are mortals. It follows from this that some Greeks are humans."
+        "syllogism": "Every single person will eventually die. It is a known fact that all Romans were ancient people. Everything that is a human is mortal. Any citizen of Sparta was a Greek. A portion of Greeks are mortals. It follows from this that some Greeks are humans.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "b4d784e1-99f0-4ca5-b6c0-4a94b0ae5f42",
-        "syllogism": "It is true that all consultants are professionals. Every teacher is a professional. Anything that is a doctor is a professional. Some nurses are professionals. Any manager is a professional. Everything that is a lawyer is a professional. There exist lawyers who are not doctors."
+        "syllogism": "It is true that all consultants are professionals. Every teacher is a professional. Anything that is a doctor is a professional. Some nurses are professionals. Any manager is a professional. Everything that is a lawyer is a professional. There exist lawyers who are not doctors.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "b238b4d0-c6db-4bdc-880c-7d2de8299118",
-        "syllogism": "Any grass is a plant. Every flower is a plant. Every single tree is a plant. There are many herbs that are plants. It is true that all mosses are plants. All things which are oaks are also plants. It follows that every oak is a tree."
+        "syllogism": "Any grass is a plant. Every flower is a plant. Every single tree is a plant. There are many herbs that are plants. It is true that all mosses are plants. All things which are oaks are also plants. It follows that every oak is a tree.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "4b3bfb6a-a206-4d72-88e2-ac865e66cf69",
-        "syllogism": "It is a fact that all motorcycles are vehicles. Every truck is a vehicle. There are many trains that are vehicles. It is true that every single car is a vehicle. Any bicycle is a vehicle. Some buses are vehicles. There are no vehicles that are animals. It therefore must be the case that some animals are not cars."
+        "syllogism": "It is a fact that all motorcycles are vehicles. Every truck is a vehicle. There are many trains that are vehicles. It is true that every single car is a vehicle. Any bicycle is a vehicle. Some buses are vehicles. There are no vehicles that are animals. It therefore must be the case that some animals are not cars.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "ed463032-9ed6-43a3-a0a2-87bb7e1ebc69",
-        "syllogism": "Not one single liquid is a solid. Every rock is a solid. It is true that all ice is a solid. Some woods are solids. There are many crystals that are solids. There are some items which are metal that are liquid. This implies that some metals are solids."
+        "syllogism": "Not one single liquid is a solid. Every rock is a solid. It is true that all ice is a solid. Some woods are solids. There are many crystals that are solids. There are some items which are metal that are liquid. This implies that some metals are solids.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "baeb1173-94db-4cae-aeee-f63127a89008",
-        "syllogism": "Any river is a living thing. There are no mountains that are not living things. Every single stone is a living thing. It is a fact that all clouds are living things. The group of animals is a not part of the group of living things. Every single thing that is a cat is a living thing. All living things are cats."
+        "syllogism": "Any river is a living thing. There are no mountains that are not living things. Every single stone is a living thing. It is a fact that all clouds are living things. The group of animals is a not part of the group of living things. Every single thing that is a cat is a living thing. All living things are cats.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "283a4c72-c0ce-4eb2-adc9-61605461b885",
-        "syllogism": "Some violins are actually small cars. Any trumpet is a vegetable. There are no flutes that are not made of solid gold. Every single drum is made of jelly. It is a fact that all cellos are made of ice. Every piano is a musical instrument. It is the case that every single guitar is a musical instrument. It follows that a few guitars are pianos."
+        "syllogism": "Some violins are actually small cars. Any trumpet is a vegetable. There are no flutes that are not made of solid gold. Every single drum is made of jelly. It is a fact that all cellos are made of ice. Every piano is a musical instrument. It is the case that every single guitar is a musical instrument. It follows that a few guitars are pianos.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "9863354b-3eaf-424e-a888-1b2dc93ae1c7",
-        "syllogism": "Every single flower has petals. There are many organisms that have petals. It is a fact that all daisies have petals. Every lily has petals. Any tulip has petals. Anything that is a rose has petals. It is necessarily concluded that every rose is a flower."
+        "syllogism": "Every single flower has petals. There are many organisms that have petals. It is a fact that all daisies have petals. Every lily has petals. Any tulip has petals. Anything that is a rose has petals. It is necessarily concluded that every rose is a flower.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "6a02fe69-e502-46f5-afbe-9ae1f126f5ed",
-        "syllogism": "There are many terriers that are dogs. Every poodle is a dog. Anything that is a dog is not a cat. It is undeniable that all bulldogs are dogs. It is a fact that all Labradors are dogs. It can be deduced that some Labradors are not cats."
+        "syllogism": "There are many terriers that are dogs. Every poodle is a dog. Anything that is a dog is not a cat. It is undeniable that all bulldogs are dogs. It is a fact that all Labradors are dogs. It can be deduced that some Labradors are not cats.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "9d5d0576-5e6d-4957-99f3-f0fb5878efe8",
-        "syllogism": "It is a fact that all crocodiles are cold-blooded. Any animal that is an iguana is a lizard. Every reptile is an organism that is cold-blooded. There are no amphibians that are reptiles. Anything that is a lizard is a reptile. Therefore, it must be the case that all lizards are cold-blooded."
+        "syllogism": "It is a fact that all crocodiles are cold-blooded. Any animal that is an iguana is a lizard. Every reptile is an organism that is cold-blooded. There are no amphibians that are reptiles. Anything that is a lizard is a reptile. Therefore, it must be the case that all lizards are cold-blooded.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "7e1a3e91-5093-4b62-997a-6c930dcb2f9f",
-        "syllogism": "Everything that is a human is a mammal. There are no cows that are not made of glass. It is a fact that all fish are made of wood. Some birds are made of paper. Any horse is a cloud. Every single cat is a mammal. Every cat is a human."
+        "syllogism": "Everything that is a human is a mammal. There are no cows that are not made of glass. It is a fact that all fish are made of wood. Some birds are made of paper. Any horse is a cloud. Every single cat is a mammal. Every cat is a human.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "ba29ca42-047d-43a1-8321-dd5deee3581d",
-        "syllogism": "It is true that all grapes are balloons. Every single apple is a rock. Some bananas are made of plastic. There is no overlap between the category of plants and the category of vegetables. Any seed is a piece of metal. There are no oranges that grow on trees. Anything that is a vegetable is a fruit. It follows logically that some fruits are not plants."
+        "syllogism": "It is true that all grapes are balloons. Every single apple is a rock. Some bananas are made of plastic. There is no overlap between the category of plants and the category of vegetables. Any seed is a piece of metal. There are no oranges that grow on trees. Anything that is a vegetable is a fruit. It follows logically that some fruits are not plants.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "b06bfd62-c8dd-4fd8-9b8a-0fdacd3fcf7e",
-        "syllogism": "Every single sofa grows leaves in the spring. It is true that all stools have roots in the ground. There are no recliners that do not blossom flowers. Every plant is a living thing. A few chairs are living things. It is the case that some chairs are plants."
+        "syllogism": "Every single sofa grows leaves in the spring. It is true that all stools have roots in the ground. There are no recliners that do not blossom flowers. Every plant is a living thing. A few chairs are living things. It is the case that some chairs are plants.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "b2e22a14-bb54-4ca0-9081-89d9471b088f",
-        "syllogism": "Every bat is an animal that can fly. It is true that all moths are animals that can fly. There are many bees that are animals that can fly. Any dragonfly is an animal that can fly. There is at least one bird that is an animal that can fly. Some insects are animals that can fly. Anything that is an eagle is an animal that can fly. For this reason, every eagle is a bird."
+        "syllogism": "Every bat is an animal that can fly. It is true that all moths are animals that can fly. There are many bees that are animals that can fly. Any dragonfly is an animal that can fly. There is at least one bird that is an animal that can fly. Some insects are animals that can fly. Anything that is an eagle is an animal that can fly. For this reason, every eagle is a bird.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "2d6f10e9-83ef-4172-a81e-0c29cf0e441b",
-        "syllogism": "Every single lawyer is a toddler. Some engineers are babies. Every single professional is a child. It is a fact that all scientists are infants. The set of doctors contains no children. Some professionals can be found that are not doctors."
+        "syllogism": "Every single lawyer is a toddler. Some engineers are babies. Every single professional is a child. It is a fact that all scientists are infants. The set of doctors contains no children. Some professionals can be found that are not doctors.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "050728df-9afd-40ed-87de-5bd21ca03795",
-        "syllogism": "Every single eagle soars in the sky. Some animals which fly are birds. There are no penguins that can fly. It is a known fact that all insects have wings. Some mammals are capable of flight. A certain number of bats are animals that fly. Consequently, some bats are not birds."
+        "syllogism": "Every single eagle soars in the sky. Some animals which fly are birds. There are no penguins that can fly. It is a known fact that all insects have wings. Some mammals are capable of flight. A certain number of bats are animals that fly. Consequently, some bats are not birds.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "702427c3-0307-4d1b-b0ea-68b237307283",
-        "syllogism": "Some butterflies have colorful wings. It is true that all beetles have six legs. There are no webs spun by grasshoppers. Spiders are never ants. Every single bee pollinates flowers. A few ants are, in fact, insects. There exist insects that are not spiders."
+        "syllogism": "Some butterflies have colorful wings. It is true that all beetles have six legs. There are no webs spun by grasshoppers. Spiders are never ants. Every single bee pollinates flowers. A few ants are, in fact, insects. There exist insects that are not spiders.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            5
+        ]
     },
     {
         "id": "e22846fe-111a-4c7a-b054-2560de0a1ccb",
-        "syllogism": "Among the buildings, there are some that are dogs. It is a fact that all cats are made of bricks. There are no elephants that are not made of concrete. Every single skyscraper has fur and a tail. Any animal is actually a two-story cottage. All dogs are mammals. Therefore, it must be the case that some mammals are buildings."
+        "syllogism": "Among the buildings, there are some that are dogs. It is a fact that all cats are made of bricks. There are no elephants that are not made of concrete. Every single skyscraper has fur and a tail. Any animal is actually a two-story cottage. All dogs are mammals. Therefore, it must be the case that some mammals are buildings.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "17de795f-fb84-4a8e-a28f-0298145a6bff",
-        "syllogism": "There are no plants which are minerals. It is a fact that all cacti are plants. There are many vines that are plants. Any moss is a plant. Some ferns are plants. All of the sunflowers in the world are plants. Therefore, some sunflowers are not minerals."
+        "syllogism": "There are no plants which are minerals. It is a fact that all cacti are plants. There are many vines that are plants. Any moss is a plant. Some ferns are plants. All of the sunflowers in the world are plants. Therefore, some sunflowers are not minerals.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "9bf8097e-67e3-449c-a7ce-dd9b94991d3d",
-        "syllogism": "A certain number of doctors are considered professionals. Any teacher is an educator of students. Some nurses work in hospitals. It is true that all lawyers interpret the law. There are no architects who do not design buildings. Every single surgeon performs operations. Everyone who is a professional is a person. Thus, a portion of people are doctors."
+        "syllogism": "A certain number of doctors are considered professionals. Any teacher is an educator of students. Some nurses work in hospitals. It is true that all lawyers interpret the law. There are no architects who do not design buildings. Every single surgeon performs operations. Everyone who is a professional is a person. Thus, a portion of people are doctors.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            6
+        ]
     },
     {
         "id": "a1d86de3-2c3d-4cf1-89b6-eaeb2d120886",
-        "syllogism": "Every single cat is an animal. Every single bird is a rock. Any cow is a cloud. It is true that all horses are plants. Anything that can be called a dog is, without exception, an animal. All cats are dogs."
+        "syllogism": "Every single cat is an animal. Every single bird is a rock. Any cow is a cloud. It is true that all horses are plants. Anything that can be called a dog is, without exception, an animal. All cats are dogs.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "4cc1c47b-bda5-4334-b166-e378306fbbda",
-        "syllogism": "It is a known fact that all degrees require study. Any scholar is involved in learning. Every single professor is an academic. Every single university has classrooms. Some lectures are given by teachers. There are no campuses without buildings. Anything that is a student is also an academic. It's the case that some students fail to be professors."
+        "syllogism": "It is a known fact that all degrees require study. Any scholar is involved in learning. Every single professor is an academic. Every single university has classrooms. Some lectures are given by teachers. There are no campuses without buildings. Anything that is a student is also an academic. It's the case that some students fail to be professors.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "6fb7afae-d60c-4257-9316-e5a4f49c3795",
-        "syllogism": "There are a few drums that are played with sticks. Some flutes are instruments made of silver. Anything which is a guitar is also a string instrument. Every single violin is a string instrument. Any musician who plays the cello is a string player. All string instruments are things considered musical instruments. We can infer that some musical instruments are guitars."
+        "syllogism": "There are a few drums that are played with sticks. Some flutes are instruments made of silver. Anything which is a guitar is also a string instrument. Every single violin is a string instrument. Any musician who plays the cello is a string player. All string instruments are things considered musical instruments. We can infer that some musical instruments are guitars.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "1178f61d-a224-4952-8907-cbae46aaecda",
-        "syllogism": "Some plumbers are construction workers. It is a fact that all electricians are tradespeople. Every single person who is a carpenter is a builder. There are a few roofers who are builders. Every mason is a builder. It is the case that every cabinet maker is a carpenter. A certain number of cabinet makers are builders."
+        "syllogism": "Some plumbers are construction workers. It is a fact that all electricians are tradespeople. Every single person who is a carpenter is a builder. There are a few roofers who are builders. Every mason is a builder. It is the case that every cabinet maker is a carpenter. A certain number of cabinet makers are builders.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "5779c3fd-14e4-476b-9268-362ccab68878",
-        "syllogism": "Every single car has an engine. Some buses are public transport. It is the case that no bicycle is a tricycle. There are no planes that stay on the ground. It is true that all trucks are heavy. Any motorcycle has two wheels. There are no tricycles that are vehicles. It must be the case that a portion of vehicles are not bicycles."
+        "syllogism": "Every single car has an engine. Some buses are public transport. It is the case that no bicycle is a tricycle. There are no planes that stay on the ground. It is true that all trucks are heavy. Any motorcycle has two wheels. There are no tricycles that are vehicles. It must be the case that a portion of vehicles are not bicycles.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "0648c97c-3b0f-4737-8af3-c07b9fcb637d",
-        "syllogism": "Every single cat is an animal. There are no pigs that are not made of glass. It is true that all horses are insects. Any cow is a cloud. Every bird is a rock. Some fish are made of paper. Every single dog is an animal. As such, all dogs are cats."
+        "syllogism": "Every single cat is an animal. There are no pigs that are not made of glass. It is true that all horses are insects. Any cow is a cloud. Every bird is a rock. Some fish are made of paper. Every single dog is an animal. As such, all dogs are cats.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "e0350e22-a81a-4de9-8fc6-446c5495ef5f",
-        "syllogism": "There are no panthers that are not carnivores. Any animal that purrs is likely a feline. It is true that all cheetahs are fast runners. Some leopards are spotted felines. All of the things that are tigers are felines. All of the things that are cats are felines. It can be deduced that there are cats that are tigers."
+        "syllogism": "There are no panthers that are not carnivores. Any animal that purrs is likely a feline. It is true that all cheetahs are fast runners. Some leopards are spotted felines. All of the things that are tigers are felines. All of the things that are cats are felines. It can be deduced that there are cats that are tigers.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "21850811-aeba-469a-9c44-7bc5abaf1cf7",
-        "syllogism": "Every single reptile is a vertebrate. There are some fish that are vertebrates. A few vertebrates are creatures that live in the ocean. Any animal that is an amphibian is a vertebrate. It is a fact that all sharks are vertebrates. Every bird is a vertebrate. All mammals are vertebrates. It is logically concluded that some mammals are not birds."
+        "syllogism": "Every single reptile is a vertebrate. There are some fish that are vertebrates. A few vertebrates are creatures that live in the ocean. Any animal that is an amphibian is a vertebrate. It is a fact that all sharks are vertebrates. Every bird is a vertebrate. All mammals are vertebrates. It is logically concluded that some mammals are not birds.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "fe289ca8-c6d8-439a-be0a-4d2afbafb3ad",
-        "syllogism": "It is a fact that all lilies are flowers. Every rose is a flower. Some daisies are flowers. There are many violets that are flowers. Every tulip is a flower. There is not a single fungus that is a flower. From this, no fungus can be a rose."
+        "syllogism": "It is a fact that all lilies are flowers. Every rose is a flower. Some daisies are flowers. There are many violets that are flowers. Every tulip is a flower. There is not a single fungus that is a flower. From this, no fungus can be a rose.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "4fa47cee-4a33-4102-9efe-6672f74d577b",
-        "syllogism": "Any animal that is a falcon is a bird. Every single hawk is a raptor. Every creature that is an eagle is a bird of prey. A few birds are creatures that cannot fly. There are some owls that hunt at night. Every bird of prey is a bird. It is logically necessary that some birds are eagles."
+        "syllogism": "Any animal that is a falcon is a bird. Every single hawk is a raptor. Every creature that is an eagle is a bird of prey. A few birds are creatures that cannot fly. There are some owls that hunt at night. Every bird of prey is a bird. It is logically necessary that some birds are eagles.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "ed135793-1968-4cdf-80a7-b09c5bdf2a73",
-        "syllogism": "There are no octagons that do not have four sides. Every single triangle has four sides. It is true that all lines have four sides. Any point has four sides. Everything that is a square has four sides. Some circles have four sides. Every single rectangle has four sides. It's impossible for any rectangle not to be a square."
+        "syllogism": "There are no octagons that do not have four sides. Every single triangle has four sides. It is true that all lines have four sides. Any point has four sides. Everything that is a square has four sides. Some circles have four sides. Every single rectangle has four sides. It's impossible for any rectangle not to be a square.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "1fbacc14-d08b-4bf4-b16a-7764760a7bc5",
-        "syllogism": "Every single shark is a vertebrate. There are no fish that are not made of wood. It is true that all octopuses are birds. Every single tuna is a vertebrate. Anything that is a dolphin is a vertebrate. Consequently, it is possible to conclude that some dolphins are sharks."
+        "syllogism": "Every single shark is a vertebrate. There are no fish that are not made of wood. It is true that all octopuses are birds. Every single tuna is a vertebrate. Anything that is a dolphin is a vertebrate. Consequently, it is possible to conclude that some dolphins are sharks.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "50ce5d53-d023-4d60-bf38-9d9c8ddca417",
-        "syllogism": "Every single table is a living reptile. Any furniture item is actually a type of fruit. It is true that all lamps are breathing animals. Anything that is a chair is a bird. Anything that is a chair is a fish. Consequently, some fish are birds."
+        "syllogism": "Every single table is a living reptile. Any furniture item is actually a type of fruit. It is true that all lamps are breathing animals. Anything that is a chair is a bird. Anything that is a chair is a fish. Consequently, some fish are birds.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "d78523b8-c354-40a1-8833-bbc0e63c7339",
-        "syllogism": "Some mammals are creatures that nurse their young. Any person who is an adult is a human being. Every single chimpanzee is a primate. There are no gorillas that are not animals. Everything that is a human is a primate. Everything that is a man is a primate. This implies that some men are humans."
+        "syllogism": "Some mammals are creatures that nurse their young. Any person who is an adult is a human being. Every single chimpanzee is a primate. There are no gorillas that are not animals. Everything that is a human is a primate. Everything that is a man is a primate. This implies that some men are humans.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "046e38a6-5b7e-4087-b1f7-b50d104f53aa",
-        "syllogism": "Every single cat is a truck. There are no mammals that are not made of wood. It is a fact that all fish are made of paper. Every single creature that is a poodle is a dog. Any insect is a giant monster. It is also the case that every creature that is a golden retriever is a dog. From this, it follows that all golden retrievers are poodles."
+        "syllogism": "Every single cat is a truck. There are no mammals that are not made of wood. It is a fact that all fish are made of paper. Every single creature that is a poodle is a dog. Any insect is a giant monster. It is also the case that every creature that is a golden retriever is a dog. From this, it follows that all golden retrievers are poodles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "7065c3a6-25ba-4d5b-bad8-5693b350bb8d",
-        "syllogism": "Any seal is a type of car. Some sharks are actually airplanes. It is a fact that all dolphins are made of wood. There are no octopuses that are not made of iron. Every single bird is a submarine. Every single fish can swim. Every single whale can swim. It follows that all whales are fish."
+        "syllogism": "Any seal is a type of car. Some sharks are actually airplanes. It is a fact that all dolphins are made of wood. There are no octopuses that are not made of iron. Every single bird is a submarine. Every single fish can swim. Every single whale can swim. It follows that all whales are fish.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "4041417c-a54c-455b-a7ca-193d65f22598",
-        "syllogism": "Some students are aliens from Mars. There is no teacher who is an educator. Any lesson taught is a lie. There are no classrooms with desks. Among the people that are teachers, a certain amount are professors. It must be true that some professors are not educators."
+        "syllogism": "Some students are aliens from Mars. There is no teacher who is an educator. Any lesson taught is a lie. There are no classrooms with desks. Among the people that are teachers, a certain amount are professors. It must be true that some professors are not educators.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            1,
+            4
+        ]
     },
     {
         "id": "a26621c5-459c-486c-9259-3fb7ff9272ca",
-        "syllogism": "Of the creatures that are felines, some of them are pets. There are no collars made for fish. Every single dog is a loyal companion. Some animals live in houses. Any creature with fur needs grooming. The group of mammals includes some creatures that are pets. The result of this is that some mammals are not felines."
+        "syllogism": "Of the creatures that are felines, some of them are pets. There are no collars made for fish. Every single dog is a loyal companion. Some animals live in houses. Any creature with fur needs grooming. The group of mammals includes some creatures that are pets. The result of this is that some mammals are not felines.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "eee75091-95f2-4c95-a894-401df567d4b3",
-        "syllogism": "Any cow is a river. Every fish is an animal. There are no pigs that are not made of fire. Every single dog is a plant. Some cats are made of stone. Every single bird is an animal. It follows that all birds are fish."
+        "syllogism": "Any cow is a river. Every fish is an animal. There are no pigs that are not made of fire. Every single dog is a plant. Some cats are made of stone. Every single bird is an animal. It follows that all birds are fish.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "34cb920c-43c0-4d95-a5b4-8fdcbb68a062",
-        "syllogism": "It is true that all libraries are underwater. Any paper is a sheet of ice. Every single book is made of water. There are no pencils that are not made of rain. Every shelf is made of liquid. Some novels are not made of water. This implies that some novels are not books."
+        "syllogism": "It is true that all libraries are underwater. Any paper is a sheet of ice. Every single book is made of water. There are no pencils that are not made of rain. Every shelf is made of liquid. Some novels are not made of water. This implies that some novels are not books.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "dbe4a7bc-a59b-496b-8ae1-c389d6e1e484",
-        "syllogism": "It is a fact that all rivers are animals. Any mountain is an animal. Some stones are animals. Every single tree is an animal. Anything that is a reptile is an animal. Every single thing that is a bird is an animal. This means some birds are reptiles."
+        "syllogism": "It is a fact that all rivers are animals. Any mountain is an animal. Some stones are animals. Every single tree is an animal. Anything that is a reptile is an animal. Every single thing that is a bird is an animal. This means some birds are reptiles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "cb51d42c-9b7e-461c-8b85-1199dec34bff",
-        "syllogism": "There is no such thing as a dog that is a fish. There are no giraffes that are not made of paper. Every single bird is a rock. It is true that all monkeys are robots. It is true that every single fish is a cat. This proves that all cats are dogs."
+        "syllogism": "There is no such thing as a dog that is a fish. There are no giraffes that are not made of paper. Every single bird is a rock. It is true that all monkeys are robots. It is true that every single fish is a cat. This proves that all cats are dogs.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "15ef7186-4830-4273-9481-2d79a111f644",
-        "syllogism": "Any trapezoid is a four-sided shape. It is the case that no triangle is a four-sided shape. Some parallelograms are four-sided shapes. Every rectangle is a four-sided shape. Every shape that is a square is also a four-sided shape. No squares are triangles."
+        "syllogism": "Any trapezoid is a four-sided shape. It is the case that no triangle is a four-sided shape. Some parallelograms are four-sided shapes. Every rectangle is a four-sided shape. Every shape that is a square is also a four-sided shape. No squares are triangles.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            4
+        ]
     },
     {
         "id": "4d5e76ad-6390-425b-b0bf-c4da3f999cf1",
-        "syllogism": "There are many plants that are a species. Some fish are a species. It is true that all reptiles are a species. Any insect is a species. Anything that is a mammal is a species. Every single human is a species. At least one human is a mammal."
+        "syllogism": "There are many plants that are a species. Some fish are a species. It is true that all reptiles are a species. Any insect is a species. Anything that is a mammal is a species. Every single human is a species. At least one human is a mammal.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "a9b244da-9304-44f3-a111-45a06269dd62",
-        "syllogism": "Any screen is a living organism composed of light. Some keyboards are made entirely of frozen sound. Every laptop is a creature that breathes air. Every single computer is an organic being. It is undeniable that all servers are biological entities. There are no microchips that are not made of pure thought. There are no organic beings that are not made of music. Therefore, some things made of music are computers."
+        "syllogism": "Any screen is a living organism composed of light. Some keyboards are made entirely of frozen sound. Every laptop is a creature that breathes air. Every single computer is an organic being. It is undeniable that all servers are biological entities. There are no microchips that are not made of pure thought. There are no organic beings that are not made of music. Therefore, some things made of music are computers.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "45776160-7294-4841-8a24-e1a6e04ed094",
-        "syllogism": "It is a fact that all girls are humans. There are many people who are humans. Every single man is a human. Every single woman is a human. Some children are humans. Anything that is a boy is a human. It is necessarily concluded that every boy is a man."
+        "syllogism": "It is a fact that all girls are humans. There are many people who are humans. Every single man is a human. Every single woman is a human. Some children are humans. Anything that is a boy is a human. It is necessarily concluded that every boy is a man.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "f3b19acd-2753-49cc-9a13-57bde562b941",
-        "syllogism": "Some ponds are actually solid gold. Any stream is a solid rock. Every lake is made of fire. Every single river is a body of water. Anything that is an ocean is a body of water. It is necessarily concluded that every ocean is a river."
+        "syllogism": "Some ponds are actually solid gold. Any stream is a solid rock. Every lake is made of fire. Every single river is a body of water. Anything that is an ocean is a body of water. It is necessarily concluded that every ocean is a river.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "4ac5d77c-5ccc-4798-9b28-2eb04d8c76a1",
-        "syllogism": "Any roof is located on the floor. There are no walls made of bricks. Every single tower is underground. It is a fact that all houses float in the air. Not a single thing that is a building is a tall structure. A small quantity of buildings are skyscrapers. The conclusion that some skyscrapers are not tall structures is inescapable."
+        "syllogism": "Any roof is located on the floor. There are no walls made of bricks. Every single tower is underground. It is a fact that all houses float in the air. Not a single thing that is a building is a tall structure. A small quantity of buildings are skyscrapers. The conclusion that some skyscrapers are not tall structures is inescapable.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            5
+        ]
     },
     {
         "id": "4aa07758-d614-4fef-b297-fe9e06d37de3",
-        "syllogism": "There are many journals that are books. Some encyclopedias are books. Every textbook is a book. It is true that all biographies are books. Every single novel is a book. Any comic is a book. Everything that is a magazine is a book. This leads us to conclude that nothing that is a magazine is a novel."
+        "syllogism": "There are many journals that are books. Some encyclopedias are books. Every textbook is a book. It is true that all biographies are books. Every single novel is a book. Any comic is a book. Everything that is a magazine is a book. This leads us to conclude that nothing that is a magazine is a novel.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "b0e587d0-c3cb-470b-982d-0aa726812ade",
-        "syllogism": "There are no sheep that have four legs. It is true that all cows have no legs. It is not true that any animal has four legs. Any pig walks on its hands. Every single cat has two wings. Every dog is a type of animal. Therefore, no dog can be said to have four legs."
+        "syllogism": "There are no sheep that have four legs. It is true that all cows have no legs. It is not true that any animal has four legs. Any pig walks on its hands. Every single cat has two wings. Every dog is a type of animal. Therefore, no dog can be said to have four legs.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "dfe58145-f4d3-43be-b422-d06c91b3ee80",
-        "syllogism": "Every single carrot is a root vegetable. Any item that is a vegetable is also a plant. Any food that grows in a garden is a plant. There are no broccoli stalks that are not edible. Some fruits are healthy foods. There are some foods that are green and are also vegetables. Consequently, some green foods are plants."
+        "syllogism": "Every single carrot is a root vegetable. Any item that is a vegetable is also a plant. Any food that grows in a garden is a plant. There are no broccoli stalks that are not edible. Some fruits are healthy foods. There are some foods that are green and are also vegetables. Consequently, some green foods are plants.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "3289db62-657e-42f9-bfc1-c4565021af81",
-        "syllogism": "There are no creatures that are both cold-blooded and animals. Every single dog is a plant. Any whale is a bird that swims. There are no elephants that breathe air. It is true that all horses are insects. It is the case that no mammal is a cold-blooded creature. Consequently, a portion of mammals are not animals."
+        "syllogism": "There are no creatures that are both cold-blooded and animals. Every single dog is a plant. Any whale is a bird that swims. There are no elephants that breathe air. It is true that all horses are insects. It is the case that no mammal is a cold-blooded creature. Consequently, a portion of mammals are not animals.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "f9b55f8e-7db4-4097-b8af-17f9ef829243",
-        "syllogism": "Some beetles have hard outer shells. It is a known fact that all bees have wings. Any creature that is a fly is an insect. Anything and everything that is an ant possesses six legs. It is known that some ants are insects. Therefore, it is the case that a number of insects have six legs."
+        "syllogism": "Some beetles have hard outer shells. It is a known fact that all bees have wings. Any creature that is a fly is an insect. Anything and everything that is an ant possesses six legs. It is known that some ants are insects. Therefore, it is the case that a number of insects have six legs.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "a6edf3a3-a107-432d-9cc0-79f151a9d1d2",
-        "syllogism": "Any object that is a marker is a writing utensil. Some pens are writing utensils. There are a few brushes that are not writing utensils. It is true that all crayons are writing utensils. Any chalk is a writing utensil. There are some erasers that are not writing utensils. It must follow that some erasers are not markers."
+        "syllogism": "Any object that is a marker is a writing utensil. Some pens are writing utensils. There are a few brushes that are not writing utensils. It is true that all crayons are writing utensils. Any chalk is a writing utensil. There are some erasers that are not writing utensils. It must follow that some erasers are not markers.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "ee148adc-e7a2-4bae-90a3-0572ef4833d0",
-        "syllogism": "Some Earths are made of gas like Neptune. Every single Mars is actually Saturn. Anything that is Jupiter is a planet. There are no Uranuses that are not suns. Every single thing that is Venus is a planet. It is therefore true that every single thing that is Venus is a Jupiter."
+        "syllogism": "Some Earths are made of gas like Neptune. Every single Mars is actually Saturn. Anything that is Jupiter is a planet. There are no Uranuses that are not suns. Every single thing that is Venus is a planet. It is therefore true that every single thing that is Venus is a Jupiter.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "0f897c7f-ae9c-46e2-86ac-aa1ff570c76f",
-        "syllogism": "Some horses are animals with four legs. There are no sheep that are not animals with four legs. It is true that all cows are animals with four legs. There are no canines that are animals with four legs. All dogs are animals with four legs. Consequently, it can be said that some dogs are not canines."
+        "syllogism": "Some horses are animals with four legs. There are no sheep that are not animals with four legs. It is true that all cows are animals with four legs. There are no canines that are animals with four legs. All dogs are animals with four legs. Consequently, it can be said that some dogs are not canines.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "629a9065-98ec-4465-8457-549829947797",
-        "syllogism": "Any soda is a piece of wood. It is a fact that all milk is blue gas. There are no drinks that are wet. Some oil is dry sand. All water is a type of fluid. All liquids are also fluids. Therefore, all liquids must be water."
+        "syllogism": "Any soda is a piece of wood. It is a fact that all milk is blue gas. There are no drinks that are wet. Some oil is dry sand. All water is a type of fluid. All liquids are also fluids. Therefore, all liquids must be water.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "ba75f995-6ab0-4abc-83f7-718ee86d60bb",
-        "syllogism": "Every monarchy is a governing system. Any oligarchy is a governing system. There are many federations that are governing systems. Every form of democracy is a governing system. It is undeniable that all dictatorships are governing systems. Some republics are governing systems. Anarchy is in no way a governing system. It follows from this that anarchy is not a democracy."
+        "syllogism": "Every monarchy is a governing system. Any oligarchy is a governing system. There are many federations that are governing systems. Every form of democracy is a governing system. It is undeniable that all dictatorships are governing systems. Some republics are governing systems. Anarchy is in no way a governing system. It follows from this that anarchy is not a democracy.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "8a1a7f10-2c47-48f0-9e26-41303b895a6e",
-        "syllogism": "Nothing that is an asteroid is an automobile. Every single bus is a banana. It is true that all motorcycles are fish. Any bicycle is a cloud. Every single car is an automobile. The set of cars and the set of asteroids have no members in common."
+        "syllogism": "Nothing that is an asteroid is an automobile. Every single bus is a banana. It is true that all motorcycles are fish. Any bicycle is a cloud. Every single car is an automobile. The set of cars and the set of asteroids have no members in common.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            0,
+            4
+        ]
     },
     {
         "id": "f80e3732-269a-40f4-b6cc-107d8d3d66a6",
-        "syllogism": "Some trains are made of cheese. Any scooter is a cloud. There are no trucks that are not made of liquid. Every single boat is a hat. Every single car is a vehicle. Anything that is an airplane is a vehicle. It is necessarily concluded that every airplane is a car."
+        "syllogism": "Some trains are made of cheese. Any scooter is a cloud. There are no trucks that are not made of liquid. Every single boat is a hat. Every single car is a vehicle. Anything that is an airplane is a vehicle. It is necessarily concluded that every airplane is a car.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "24f0682f-6b31-4adb-976f-6029410c6715",
-        "syllogism": "It is a known fact that all wolves are canines. There are no fish that have lungs. Some reptiles lay eggs on land. Every mammal is an animal. All elephants are animals. It therefore follows that some elephants are mammals."
+        "syllogism": "It is a known fact that all wolves are canines. There are no fish that have lungs. Some reptiles lay eggs on land. Every mammal is an animal. All elephants are animals. It therefore follows that some elephants are mammals.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "8dbac007-0dcf-4ecd-ad9b-e4acb659c655",
-        "syllogism": "Every single newspaper is a nutritious meal. Anything that is a magazine is also something that can be eaten. Some novels taste like chocolate cake. There are no ink cartridges that are poisonous. A few magazines are also books. It must follow that a certain number of books are edible."
+        "syllogism": "Every single newspaper is a nutritious meal. Anything that is a magazine is also something that can be eaten. Some novels taste like chocolate cake. There are no ink cartridges that are poisonous. A few magazines are also books. It must follow that a certain number of books are edible.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            1,
+            4
+        ]
     },
     {
         "id": "56c26e55-e93d-4faa-8e39-f045c4f3aaab",
-        "syllogism": "It is a fact that all cabinets are furniture. There are many beds that are furniture. There are some things classified as tables that are not coffee tables. Some sofas are furniture. Every single thing which is a table is furniture. It follows from this that some items of furniture are not coffee tables."
+        "syllogism": "It is a fact that all cabinets are furniture. There are many beds that are furniture. There are some things classified as tables that are not coffee tables. Some sofas are furniture. Every single thing which is a table is furniture. It follows from this that some items of furniture are not coffee tables.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "03b0cd8d-5983-41c5-8821-d182a899eb41",
-        "syllogism": "Every single painter uses a brush. Some novels are written by authors. Among people, some are artists. Any creative work is made by a person. It is true that all sculptors create statues. There are no musicians who do not play instruments. There exist some people who are writers. It is suggested that some writers are artists."
+        "syllogism": "Every single painter uses a brush. Some novels are written by authors. Among people, some are artists. Any creative work is made by a person. It is true that all sculptors create statues. There are no musicians who do not play instruments. There exist some people who are writers. It is suggested that some writers are artists.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "6d7b1256-a518-47f2-9bcd-3714dd9632c6",
-        "syllogism": "Some verses are written in iambic pentameter. There are no poets who do not use words. Any literature that is a limerick is a poem. It is true that all haikus have three lines. It is the case that some sonnets are about love. Anything that is a sonnet is also a poem. It must follow that some poems are about love."
+        "syllogism": "Some verses are written in iambic pentameter. There are no poets who do not use words. Any literature that is a limerick is a poem. It is true that all haikus have three lines. It is the case that some sonnets are about love. Anything that is a sonnet is also a poem. It must follow that some poems are about love.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            4,
+            5
+        ]
     },
     {
         "id": "4957177b-62d0-49a3-8c47-f5e00154bb9c",
-        "syllogism": "Some clouds are made of solid steel. Any creature that has wings is a submarine. Every single airplane is a living organism. There is no animal that is a bird. It is true that all feathers are heavy as lead. There are no bats that are capable of flight. There are no creatures that fly that are birds. It can be deduced that there are no creatures that fly that are animals."
+        "syllogism": "Some clouds are made of solid steel. Any creature that has wings is a submarine. Every single airplane is a living organism. There is no animal that is a bird. It is true that all feathers are heavy as lead. There are no bats that are capable of flight. There are no creatures that fly that are birds. It can be deduced that there are no creatures that fly that are animals.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "9f9646cf-fd04-4199-a0b9-dc98ce41e054",
-        "syllogism": "Some flowers have teeth and bite people. Every single bush eats meat for dinner. Any plant that grows is a dangerous beast. Anything which is a tree is a carnivorous plant. There are some oaks which are trees. Therefore, a portion of oaks are carnivorous plants."
+        "syllogism": "Some flowers have teeth and bite people. Every single bush eats meat for dinner. Any plant that grows is a dangerous beast. Anything which is a tree is a carnivorous plant. There are some oaks which are trees. Therefore, a portion of oaks are carnivorous plants.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "307a4763-885c-4fbf-b65a-210cf45826b9",
-        "syllogism": "Some rivers flow into the ocean. Any coastline borders a large body of water. Nothing that is an ocean is a lake. It is true that all ponds are smaller than lakes. There are no fish that can live without water. A few things named large bodies of water are oceans. It is therefore the case that some large bodies of water are not lakes."
+        "syllogism": "Some rivers flow into the ocean. Any coastline borders a large body of water. Nothing that is an ocean is a lake. It is true that all ponds are smaller than lakes. There are no fish that can live without water. A few things named large bodies of water are oceans. It is therefore the case that some large bodies of water are not lakes.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "0d774391-b91a-497b-9e7d-8235af362146",
-        "syllogism": "There are no tables which are living things. Any rug is a plant. Some desks are made of clouds. It is true that all lamps are animals. Every single living thing is an organism. This means that all organisms are tables."
+        "syllogism": "There are no tables which are living things. Any rug is a plant. Some desks are made of clouds. It is true that all lamps are animals. Every single living thing is an organism. This means that all organisms are tables.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "47e2b96a-1104-49d6-9d11-9966ab53f012",
-        "syllogism": "Some peppers are hot and spicy. Any garden has soil for growing. It is true that all cucumbers are green. There are no salads without ingredients. Anything that is a vegetable is a plant. There are tomatoes, and all of them are plants. Based on this, it must be the case that every tomato is a vegetable."
+        "syllogism": "Some peppers are hot and spicy. Any garden has soil for growing. It is true that all cucumbers are green. There are no salads without ingredients. Anything that is a vegetable is a plant. There are tomatoes, and all of them are plants. Based on this, it must be the case that every tomato is a vegetable.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "f6ef80af-ed8d-4d48-926a-973e275667c4",
-        "syllogism": "It is true that all crocodiles are reptiles. There are no frogs that are mammals. Any salamander is an amphibian. A creature that is a snake is never a fish. Some turtles live in the ocean. Every single lizard has scales. A subset of snakes are reptiles. It follows directly that at least some reptiles are not fish."
+        "syllogism": "It is true that all crocodiles are reptiles. There are no frogs that are mammals. Any salamander is an amphibian. A creature that is a snake is never a fish. Some turtles live in the ocean. Every single lizard has scales. A subset of snakes are reptiles. It follows directly that at least some reptiles are not fish.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "2ad7dc35-74d6-4793-b723-26846cf691ee",
-        "syllogism": "There are no bees that make honey. Anything that is a bird is an animal. Every single spider has wings. Any fly is a type of eagle. Some ants are larger than elephants. It is a fact that all beetles chirp songs. There are insects, and all of them are animals. Based on this, it must be the case that every insect is a bird."
+        "syllogism": "There are no bees that make honey. Anything that is a bird is an animal. Every single spider has wings. Any fly is a type of eagle. Some ants are larger than elephants. It is a fact that all beetles chirp songs. There are insects, and all of them are animals. Based on this, it must be the case that every insect is a bird.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "8393ac24-24ad-4394-ae8e-8cbc8c61f96b",
-        "syllogism": "Fiction books are in no way true stories. Every single novel is a written book. It is a known fact that all libraries contain books. Some biographies are factual accounts. Every single fiction book is a work of literature. There are works of literature that are not true stories."
+        "syllogism": "Fiction books are in no way true stories. Every single novel is a written book. It is a known fact that all libraries contain books. Some biographies are factual accounts. Every single fiction book is a work of literature. There are works of literature that are not true stories.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            4
+        ]
     },
     {
         "id": "8cd03e24-ef06-4f1b-b735-d94e05d1eb1c",
-        "syllogism": "Some buses are clouds in the sky. It is true that all motorcycles are rivers. Every single vehicle is an object. Every single truck is a vegetable. Anything that is a car is also an object. Some cars fail to be vehicles."
+        "syllogism": "Some buses are clouds in the sky. It is true that all motorcycles are rivers. Every single vehicle is an object. Every single truck is a vegetable. Anything that is a car is also an object. Some cars fail to be vehicles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "61c9d8f8-07b6-4ec1-9f1b-835dea2a10fe",
-        "syllogism": "It is true that all servers are hardware components. Some calculators are tools for mathematics. Everything classified as a computer is an electronic device. Any laptop that functions is a portable computer. Every single smartphone is a handheld device. There are no microchips that are not made of silicon. Everything classified as a computer is a machine that processes data. Therefore, at least one machine that processes data is an electronic device."
+        "syllogism": "It is true that all servers are hardware components. Some calculators are tools for mathematics. Everything classified as a computer is an electronic device. Any laptop that functions is a portable computer. Every single smartphone is a handheld device. There are no microchips that are not made of silicon. Everything classified as a computer is a machine that processes data. Therefore, at least one machine that processes data is an electronic device.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            6
+        ]
     },
     {
         "id": "d890d599-1a8f-473b-9c38-0fb186678aef",
-        "syllogism": "Any pig is an insect. It is a fact that all sheep are reptiles. Some cows are birds that fly. Every single dog is a mammal. Every horse is a fish. There are no rabbits that are not made of metal. Anything that is a cat is a mammal. At least one cat is a dog."
+        "syllogism": "Any pig is an insect. It is a fact that all sheep are reptiles. Some cows are birds that fly. Every single dog is a mammal. Every horse is a fish. There are no rabbits that are not made of metal. Anything that is a cat is a mammal. At least one cat is a dog.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "a716d470-e44c-421b-a35e-91d8f3ca8aae",
-        "syllogism": "Every scientist is a researcher. It is undeniable that all doctors are professionals. There are many developers who are problem-solvers. Anything that's an engineer is a problem-solver. Civil engineers are, without exception, engineers. At least one civil engineer is a problem-solver."
+        "syllogism": "Every scientist is a researcher. It is undeniable that all doctors are professionals. There are many developers who are problem-solvers. Anything that's an engineer is a problem-solver. Civil engineers are, without exception, engineers. At least one civil engineer is a problem-solver.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "d987cc99-1b33-4afa-aae1-fbbe56c6476d",
-        "syllogism": "Any jeep has four wheels. A vehicle possessing four wheels is not a bicycle. It is a fact that all buses have four wheels. Every truck has four wheels. There are many SUVs that have four wheels. Every car is, by definition, a vehicle with four wheels. It is therefore true that a car is not a bicycle."
+        "syllogism": "Any jeep has four wheels. A vehicle possessing four wheels is not a bicycle. It is a fact that all buses have four wheels. Every truck has four wheels. There are many SUVs that have four wheels. Every car is, by definition, a vehicle with four wheels. It is therefore true that a car is not a bicycle.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "769f1a2c-ebed-44a0-814e-9c198804261c",
-        "syllogism": "It is a fact that all bulldogs are vegetables. Any husky is a type of car. There is no canine that is a cat. Every single puppy is a bird. Some of the cats are dogs. Thus, we can conclude that some dogs are not canines."
+        "syllogism": "It is a fact that all bulldogs are vegetables. Any husky is a type of car. There is no canine that is a cat. Every single puppy is a bird. Some of the cats are dogs. Thus, we can conclude that some dogs are not canines.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "d0b8b914-a230-44d4-b696-e2106bd3f063",
-        "syllogism": "It is true that all trucks drive on roads. There are no submarines that fly in the air. There are no cars which are boats. Some jets fly at high altitudes. Not a single thing that is an airplane is a car. From this, we can conclude that not all airplanes are boats."
+        "syllogism": "It is true that all trucks drive on roads. There are no submarines that fly in the air. There are no cars which are boats. Some jets fly at high altitudes. Not a single thing that is an airplane is a car. From this, we can conclude that not all airplanes are boats.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "63220c9d-68b9-4c91-b13a-944dc5786b3a",
-        "syllogism": "It is true that all buses carry passengers. Every single car travels on roads. There are no trains that fly in the air. Everything that is a vehicle is a thing with wheels. Some tires are made of rubber. A few bicycles are things with wheels. It is the case that some bicycles are vehicles."
+        "syllogism": "It is true that all buses carry passengers. Every single car travels on roads. There are no trains that fly in the air. Everything that is a vehicle is a thing with wheels. Some tires are made of rubber. A few bicycles are things with wheels. It is the case that some bicycles are vehicles.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "39583f48-9dae-4d73-815c-468168859509",
-        "syllogism": "Every journalist is a writer. Any person who writes a biography is a writer. There are a few screenwriters who are writers. Every single poet is a writer. It is true that all playwrights are writers. Anything that is a novelist is a writer. From this, it is stated that some novelists are poets."
+        "syllogism": "Every journalist is a writer. Any person who writes a biography is a writer. There are a few screenwriters who are writers. Every single poet is a writer. It is true that all playwrights are writers. Anything that is a novelist is a writer. From this, it is stated that some novelists are poets.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "6c546b15-947e-4209-b54d-1dab3dcfb147",
-        "syllogism": "There are no circles that are also three-sided figures. Some isosceles triangles are three-sided figures. It is a fact that all scalene triangles are three-sided figures. Every equilateral triangle is a three-sided figure. All figures that are triangles are, of course, three-sided figures. Circles are not triangles."
+        "syllogism": "There are no circles that are also three-sided figures. Some isosceles triangles are three-sided figures. It is a fact that all scalene triangles are three-sided figures. Every equilateral triangle is a three-sided figure. All figures that are triangles are, of course, three-sided figures. Circles are not triangles.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            4
+        ]
     },
     {
         "id": "4905adeb-9120-46bf-8878-da647116bf0d",
-        "syllogism": "No lawyer is a doctor. Every single judge presides in court. Some nurses care for patients. It is true that all dentists fix teeth. There are no surgeons who are not trained. The entire group of doctors is a subset of people. A certain number of people are not lawyers."
+        "syllogism": "No lawyer is a doctor. Every single judge presides in court. Some nurses care for patients. It is true that all dentists fix teeth. There are no surgeons who are not trained. The entire group of doctors is a subset of people. A certain number of people are not lawyers.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "46271fc1-e60a-4a89-b4b2-a7547b26cc6c",
-        "syllogism": "It is a fact that all rhythms are chaotic. Any tune is a scream. Nothing that is a song can be considered musical. Every single melody is noise. There are no operas that are musical. Every symphony is a song. It follows that no symphony is musical."
+        "syllogism": "It is a fact that all rhythms are chaotic. Any tune is a scream. Nothing that is a song can be considered musical. Every single melody is noise. There are no operas that are musical. Every symphony is a song. It follows that no symphony is musical.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "7588387a-645b-46e3-84e9-8038670b8d9d",
-        "syllogism": "Some tusks are actually floppy dog ears. Every single thing that is a dog is a mammal. Every single elephant is a type of chihuahua. Any creature weighing five tons is a puppy. Any and all elephants are also mammals. This implies that all elephants are dogs."
+        "syllogism": "Some tusks are actually floppy dog ears. Every single thing that is a dog is a mammal. Every single elephant is a type of chihuahua. Any creature weighing five tons is a puppy. Any and all elephants are also mammals. This implies that all elephants are dogs.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "3f02b060-8993-42aa-964d-6c2be3b89266",
-        "syllogism": "Any spinach is a vegetable. Every broccoli is a vegetable. Every single thing which is a carrot is a vegetable. Some peppers are vegetables. It is true that all onions are vegetables. There are many beans that are vegetables. It is also the case that every tomato is a vegetable. From this, it follows that no tomatoes are carrots."
+        "syllogism": "Any spinach is a vegetable. Every broccoli is a vegetable. Every single thing which is a carrot is a vegetable. Some peppers are vegetables. It is true that all onions are vegetables. There are many beans that are vegetables. It is also the case that every tomato is a vegetable. From this, it follows that no tomatoes are carrots.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "a9ea6af8-921f-46ee-b844-b64aac19b160",
-        "syllogism": "It is undeniable that all comets are celestial bodies. Every star is a celestial body. It is true that anything that is a planet is also a celestial body. There are many moons that are celestial bodies. No celestial bodies are plants. Therefore, it follows that some plants are not planets."
+        "syllogism": "It is undeniable that all comets are celestial bodies. Every star is a celestial body. It is true that anything that is a planet is also a celestial body. There are many moons that are celestial bodies. No celestial bodies are plants. Therefore, it follows that some plants are not planets.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "a599804f-3f16-4459-a572-3c34058e05e7",
-        "syllogism": "Every single stone is a refreshing drink. Of the items that are liquids, some are beverages. There are no ice cubes that melt. Any wooden plank is a bottle of soda. There are some solids that are beverages. It must be the case that some solids are liquids."
+        "syllogism": "Every single stone is a refreshing drink. Of the items that are liquids, some are beverages. There are no ice cubes that melt. Any wooden plank is a bottle of soda. There are some solids that are beverages. It must be the case that some solids are liquids.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "da2de9fe-09a9-4356-86ac-6ecc909ddf79",
-        "syllogism": "Every single train is a banana. Every single thing that is a car is a vehicle. Some boats are made of cotton candy. It is a fact that all planes are fish. Any scooter is a cloud. It is also the case that every bicycle is a vehicle. This leads to the conclusion that all bicycles are cars."
+        "syllogism": "Every single train is a banana. Every single thing that is a car is a vehicle. Some boats are made of cotton candy. It is a fact that all planes are fish. Any scooter is a cloud. It is also the case that every bicycle is a vehicle. This leads to the conclusion that all bicycles are cars.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "6fe5e92f-6e10-4b10-81a7-252f25b059a9",
-        "syllogism": "There are no owls that fly in the sky. Everything that is a fish is an animal. Any sparrow can swim across the Atlantic Ocean. It is a fact that all parrots have scales and fins. Any and all birds are also animals. This implies that all birds are fish."
+        "syllogism": "There are no owls that fly in the sky. Everything that is a fish is an animal. Any sparrow can swim across the Atlantic Ocean. It is a fact that all parrots have scales and fins. Any and all birds are also animals. This implies that all birds are fish.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "1d41bd45-1f67-4aa5-9f7c-049ff2ffdc59",
-        "syllogism": "Some leopards are birds with wings. There are no lions that are felines. There are no cheetahs that are animals. Every single tiger is a type of vegetable. Every single lion is a big cat. Some big cats fail to be felines."
+        "syllogism": "Some leopards are birds with wings. There are no lions that are felines. There are no cheetahs that are animals. Every single tiger is a type of vegetable. Every single lion is a big cat. Some big cats fail to be felines.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            1,
+            4
+        ]
     },
     {
         "id": "9086173e-68ed-4a6e-a7a6-c1520f002c9e",
-        "syllogism": "Some toddlers are humans who are learning to walk. There are no babies that are fully grown. There are some adults who are not children. Every single teenager is a young person. Any person who is five years old is a child. A number of people are adults. This means that some people are children."
+        "syllogism": "Some toddlers are humans who are learning to walk. There are no babies that are fully grown. There are some adults who are not children. Every single teenager is a young person. Any person who is five years old is a child. A number of people are adults. This means that some people are children.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "ad8147bf-ced8-424f-91d7-faad66b510ca",
-        "syllogism": "Some lentils are used in soups. Every single bean is a type of seed. Any and all peas are vegetables. There are no fruits that are not plants. There are some peas which are legumes. Consequently, some legumes are vegetables."
+        "syllogism": "Some lentils are used in soups. Every single bean is a type of seed. Any and all peas are vegetables. There are no fruits that are not plants. There are some peas which are legumes. Consequently, some legumes are vegetables.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "88a5de98-bf10-4fdb-a20f-a9b45cee699b",
-        "syllogism": "Some trains are made of cheese. It is true that all buses are tiny insects. Any scooter is a cloud. It is a fact that every single car is a vehicle. Likewise, it is true that all bicycles are vehicles. Therefore, it has been asserted that every car is a bicycle."
+        "syllogism": "Some trains are made of cheese. It is true that all buses are tiny insects. Any scooter is a cloud. It is a fact that every single car is a vehicle. Likewise, it is true that all bicycles are vehicles. Therefore, it has been asserted that every car is a bicycle.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "93337dcc-6bc5-4a63-a96e-61d304affa9c",
-        "syllogism": "It is undeniable that all spiders have exoskeletons. Anything that is an insect has an exoskeleton. Any bee is an insect that produces honey. Every beetle is an insect. Some insects are creatures with wings. Any creature that is an ant is an insect. Therefore, all ants have exoskeletons."
+        "syllogism": "It is undeniable that all spiders have exoskeletons. Anything that is an insect has an exoskeleton. Any bee is an insect that produces honey. Every beetle is an insect. Some insects are creatures with wings. Any creature that is an ant is an insect. Therefore, all ants have exoskeletons.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "16946699-e10d-47a5-9b36-613f655c1a90",
-        "syllogism": "It is a fact that all pears are fruits. Any peach is a fruit. Every banana is a fruit. There are apples that are fruits. There are many berries that are fruits. Every single orange is a fruit. As such, some oranges are not apples."
+        "syllogism": "It is a fact that all pears are fruits. Any peach is a fruit. Every banana is a fruit. There are apples that are fruits. There are many berries that are fruits. Every single orange is a fruit. As such, some oranges are not apples.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "6a64ecf4-3ea4-4606-8f40-49e2f1ea1f4b",
-        "syllogism": "There are a few squashes that are vegetables. It is true that all cabbages are vegetables. Every single thing which is a tomato is a vegetable. Every potato is a vegetable. It is also the case that some things which are fruits are vegetables. From this, it follows that all fruits are tomatoes."
+        "syllogism": "There are a few squashes that are vegetables. It is true that all cabbages are vegetables. Every single thing which is a tomato is a vegetable. Every potato is a vegetable. It is also the case that some things which are fruits are vegetables. From this, it follows that all fruits are tomatoes.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "c21b8df2-75bf-4fa1-bc23-cdd41dbef0df",
-        "syllogism": "Some minerals are found underground. Every single granite slab is a stone. It is true that all diamonds are very hard. Things that are rocks are in no way soft objects. There are no boulders that are light as feathers. Any pebble found on the beach is a rock. Anything that is a rock is also a hard substance. There exist hard substances that are not soft objects."
+        "syllogism": "Some minerals are found underground. Every single granite slab is a stone. It is true that all diamonds are very hard. Things that are rocks are in no way soft objects. There are no boulders that are light as feathers. Any pebble found on the beach is a rock. Anything that is a rock is also a hard substance. There exist hard substances that are not soft objects.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "a79ac151-6d38-472a-ae67-c084c6f7577f",
-        "syllogism": "It is true that a portion of shapes are rectangles. There are no lines in a square. Every single circle has three corners. Any cube is a two-dimensional object. A few of the things that are squares are also shapes. From this, we can state that some squares are not rectangles."
+        "syllogism": "It is true that a portion of shapes are rectangles. There are no lines in a square. Every single circle has three corners. Any cube is a two-dimensional object. A few of the things that are squares are also shapes. From this, we can state that some squares are not rectangles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "995cbc73-39fd-4cfe-8e1c-d8bdd1e6adab",
-        "syllogism": "Any garage is a castle. There are no huts that are small. Every single shed is a palace. All houses are a type of structure. All buildings are also structures. Therefore, all buildings must be houses."
+        "syllogism": "Any garage is a castle. There are no huts that are small. Every single shed is a palace. All houses are a type of structure. All buildings are also structures. Therefore, all buildings must be houses.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "09c2a594-6f95-43ef-9cc7-694c7a0bc54e",
-        "syllogism": "It is a known fact that all tennis players use rackets. Every single swimmer is an athlete. There are no olympic games without sports. Any gymnast is a flexible person. Some footballers play in stadiums. The set of runners does not intersect with the set of basketball players. All individuals who play basketball are athletes. A portion of the group of athletes consists of individuals who are not runners."
+        "syllogism": "It is a known fact that all tennis players use rackets. Every single swimmer is an athlete. There are no olympic games without sports. Any gymnast is a flexible person. Some footballers play in stadiums. The set of runners does not intersect with the set of basketball players. All individuals who play basketball are athletes. A portion of the group of athletes consists of individuals who are not runners.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            5,
+            6
+        ]
     },
     {
         "id": "612f04e8-f1e4-47a1-96e7-f5ebbfd53d29",
-        "syllogism": "Some hinges are bones of a skeleton. All of the things that are doors are planets. There are no frames that are not made of flesh. It is true that all knobs are eyes of a beast. Any house that is built is actually a zoo. All of the things that are windows are planets. It can be deduced that there are windows that are planets."
+        "syllogism": "Some hinges are bones of a skeleton. All of the things that are doors are planets. There are no frames that are not made of flesh. It is true that all knobs are eyes of a beast. Any house that is built is actually a zoo. All of the things that are windows are planets. It can be deduced that there are windows that are planets.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "4569d355-f05e-4b78-b0f2-e60bf59c5db8",
-        "syllogism": "Any triangle has four sides like a box. It is true that no square is a triangle. It is true that all cubes are round balls. There are no corners on any square object. A few shapes are not triangles. This leads to the conclusion that all squares are circles."
+        "syllogism": "Any triangle has four sides like a box. It is true that no square is a triangle. It is true that all cubes are round balls. There are no corners on any square object. A few shapes are not triangles. This leads to the conclusion that all squares are circles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "5d54d5d6-084b-479c-b56e-057e10aed387",
-        "syllogism": "It is a fact that all branches are things that grow on trees. Every leaf is a thing that grows on a tree. Every fruit is a thing that grows on a tree. Any blossom is a thing that grows on a tree. Some nuts are things that grow on trees. Every banana is a thing that grows on a tree. Consequently, all bananas are fruits."
+        "syllogism": "It is a fact that all branches are things that grow on trees. Every leaf is a thing that grows on a tree. Every fruit is a thing that grows on a tree. Any blossom is a thing that grows on a tree. Some nuts are things that grow on trees. Every banana is a thing that grows on a tree. Consequently, all bananas are fruits.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "eb3441c7-818a-4cd3-9718-8f1147d580ff",
-        "syllogism": "It is true that all dolphins are butterflies. Any creature that is a fish is an insect. Every single shark is a bee. There are no octopuses that are not beetles. Some whales are ants. It is impossible for something to be a trout and an insect at the same time. Some trout are not fish."
+        "syllogism": "It is true that all dolphins are butterflies. Any creature that is a fish is an insect. Every single shark is a bee. There are no octopuses that are not beetles. Some whales are ants. It is impossible for something to be a trout and an insect at the same time. Some trout are not fish.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "945054aa-0df3-49fd-bb30-f64fd683e3cd",
-        "syllogism": "There are no lions that are animals. Every single kitten is a reptile. Some purring animals are insects. No single thing that is a feline is a mammal. There are some cats that are also felines. This proves that some cats are not mammals."
+        "syllogism": "There are no lions that are animals. Every single kitten is a reptile. Some purring animals are insects. No single thing that is a feline is a mammal. There are some cats that are also felines. This proves that some cats are not mammals.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "437735e3-2c12-43a2-807d-831ba994ebb8",
-        "syllogism": "There are no mammals that are cold-blooded reptiles. Every single eagle is a bird of prey. It is a known fact that all ants are insects. There is no bird that is an tree. There are no wasps that are trees. It can be deduced that there are no wasps that are birds."
+        "syllogism": "There are no mammals that are cold-blooded reptiles. Every single eagle is a bird of prey. It is a known fact that all ants are insects. There is no bird that is an tree. There are no wasps that are trees. It can be deduced that there are no wasps that are birds.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "63554179-36e4-47cf-819e-6cadd9817e87",
-        "syllogism": "Any gravel path is made of stones. Some pebbles are smooth and round. There are no sapphires that are not jewels. There are some diamonds which are stones. Every single gem is a precious object. It is true that all minerals are natural substances. Anything that is a rock is also a stone. It's the case that some rocks fail to be diamonds."
+        "syllogism": "Any gravel path is made of stones. Some pebbles are smooth and round. There are no sapphires that are not jewels. There are some diamonds which are stones. Every single gem is a precious object. It is true that all minerals are natural substances. Anything that is a rock is also a stone. It's the case that some rocks fail to be diamonds.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "b1a1eae3-a52c-49d3-8d0b-a1d48d67e98e",
-        "syllogism": "Things that are animals are never photosynthetic organisms. There are many ferns that are photosynthetic organisms. It is a fact that all mosses are photosynthetic organisms. Some algae are photosynthetic organisms. Every tree is a photosynthetic organism. All flowers are photosynthetic organisms. It follows from this that some flowers are not animals."
+        "syllogism": "Things that are animals are never photosynthetic organisms. There are many ferns that are photosynthetic organisms. It is a fact that all mosses are photosynthetic organisms. Some algae are photosynthetic organisms. Every tree is a photosynthetic organism. All flowers are photosynthetic organisms. It follows from this that some flowers are not animals.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "91b7af6b-c5d4-4d6e-b60a-8e21a76fccd2",
-        "syllogism": "Any pentagon is a type of vegetable. Not a single thing that is a three-dimensional object is a shape. Some triangles are made of loud noises. It is a fact that all rectangles are emotions. Every single square is a liquid gas. There are no lines that are straight. Some things that are circles are considered three-dimensional objects. Thus, some circles are not shapes."
+        "syllogism": "Any pentagon is a type of vegetable. Not a single thing that is a three-dimensional object is a shape. Some triangles are made of loud noises. It is a fact that all rectangles are emotions. Every single square is a liquid gas. There are no lines that are straight. Some things that are circles are considered three-dimensional objects. Thus, some circles are not shapes.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            1,
+            6
+        ]
     },
     {
         "id": "1475cc9d-8754-463d-9243-bc3e967ea214",
-        "syllogism": "Any mammal is an animal with feathers. It is true that all reptiles are animals with feathers. Every single fish is an animal with feathers. Nothing that is a flying creature is an animal with feathers. Some insects are animals with feathers. There exists no bird that is also an animal with feathers. The group of birds and the group of flying creatures are the same."
-    },
-    {
-        "id": "4f8682c9-a995-4465-adc4-4fdbbe5f5c28",
-        "syllogism": "Some daisies are flowers. It is a fact that every rose is a flower. Any orchid is a flower. There are many violets that are flowers. It is undeniable that all lilies are flowers. It is also true that all roses are plants. Therefore, it is concluded that a few plants are flowers."
+        "syllogism": "Any mammal is an animal with feathers. It is true that all reptiles are animals with feathers. Every single fish is an animal with feathers. Nothing that is a flying creature is an animal with feathers. Some insects are animals with feathers. There exists no bird that is also an animal with feathers. The group of birds and the group of flying creatures are the same.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "91df55b5-dbf0-48b9-90a5-c81c400aa335",
-        "syllogism": "There are many nebulae that are celestial bodies. Any galaxy is a collection of celestial bodies. Every star is a celestial body. There are some things known as planets which do not possess the qualities of moons. It is true that all comets are celestial bodies. Every single planet is a celestial body. One can thus conclude that some celestial bodies are not moons."
-    },
-    {
-        "id": "caf53290-8920-42aa-89c2-158034f4b5fd",
-        "syllogism": "Some doctors are potatoes. It is a fact that all scientists are cabbages. It is true that anything that is a human is also a vegetable. There are no lawyers who are not onions. Some vegetables are intelligent beings. It can be logically inferred that some humans are not intelligent beings."
+        "syllogism": "There are many nebulae that are celestial bodies. Any galaxy is a collection of celestial bodies. Every star is a celestial body. There are some things known as planets which do not possess the qualities of moons. It is true that all comets are celestial bodies. Every single planet is a celestial body. One can thus conclude that some celestial bodies are not moons.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            5
+        ]
     },
     {
         "id": "ee0b38f6-82ac-4257-8922-21ea50eb0273",
-        "syllogism": "Every single circle is a type of fruit. Some triangles are liquid water. There are no polygons that have sides. It is a fact that all rectangles are invisible gases. Any geometry textbook is a cookery book. There are no squares which are objects. Every single square is a shape. Some shapes fail to be objects."
+        "syllogism": "Every single circle is a type of fruit. Some triangles are liquid water. There are no polygons that have sides. It is a fact that all rectangles are invisible gases. Any geometry textbook is a cookery book. There are no squares which are objects. Every single square is a shape. Some shapes fail to be objects.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            5,
+            6
+        ]
     },
     {
         "id": "77e383b5-af50-4901-8dda-9d315532f21f",
-        "syllogism": "Some cellos are string instruments. It is a fact that all harps are string instruments. Any banjo is a string instrument. Every violin is a string instrument. Any object that is a guitar is a string instrument. There are no drums that are also string instruments. A portion of drums are not guitars."
+        "syllogism": "Some cellos are string instruments. It is a fact that all harps are string instruments. Any banjo is a string instrument. Every violin is a string instrument. Any object that is a guitar is a string instrument. There are no drums that are also string instruments. A portion of drums are not guitars.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            4,
+            5
+        ]
     },
     {
         "id": "95208d09-fdd0-4bb4-a847-10c949c62401",
-        "syllogism": "Every accountant is a professional. Every doctor is a professional. Any dentist is a professional. It is true that all engineers are professionals. Anything that is a lawyer is a professional. There exist lawyers who are not doctors."
+        "syllogism": "Every accountant is a professional. Every doctor is a professional. Any dentist is a professional. It is true that all engineers are professionals. Anything that is a lawyer is a professional. There exist lawyers who are not doctors.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "916c151e-c286-4414-b43d-501c1ef0d2c6",
-        "syllogism": "It is true that all grass is a plant. Every tree is a plant. Any fern is a plant. Every bush is a plant. Every carrot is a plant. It follows that some carrots are not trees."
+        "syllogism": "It is true that all grass is a plant. Every tree is a plant. Any fern is a plant. Every bush is a plant. Every carrot is a plant. It follows that some carrots are not trees.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "f5c43a45-704e-433b-85de-aa8c847e0505",
-        "syllogism": "There are no creatures that are both reptiles and mammals. There are no whales that are fish. Every single bear is a mammal. Any animal that nurses its young is a mammal. It is true that all monkeys are primates. Some creatures have warm blood. The class of animals has members that are mammals. Consequently, some of the animals are not reptiles."
+        "syllogism": "There are no creatures that are both reptiles and mammals. There are no whales that are fish. Every single bear is a mammal. Any animal that nurses its young is a mammal. It is true that all monkeys are primates. Some creatures have warm blood. The class of animals has members that are mammals. Consequently, some of the animals are not reptiles.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            6
+        ]
     },
     {
         "id": "7edea914-950f-47e5-b191-bfa700fc79d3",
-        "syllogism": "Anything that is a human is a primate. Any chimpanzee is a primate. There are many gorillas that are primates. Every ape is a primate. It is undeniable that all lemurs are primates. The set of reptiles contains no primates. It can be said that some reptiles are not human beings."
+        "syllogism": "Anything that is a human is a primate. Any chimpanzee is a primate. There are many gorillas that are primates. Every ape is a primate. It is undeniable that all lemurs are primates. The set of reptiles contains no primates. It can be said that some reptiles are not human beings.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            5
+        ]
     },
     {
         "id": "2f621250-c430-423e-8764-e85de5612ffe",
-        "syllogism": "There are no pigs that are not made of glass. It is a fact that all horses are plants. Every single dog is an animal. Some fish are made of wood. Any cow is a cloud. Anything that is a cat is an animal. Therefore, a dog is a cat."
+        "syllogism": "There are no pigs that are not made of glass. It is a fact that all horses are plants. Every single dog is an animal. Some fish are made of wood. Any cow is a cloud. Anything that is a cat is an animal. Therefore, a dog is a cat.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "32409b79-c693-4333-aeb0-377c0e6e1e0b",
-        "syllogism": "Every single whale is a large mammal. It is true that all dogs are furry animals. Some animal is a mammal. There are no bears that are insects. Some creatures in the zoo are elephants. Any creature with a trunk is likely an elephant. There are elephants that are also mammals. This implies that all elephants are animals."
+        "syllogism": "Every single whale is a large mammal. It is true that all dogs are furry animals. Some animal is a mammal. There are no bears that are insects. Some creatures in the zoo are elephants. Any creature with a trunk is likely an elephant. There are elephants that are also mammals. This implies that all elephants are animals.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "ad6152dc-6788-4929-a6b4-96baa888d234",
-        "syllogism": "There are no bicycles that are vehicles. Every single truck is made entirely of cotton candy. It is a fact that all buses are smaller than ants. Some motorcycles are vehicles powered by hamsters. Every single item which is a car is a vehicle. This implies that all cars are bicycles."
+        "syllogism": "There are no bicycles that are vehicles. Every single truck is made entirely of cotton candy. It is a fact that all buses are smaller than ants. Some motorcycles are vehicles powered by hamsters. Every single item which is a car is a vehicle. This implies that all cars are bicycles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "a0013abe-3c31-457d-a8d8-627b672b3a11",
-        "syllogism": "Any spider is an animal. There are many worms that are animals. There is no bird that is an insect. It is a fact that all fish are animals. It is also true that no insect is a mammal. It follows from this that no mammal is a bird."
+        "syllogism": "Any spider is an animal. There are many worms that are animals. There is no bird that is an insect. It is a fact that all fish are animals. It is also true that no insect is a mammal. It follows from this that no mammal is a bird.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "5cc38609-ad0a-449a-9935-7de2b1766529",
-        "syllogism": "Some rocks are foods. Anything that is a cheese is a food. Every single car is a food. Any chair is a food. Every single fruit is a food. This means every fruit is a cheese."
+        "syllogism": "Some rocks are foods. Anything that is a cheese is a food. Every single car is a food. Any chair is a food. Every single fruit is a food. This means every fruit is a cheese.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "79738e33-f191-49fa-b0fd-b932fa0b3aed",
-        "syllogism": "Every single moon is made of solid butter. Some stars are actually giant marshmallows. It is a fact that all galaxies are made of yogurt. There is no planet that is not made of cheese. Every single thing made of cheese is a tiny insect. From this, it logically follows that a few tiny insects are planets."
+        "syllogism": "Every single moon is made of solid butter. Some stars are actually giant marshmallows. It is a fact that all galaxies are made of yogurt. There is no planet that is not made of cheese. Every single thing made of cheese is a tiny insect. From this, it logically follows that a few tiny insects are planets.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            4
+        ]
     },
     {
         "id": "e0559073-ff50-4367-a142-bde2eed73f6f",
-        "syllogism": "Some animals are carrots. Some onions can run very fast. Every single potato has a beating heart. There are no radishes that are not reptiles. It is a fact that all celery stalks are mammals. Any lettuce leaf is a living bird. A carrot is a vegetable. Therefore, some vegetables are animals."
+        "syllogism": "Some animals are carrots. Some onions can run very fast. Every single potato has a beating heart. There are no radishes that are not reptiles. It is a fact that all celery stalks are mammals. Any lettuce leaf is a living bird. A carrot is a vegetable. Therefore, some vegetables are animals.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            0,
+            6
+        ]
     },
     {
         "id": "bf8e2c3d-64e5-4654-9c62-63294e798edd",
-        "syllogism": "There are no bulldogs that are not siamese cats. Every single poodle is a type of tiger. It is true that all golden retrievers are lions. There are some cats who are mammals. Any animal that barks is a housecat. It is known that some dogs are mammals. It follows that some dogs are cats."
+        "syllogism": "There are no bulldogs that are not siamese cats. Every single poodle is a type of tiger. It is true that all golden retrievers are lions. There are some cats who are mammals. Any animal that barks is a housecat. It is known that some dogs are mammals. It follows that some dogs are cats.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "82c38676-a312-4f4d-8f72-31049cb2390d",
-        "syllogism": "There are no gloves that are not made of water. Every coat is a puddle. Some pants are made of gas. Any hat is a cloud. Any article of clothing that is a jacket is also a liquid. Some shirts, it is known, are not liquids. This necessarily implies that some shirts are not jackets."
+        "syllogism": "There are no gloves that are not made of water. Every coat is a puddle. Some pants are made of gas. Any hat is a cloud. Any article of clothing that is a jacket is also a liquid. Some shirts, it is known, are not liquids. This necessarily implies that some shirts are not jackets.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            5
+        ]
     },
     {
         "id": "1f0f0bc2-182b-473a-b09e-8529c1493ce2",
-        "syllogism": "Every single cloud is made of iron. Every part of the sky is a thing that is blue. Some raindrops are actually solid lead. It is true that the sun is made of cold ice. Every car is a thing that is blue. It follows that a few cars are the sky."
+        "syllogism": "Every single cloud is made of iron. Every part of the sky is a thing that is blue. Some raindrops are actually solid lead. It is true that the sun is made of cold ice. Every car is a thing that is blue. It follows that a few cars are the sky.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "975f4837-20c4-47cd-a4db-8aebfbe45a31",
-        "syllogism": "There is no mammal that is an insect. Any animal with four legs is a spider. Every single spaniel lays eggs. There are no canines with fur. The set of insects and the set of dogs are mutually exclusive. A portion of dogs are not mammals."
+        "syllogism": "There is no mammal that is an insect. Any animal with four legs is a spider. Every single spaniel lays eggs. There are no canines with fur. The set of insects and the set of dogs are mutually exclusive. A portion of dogs are not mammals.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "443d1f44-4667-4e8f-99c7-7fbb61012db9",
-        "syllogism": "Every single motorcycle uses fuel. Every car has an engine. It is a known fact that all planes fly. Some trains run on tracks. All boats also have engines. Therefore, some boats are not cars."
+        "syllogism": "Every single motorcycle uses fuel. Every car has an engine. It is a known fact that all planes fly. Some trains run on tracks. All boats also have engines. Therefore, some boats are not cars.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "fcf7ef11-b2a2-438c-9199-d698a216f76f",
-        "syllogism": "It is a known fact that all streams flow downhill. Every single lake is filled with water. Some seas are very deep and salty. Nothing that is a river is also an ocean. Any pond is a small body of water. There are no deserts that are covered in water. Among things classified as bodies of water, a number of them are rivers. From this, we can deduce that a portion of bodies of water are not oceans."
+        "syllogism": "It is a known fact that all streams flow downhill. Every single lake is filled with water. Some seas are very deep and salty. Nothing that is a river is also an ocean. Any pond is a small body of water. There are no deserts that are covered in water. Among things classified as bodies of water, a number of them are rivers. From this, we can deduce that a portion of bodies of water are not oceans.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "cbf0eeae-f616-4e06-a883-6550889e5ecc",
-        "syllogism": "Some flowers are moulded from synthetic polymers. It is true that all grass is actually green nylon. Any bush you see is an artificial decoration. Every single tree is manufactured in a factory. Anything and everything that is a plastic item is made of plastic. There are no roots that absorb water naturally. A number of plastic items are plants. Therefore, it is the case that some plants are made of plastic."
+        "syllogism": "Some flowers are moulded from synthetic polymers. It is true that all grass is actually green nylon. Any bush you see is an artificial decoration. Every single tree is manufactured in a factory. Anything and everything that is a plastic item is made of plastic. There are no roots that absorb water naturally. A number of plastic items are plants. Therefore, it is the case that some plants are made of plastic.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            6
+        ]
     },
     {
         "id": "3945049f-dac7-47f3-8ad0-8561c10cb888",
-        "syllogism": "Some walls are made of air. Every single roof is made of clouds. It is true that some things that are sheds are not structures. Any window is a hole in the fabric of reality. All sheds are houses. It logically follows that there are some houses that are not structures."
+        "syllogism": "Some walls are made of air. Every single roof is made of clouds. It is true that some things that are sheds are not structures. Any window is a hole in the fabric of reality. All sheds are houses. It logically follows that there are some houses that are not structures.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "b762e8f5-959c-44c9-bb16-3b6811435918",
-        "syllogism": "Any building that exists is a biological organism. It is a fact that all floors can speak English. There are no stairs that are not musical instruments. All of the things that are windows are animals. All of the things that are doors are animals. It can be deduced that there are doors that are windows."
+        "syllogism": "Any building that exists is a biological organism. It is a fact that all floors can speak English. There are no stairs that are not musical instruments. All of the things that are windows are animals. All of the things that are doors are animals. It can be deduced that there are doors that are windows.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "39f475a0-0e0b-474d-9ae1-854ccee75d5c",
-        "syllogism": "Some octagons have only two sides. It is a fact that all lines are curved. Any hexagon is a type of liquid. Every single shape is not a triangle. There are no angles in a triangle. Every single circle is a square. Of the items that are polygons, some are triangles. It must be the case that some polygons are not shapes."
+        "syllogism": "Some octagons have only two sides. It is a fact that all lines are curved. Any hexagon is a type of liquid. Every single shape is not a triangle. There are no angles in a triangle. Every single circle is a square. Of the items that are polygons, some are triangles. It must be the case that some polygons are not shapes.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "21bb5107-f3f4-4139-999f-a86b47ca52a9",
-        "syllogism": "Every single singer is a robot. Any concert is performed by ghosts. There are no drummers who are alive. It is true that all bands are holograms. Anything that is a human is not a non-living thing. Some guitarists are actually statues. The group of people known as musicians includes a few that are non-living things. It follows that some musicians are not humans."
+        "syllogism": "Every single singer is a robot. Any concert is performed by ghosts. There are no drummers who are alive. It is true that all bands are holograms. Anything that is a human is not a non-living thing. Some guitarists are actually statues. The group of people known as musicians includes a few that are non-living things. It follows that some musicians are not humans.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            6
+        ]
     },
     {
         "id": "c9f8a934-7cfd-49a1-a8be-fd73c25c0cc2",
-        "syllogism": "Some sofas are made of water. Every single table is a cloud. There are no rugs that are not made of fire. It is true that all beds are invisible. Every piece of furniture is a household item. Any lamp is a wild animal. No chair is a household item. Consequently, no chair is a furniture."
+        "syllogism": "Some sofas are made of water. Every single table is a cloud. There are no rugs that are not made of fire. It is true that all beds are invisible. Every piece of furniture is a household item. Any lamp is a wild animal. No chair is a household item. Consequently, no chair is a furniture.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            6
+        ]
     },
     {
         "id": "fddb42a1-b0b4-4fa1-937f-e8b452fc5651",
-        "syllogism": "Any piece of furniture that is a bed is also a piece of furniture. It is undeniable that all chairs are furniture. Every sofa is a piece of furniture. Some tables are pieces of furniture. Some metals are not pieces of furniture. Therefore, some metals are not beds."
+        "syllogism": "Any piece of furniture that is a bed is also a piece of furniture. It is undeniable that all chairs are furniture. Every sofa is a piece of furniture. Some tables are pieces of furniture. Some metals are not pieces of furniture. Therefore, some metals are not beds.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            0,
+            4
+        ]
     },
     {
         "id": "94946224-84ba-46d1-9a98-485fa76bd9b9",
-        "syllogism": "There are no leaves that are not made of fire. It is true that all grass is made of glass. No trees are things that are plants. Any weed is a cloud. Every single bush is a rock. All of the oaks are trees. This means that some oaks are not plants."
+        "syllogism": "There are no leaves that are not made of fire. It is true that all grass is made of glass. No trees are things that are plants. Any weed is a cloud. Every single bush is a rock. All of the oaks are trees. This means that some oaks are not plants.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            5
+        ]
     },
     {
         "id": "d945adae-55df-4eaa-8116-9921d9a4819e",
-        "syllogism": "It is a known fact that all crocodiles are cold-blooded. Mammals are never snakes. Any python is a large snake. There are no iguanas that have fur. Every single lizard lays eggs. Some turtles have hard shells. Some of the snakes are reptiles. There exist reptiles that are not mammals."
+        "syllogism": "It is a known fact that all crocodiles are cold-blooded. Mammals are never snakes. Any python is a large snake. There are no iguanas that have fur. Every single lizard lays eggs. Some turtles have hard shells. Some of the snakes are reptiles. There exist reptiles that are not mammals.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            6
+        ]
     },
     {
         "id": "4d72d72b-a3c7-43da-a66c-51e94da2fecf",
-        "syllogism": "It is a fact that all drills are silent. Some screwdrivers are made of jelly. There are no saws that can cut wood. The set of tools does not intersect with the set of cars. Any toolbox is filled with clouds. All automobiles are hammers. It is a logical consequence that some hammers are not tools."
+        "syllogism": "It is a fact that all drills are silent. Some screwdrivers are made of jelly. There are no saws that can cut wood. The set of tools does not intersect with the set of cars. Any toolbox is filled with clouds. All automobiles are hammers. It is a logical consequence that some hammers are not tools.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            5
+        ]
     },
     {
         "id": "65d9b1d7-e1c2-4bc2-b3b0-245c33be928e",
-        "syllogism": "Any concept that exists is made of wood. It is a fact that all emotions are visible objects. Everything classified as a thought is a liquid. Some dreams are made of solid concrete. Everything classified as a thought is made of glass. Therefore, at least one thing made of glass is a liquid."
+        "syllogism": "Any concept that exists is made of wood. It is a fact that all emotions are visible objects. Everything classified as a thought is a liquid. Some dreams are made of solid concrete. Everything classified as a thought is made of glass. Therefore, at least one thing made of glass is a liquid.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "ad639add-6b0f-45db-83c7-b73f242a8ce5",
-        "syllogism": "Some clouds are made of iron. There are no rivers that are not made of concrete. Every single gas is a solid. Any steam is a brick. Anything that is a liquid is a solid. It is true that all rain is made of rock. No solids are water. It can be logically inferred that some water is not a liquid."
+        "syllogism": "Some clouds are made of iron. There are no rivers that are not made of concrete. Every single gas is a solid. Any steam is a brick. Anything that is a liquid is a solid. It is true that all rain is made of rock. No solids are water. It can be logically inferred that some water is not a liquid.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            6
+        ]
     },
     {
         "id": "d0b0f737-2bb8-424a-a77a-5cce245a9425",
-        "syllogism": "It is a fact that all vines have leaves. Any herb has leaves. There are trees that have leaves. Every bush has leaves. There are many plants that have leaves. Some flowers have leaves. Every single oak has leaves. This means every oak is a tree."
+        "syllogism": "It is a fact that all vines have leaves. Any herb has leaves. There are trees that have leaves. Every bush has leaves. There are many plants that have leaves. Some flowers have leaves. Every single oak has leaves. This means every oak is a tree.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "e7844c3e-533f-4c79-adcb-9e9ff7a2d658",
-        "syllogism": "Any food that is a kale leaf is nutritious. Some green things are cabbages. There are no carrots that are blue. Some peppers are red or yellow. Every single cabbage is a vegetable. Therefore, some vegetables are green."
+        "syllogism": "Any food that is a kale leaf is nutritious. Some green things are cabbages. There are no carrots that are blue. Some peppers are red or yellow. Every single cabbage is a vegetable. Therefore, some vegetables are green.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            4
+        ]
     },
     {
         "id": "85c60967-410c-4f5a-8905-398f14ae3117",
-        "syllogism": "There are no hard drives that are not made of cheese. Anything that is part of a computer is an electronic device. Every single screen is a leaf. Any printer is a musical instrument. It is a fact that all cables are made of pasta. A keyboard is not an electronic device. It follows from this that no keyboard is part of a computer."
+        "syllogism": "There are no hard drives that are not made of cheese. Anything that is part of a computer is an electronic device. Every single screen is a leaf. Any printer is a musical instrument. It is a fact that all cables are made of pasta. A keyboard is not an electronic device. It follows from this that no keyboard is part of a computer.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "1c306341-624a-42e9-900b-273ab27ad0ea",
-        "syllogism": "Some giraffes have gills to breathe underwater. Any desert creature requires water to drown in. It is a fact that all lions swim like dolphins. Any fish lives in water. Every fish is an animal. This means that all animals live in water."
+        "syllogism": "Some giraffes have gills to breathe underwater. Any desert creature requires water to drown in. It is a fact that all lions swim like dolphins. Any fish lives in water. Every fish is an animal. This means that all animals live in water.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "75710dae-ffc2-42d9-9dd6-7a7c1613fec3",
-        "syllogism": "Anything that is a dog is a mammal. Every horse is a mammal. Some cows are mammals. There are many rabbits that are mammals. Anything that is a cat is a mammal. Therefore, a cat cannot be a dog."
+        "syllogism": "Anything that is a dog is a mammal. Every horse is a mammal. Some cows are mammals. There are many rabbits that are mammals. Anything that is a cat is a mammal. Therefore, a cat cannot be a dog.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "af29ebc7-9bdb-4bd3-8fac-22c7ab69d3a1",
-        "syllogism": "It is undeniable that all bacteria are living things. Some organisms are living things. There are many creatures that are living things. All things that are plants are living things. Any fungus is a living thing. Every animal is a living thing. There are no living things that are stones. This proves that no stone is a plant."
+        "syllogism": "It is undeniable that all bacteria are living things. Some organisms are living things. There are many creatures that are living things. All things that are plants are living things. Any fungus is a living thing. Every animal is a living thing. There are no living things that are stones. This proves that no stone is a plant.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "8242404a-eff1-4707-91cd-aed3de032957",
-        "syllogism": "Some sculptures are works of art. Every person who is a musician is an artist. There are no symphonies that are not musical compositions. It is a known fact that all composers write music. Every single painter is a creative individual. Some humans are musicians. This means that there are some artists who are humans."
+        "syllogism": "Some sculptures are works of art. Every person who is a musician is an artist. There are no symphonies that are not musical compositions. It is a known fact that all composers write music. Every single painter is a creative individual. Some humans are musicians. This means that there are some artists who are humans.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            5
+        ]
     },
     {
         "id": "ca9acda9-4737-4fd4-88b7-14edf5702308",
-        "syllogism": "It is true that all grass is a type of bird. Every single fern is a car. Some mosses are made of plastic. It is a fact that every single tree is a plant. Likewise, it is true that all roses are plants. Therefore, it has been asserted that every rose is a tree."
+        "syllogism": "It is true that all grass is a type of bird. Every single fern is a car. Some mosses are made of plastic. It is a fact that every single tree is a plant. Likewise, it is true that all roses are plants. Therefore, it has been asserted that every rose is a tree.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "ee58f448-85b2-4fc6-be05-e24a5e7e818c",
-        "syllogism": "Any recliner is an item to sit on. There are no beanbags that are not items to sit on. Not a single piece of furniture is an item to sit on. It is a fact that all sofas are items to sit on. Every single item that is a chair is an item to sit on. This proves that a portion of chairs are not furniture."
+        "syllogism": "Any recliner is an item to sit on. There are no beanbags that are not items to sit on. Not a single piece of furniture is an item to sit on. It is a fact that all sofas are items to sit on. Every single item that is a chair is an item to sit on. This proves that a portion of chairs are not furniture.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "12765b4d-c030-4998-b96f-62b5893dd06f",
-        "syllogism": "It is a fact that all pentagons have two sides. Some triangles are perfectly round. There are some rectangles that are squares. Every single circle has four corners. Any line is a three-dimensional cube. There are no shapes that are flat. A portion of the items that are quadrilaterals are squares. It must be the case that some quadrilaterals are not rectangles."
+        "syllogism": "It is a fact that all pentagons have two sides. Some triangles are perfectly round. There are some rectangles that are squares. Every single circle has four corners. Any line is a three-dimensional cube. There are no shapes that are flat. A portion of the items that are quadrilaterals are squares. It must be the case that some quadrilaterals are not rectangles.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "449e791e-e126-4e77-a507-c3ae8530e9d7",
-        "syllogism": "Some leopards are fish. There are no panthers that are not made of wood. Not a single cat is a feline. Any jaguar is a reptile. Every single thing that is a tiger is a cat. It can be concluded that some tigers are not felines."
+        "syllogism": "Some leopards are fish. There are no panthers that are not made of wood. Not a single cat is a feline. Any jaguar is a reptile. Every single thing that is a tiger is a cat. It can be concluded that some tigers are not felines.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            4
+        ]
     },
     {
         "id": "81f3e580-217b-450c-ad63-ba8f2eba63d8",
-        "syllogism": "Any tiger is a vegetable. Every single human is a mammal. There are no bears that are not made of water. Some elephants are made of plastic. It is a fact that all lions are made of iron. Every single rabbit is a car. Every single cat is a mammal. Every cat is a human."
+        "syllogism": "Any tiger is a vegetable. Every single human is a mammal. There are no bears that are not made of water. Some elephants are made of plastic. It is a fact that all lions are made of iron. Every single rabbit is a car. Every single cat is a mammal. Every cat is a human.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "65fa0607-719c-4cf2-bdec-7a7f4c370ddd",
-        "syllogism": "It is undeniable that all whales are mammals. It is the case that no mammal is an insect. Some bears are mammals. Every tiger is a mammal. All elephants are categorized as mammals. Therefore, it can be concluded that no elephants are insects."
+        "syllogism": "It is undeniable that all whales are mammals. It is the case that no mammal is an insect. Some bears are mammals. Every tiger is a mammal. All elephants are categorized as mammals. Therefore, it can be concluded that no elephants are insects.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            4
+        ]
     },
     {
         "id": "94d768b0-bda6-4038-89be-8e1686a88fa7",
-        "syllogism": "Every single fire is made of ice. It is a fact that all deserts are covered in snow. Some lava is freezing cold. Anything that is a star is cold. There are no flames that are hot. Any oven is a refrigerator. Every single sun is a star. There exists at least one sun that is cold."
+        "syllogism": "Every single fire is made of ice. It is a fact that all deserts are covered in snow. Some lava is freezing cold. Anything that is a star is cold. There are no flames that are hot. Any oven is a refrigerator. Every single sun is a star. There exists at least one sun that is cold.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            6
+        ]
     },
     {
         "id": "9f7899bc-1f58-4586-a8e4-e55f63d085a2",
-        "syllogism": "Every carrot is a plant. Any farmer grows crops. There are no gardens without soil. Every single onion is a bulb. Some vegetables are plants as well. Therefore, some vegetables are not carrots."
+        "syllogism": "Every carrot is a plant. Any farmer grows crops. There are no gardens without soil. Every single onion is a bulb. Some vegetables are plants as well. Therefore, some vegetables are not carrots.",
+        "validity": false,
+        "plausibility": true,
+        "relevant_premises": []
     },
     {
         "id": "4e2a8aa6-3244-4638-b52f-26f98f84a5b1",
-        "syllogism": "Any salad you eat is actually a saw. There are no tacos that are not screwdrivers. It is true that all pasta dishes are wrenches. Some tools are pizza. Some sandwiches are used to tighten screws. A slice of pizza is a type of food. As such, some food are tools."
+        "syllogism": "Any salad you eat is actually a saw. There are no tacos that are not screwdrivers. It is true that all pasta dishes are wrenches. Some tools are pizza. Some sandwiches are used to tighten screws. A slice of pizza is a type of food. As such, some food are tools.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            3,
+            5
+        ]
     },
     {
         "id": "440e974e-02f5-453b-8f9b-98c6d26c65f9",
-        "syllogism": "There are no branches that are not made of glass. It is a fact that all soil is made of candy. Some roots are made of pure gold. Any forest is a collection of cardboard boxes. Anything that is a tree is made of paper. Every single oak is a tree. Consequently, there are no oaks which are not made of paper."
+        "syllogism": "There are no branches that are not made of glass. It is a fact that all soil is made of candy. Some roots are made of pure gold. Any forest is a collection of cardboard boxes. Anything that is a tree is made of paper. Every single oak is a tree. Consequently, there are no oaks which are not made of paper.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            4,
+            5
+        ]
     },
     {
         "id": "10bb3e13-ef4b-4ee9-9d26-f84df8b4eef7",
-        "syllogism": "Some office blocks are made of straw. It is true that all cathedrals are small huts. Every single tower is a bungalow. Anything that is a house is a building. There are skyscrapers, and all of them are buildings. Based on this, it must be the case that every skyscraper is a house."
+        "syllogism": "Some office blocks are made of straw. It is true that all cathedrals are small huts. Every single tower is a bungalow. Anything that is a house is a building. There are skyscrapers, and all of them are buildings. Based on this, it must be the case that every skyscraper is a house.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "d2fbeddb-ad92-4df0-9782-a2cf057c00d7",
-        "syllogism": "Every flower is a plant. All of the things that are trees are plants. Any vine is a plant. It is a fact that all moss is a plant. Some bushes are plants. There are many herbs that are plants. It is the case that no plants are planets. Thus, no planet is a tree."
+        "syllogism": "Every flower is a plant. All of the things that are trees are plants. Any vine is a plant. It is a fact that all moss is a plant. Some bushes are plants. There are many herbs that are plants. It is the case that no plants are planets. Thus, no planet is a tree.",
+        "validity": true,
+        "plausibility": true,
+        "relevant_premises": [
+            1,
+            6
+        ]
     },
     {
         "id": "74f5886c-08f6-4ee9-b97f-480ff3ca2007",
-        "syllogism": "It is a fact that all televisions are birds. Any camera is a fish. Every single computer is a fruit. There are no radios that are not made of water. Some tablets are made of cheese. There is no book which is an electronic device. It is also true that no electronic device is a phone. It follows that every phone is a book."
+        "syllogism": "It is a fact that all televisions are birds. Any camera is a fish. Every single computer is a fruit. There are no radios that are not made of water. Some tablets are made of cheese. There is no book which is an electronic device. It is also true that no electronic device is a phone. It follows that every phone is a book.",
+        "validity": false,
+        "plausibility": false,
+        "relevant_premises": []
     },
     {
         "id": "3588e2e9-b582-4bf5-9c33-58283d42b60a",
-        "syllogism": "Every single page is a puddle of water. Some words are droplets of rain. Anything that is a book is made of liquid. It is true that all libraries are swimming pools. Any ink is actually solid rock. There are no covers that are not made of ice. Every single novel is a book. Consequently, some novels are made of liquid."
+        "syllogism": "Every single page is a puddle of water. Some words are droplets of rain. Anything that is a book is made of liquid. It is true that all libraries are swimming pools. Any ink is actually solid rock. There are no covers that are not made of ice. Every single novel is a book. Consequently, some novels are made of liquid.",
+        "validity": true,
+        "plausibility": false,
+        "relevant_premises": [
+            2,
+            6
+        ]
     }
 ]

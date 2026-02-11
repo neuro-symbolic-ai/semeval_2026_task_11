@@ -1,770 +1,1538 @@
 [
-    {
-        "id": "1a0094de-3636-48cb-8801-17717a2b9788",
-        "syllogism": "Alle dingen die dichters zijn, zijn schrijvers. Alle dingen die dichters zijn, zijn creatieve mensen. Hieruit volgt dat sommige creatieve mensen schrijvers zijn."
-    },
-    {
-        "id": "a980265f-e07a-4e65-a7dd-76a8751338f6",
-        "syllogism": "没有一种植物是灌木，又是动物。没有树木是灌木。因此，没有一棵树是动物。"
-    },
-    {
-        "id": "8f2f99ab-25fb-469e-9cfc-71467c3cccf3",
-        "syllogism": "Cada ser humano es un primate. Toda la colección de humanos es un subconjunto de personas. Una parte de las personas no son primates."
-    },
-    {
-        "id": "525bac06-7136-4770-a6da-19a35cab2610",
-        "syllogism": "Hakuna miduara ambayo ni polygons. Kila mduara mmoja ni pembetatu. Kuna pembetatu ambazo sio polygons."
-    },
-    {
-        "id": "0e5eccac-e294-42b0-96eb-f34acf0ceb1a",
-        "syllogism": "Все, что является кофе, является жидкостью. Все, что является водой, является жидкостью. В результате немного воды — это не кофе."
-    },
-    {
-        "id": "ed732d53-d206-41f3-a3dc-8c03dcc9d37b",
-        "syllogism": "Ningún coche es un avión. También es cierto que ninguna bicicleta es un coche. De ello se deduce que ninguna bicicleta es un avión."
-    },
-    {
-        "id": "834d9056-3a64-4342-be1a-10be9456f4fd",
-        "syllogism": "Er zijn geen zeshoeken die cirkels zijn. Onder de cirkels zijn er enkele vormen met zes zijden. Niet alle vormen met zes zijden zijn zeshoeken."
-    },
-    {
-        "id": "d3cc620e-2438-4c98-a79e-96f1ad1c849a",
-        "syllogism": "Il n'y a pas de chats qui soient des chiens. Pas un seul poisson n’est un chien. De là, nous pouvons dire que tous les poissons sont des chats."
-    },
-    {
-        "id": "14c5cb30-91db-4489-8cbb-f0ce8a396fdd",
-        "syllogism": "Nenhum animal é um gato. Pelo menos um cachorro é um animal. Há pelo menos um cachorro que é gato."
-    },
-    {
-        "id": "fb437353-9988-4fbb-bf9e-c550ae6e60ff",
-        "syllogism": "Il n'y a pas d'arbres qui soient des mammifères. Il n'y a pas d'arbres qui soient des arbustes. Par conséquent, aucun arbuste n’est un mammifère."
-    },
-    {
-        "id": "9bdc92be-0708-4acd-8271-cda879cc2602",
-        "syllogism": "Não existe animal que seja mineral. Nenhum cachorro é um mineral. Como resultado, nenhum cachorro é um animal."
-    },
-    {
-        "id": "094f2f4f-36f6-4dcf-b703-d4b12effbc30",
-        "syllogism": "এটা সত্য যে কিছু কুমির আসবাবপত্র।কুমির যা কিছু তা সরীসৃপ।ফলস্বরূপ, কিছু সরীসৃপ আসবাবপত্র যে ক্ষেত্রে হতে হবে."
-    },
-    {
-        "id": "0cb859e3-b7cf-411c-8616-f71e1e43e19e",
-        "syllogism": "Er zijn geen dieren die rotsen zijn. Het is ook waar dat geen enkele vogel rotsen is. Daarom wordt betoogd dat er geen vogels zijn die dieren zijn."
-    },
-    {
-        "id": "1f605900-fb2f-41f7-9191-0d1e08b8122e",
-        "syllogism": "Дело не в том, что газированные напитки — это вода. Вся существующая вода является напитком. Некоторые из существующих напитков не являются газировкой."
-    },
-    {
-        "id": "4e88a5ca-2ed3-4fe8-b8d6-32a58acaab84",
-        "syllogism": "జీవుడు మరియు జంతువు రెండూ లేవు. మనిషి అని తెలిసిన ఏ ఒక్క వస్తువు కూడా జీవి కాదు. మానవులలో కొంత భాగం జంతువులు కాదని ఇది నిరూపిస్తుంది."
-    },
-    {
-        "id": "51a7724d-80e2-4ee0-b45f-a39eedec648f",
-        "syllogism": "Non esiste persona intelligente che sia anche un corridore lento. Non esiste atleta che corra lentamente. Ciò significa che gli atleti non sono persone intelligenti."
-    },
-    {
-        "id": "735f9cfe-73ba-443d-bc47-929bdf348afa",
-        "syllogism": "Het is zo dat sommige muzikanten zangers zijn. Het is ook waar dat sommige dansers muzikanten zijn. Uit deze uitspraken kun je concluderen dat sommige dansers zangers zijn."
-    },
-    {
-        "id": "8b7e4bc2-dc6f-4207-bd39-e15bde988ac5",
-        "syllogism": "Ogni singola persona che è medico è un operatore sanitario. Un ingegnere non è un operatore sanitario. Da ciò si può concludere che nessun ingegnere è un medico."
-    },
-    {
-        "id": "cd3b3363-37b2-487e-a4ba-f36f26f74703",
-        "syllogism": "Не существует такой вещи, как здание, которое было бы стулом. Верно также и то, что ни один стул не является домом. Отсюда следует, что ни один дом не является зданием."
-    },
-    {
-        "id": "54dc1377-0261-4c16-af95-fa6e837b6540",
-        "syllogism": "El oxígeno es algo que es un elemento. Es imposible que el agua sea un elemento. Nada de lo que es agua es oxígeno."
-    },
-    {
-        "id": "a27bfbf5-54dd-47d6-904b-d999d045fd7d",
-        "syllogism": "Ни один фрукт не является одновременно и выпечкой. Ни одна выпечка не является камнем. В результате ни один камень не является фруктом."
-    },
-    {
-        "id": "963c540a-971f-4c75-8b51-abb3a504987c",
-        "syllogism": "Cada animal es una nube. Todos los animales son perros. Esto significa que cada perro es una nube."
-    },
-    {
-        "id": "e4178301-df8f-47f7-bc8b-130e68904862",
-        "syllogism": "Tout ce qui est une chaise est un meuble. Chaque objet qui est une chaise de bureau est une chaise. On peut en conclure que chaque chaise de bureau est un meuble."
-    },
-    {
-        "id": "23efcdf6-e40f-4da6-b834-09b576683e2c",
-        "syllogism": "任何职业都是需要技能的工作。作为一名医生行医是一种职业。因此，所有医生都必须具备技能。"
-    },
-    {
-        "id": "a6e441f6-ef07-4761-a2de-196d802c37fd",
-        "syllogism": "చెంచా అయిన ప్రతి ఒక్క వస్తువు సంగీత వాయిద్యమే. ఫోర్క్ అయిన ఏదైనా వస్తువు ఒక చెంచా. అందువల్ల, అన్ని ఫోర్క్‌లు సంగీత వాయిద్యాలే అని చెప్పాలి."
-    },
-    {
-        "id": "28608dbf-22a9-4fcd-97af-05149b762a40",
-        "syllogism": "Het is waar dat geen enkele auto een boot is. Het is een feit dat sedans geen boten zijn. Daarom zijn sommige sedans auto's."
-    },
-    {
-        "id": "21700c62-87ce-4a56-b92c-0603136a9e23",
-        "syllogism": "Todo lo que es un número nunca es un concepto. Un subconjunto de números enteros está compuesto de números. Por tanto, algunos números enteros no son conceptos."
-    },
-    {
-        "id": "1427a63e-c71d-473c-82f0-ef2d7980d2a1",
-        "syllogism": "Jeder Politiker ist ein Reptil. Es gibt einige Politiker, die Premierminister sind. Daraus muss man schließen, dass ein Teil der Premierminister Reptilien sind."
-    },
-    {
-        "id": "fd048dba-0796-42f0-a6b0-c531b5393d72",
-        "syllogism": "O conjunto das cobras e o conjunto dos lagartos são mutuamente exclusivos. Cada lagarto é um réptil. É uma consequência lógica que alguns répteis não sejam cobras."
-    },
-    {
-        "id": "79a6a4f1-95fe-4385-99f2-d87a029d6e53",
-        "syllogism": "Kein einziger Politiker ist ein Kind. Es stimmt auch, dass kein Schauspieler ein Politiker ist. Daraus folgt, dass kein Schauspieler ein Kind ist."
-    },
-    {
-        "id": "79d780f7-0f45-4abb-b74e-2f83c9e1c6cd",
-        "syllogism": "Tout ce qui est objet peut chanter de l'opéra. Il arrive que certaines lampes ne puissent pas chanter l'opéra. Cela conduit logiquement à la conclusion que certaines lampes ne sont pas des objets."
-    },
-    {
-        "id": "ed6cc81e-e798-478d-b910-230cba6c40a7",
-        "syllogism": "একটি ইলেকট্রনিক ডিভাইস একটি পর্দা সঙ্গে কোন বস্তু নেই. একটি ল্যাপটপ যে একটি জিনিস একটি পর্দা সঙ্গে একটি বস্তু নয়. এটি থেকে, আমরা অনুমান করতে পারি যে কিছু ল্যাপটপ ইলেকট্রনিক ডিভাইস নয়।"
-    },
-    {
-        "id": "d605c2e9-4adb-45b7-9871-5c38fa7cb52c",
-        "syllogism": "জীব কখনো কথা বলতে পারে না।প্রতিটি মানুষই একটি জীবন্ত প্রাণী।তাই কোনো মানুষ কথা বলতে পারে না।"
-    },
-    {
-        "id": "295d89e2-51ff-4b93-beb1-02a71e5210ac",
-        "syllogism": "Все, что является камнем, не является живым существом. Часть вещей, которые являются камнями, также являются камнями. Отсюда можно сделать вывод, что некоторые камни не являются живыми существами."
-    },
-    {
-        "id": "730749f1-0990-4b95-94a7-ae252ec0209e",
-        "syllogism": "所有松鼠都有毛皮。有一些松鼠也是树。这意味着一定数量的树木是有毛皮的生物。"
-    },
-    {
-        "id": "9035925b-22bf-4b70-9bae-1caa5fb090a6",
-        "syllogism": "De groep asteroïden en de groep dieren sluiten elkaar uit. Er zijn geen vruchten die dieren zijn. Asteroïden en fruit behoren niet tot dezelfde categorie."
-    },
-    {
-        "id": "70125ddb-b5a8-403a-8f61-b7784b695242",
-        "syllogism": "Il n’existe pas d’araignées qui soient des mammifères. Aucun insecte n'est considéré comme une araignée. Certains insectes ne sont pas des mammifères."
-    },
-    {
-        "id": "92427535-4c9f-485a-a2dd-1f116abc9fa6",
-        "syllogism": "Chaque prêtre est un homme. Tous les prêtres sont humains. Il s’ensuit que certains humains ne sont pas des hommes."
-    },
-    {
-        "id": "74186e65-643f-4843-8443-02e6ad512587",
-        "syllogism": "Kila ua ni mnyama. Hakuna Rose ni mnyama. Kuna maua ambayo sio maua."
-    },
-    {
-        "id": "9ff293bd-554c-4858-aff3-3b7bede232f9",
-        "syllogism": "O conjunto de letras do alfabeto e o conjunto de números são disjuntos. Cada número é uma vogal. Portanto, algumas vogais não são letras do alfabeto."
-    },
-    {
-        "id": "64de6256-16a8-4378-be6b-613d20d71a6f",
-        "syllogism": "Er bestaan ​​geen wezens die roofdieren zijn. Het is ook waar dat geen enkele prooi dieren zijn. Uit deze twee uitspraken kan worden geconcludeerd dat sommige prooien roofdieren zijn."
-    },
-    {
-        "id": "4a729564-eaeb-4ad0-ad1e-6650bfe992bf",
-        "syllogism": "Es cierto que algunos libros contienen imágenes. Cada libro es un material impreso. Por lo tanto, algunos materiales impresos tienen imágenes."
-    },
-    {
-        "id": "243ec258-430d-4a22-9eec-ee08ff723294",
-        "syllogism": "Non ci sono uccelli che siano mammiferi. Nessun pipistrello è considerato uccello. Alcuni pipistrelli non sono mammiferi."
-    },
-    {
-        "id": "2695b34b-ab4c-40e7-8e5f-4d3ec868e323",
-        "syllogism": "没有一张椅子是桌子。所有躺椅都是椅子。由此可见，有些躺椅不是桌子。"
-    },
-    {
-        "id": "cc371423-3ea9-4d03-a41b-e6538b858dfa",
-        "syllogism": "No hay vacas que sean reptiles. No es cierto que cualquier lagarto sea una vaca. Se da el caso de que algunas lagartijas son vacas."
-    },
-    {
-        "id": "a3af7489-e377-4235-9aca-a48018f2446a",
-        "syllogism": "I metalli non sono in alcun modo elementi. Non esistono elementi che siano solidi. È vero che nessun metallo è solido."
-    },
-    {
-        "id": "77280b1f-86d3-4978-8e24-911afb041753",
-        "syllogism": "ప్రతి ఒక్క మానవుడు క్షీరదమే. కీటకాలు అంటే క్షీరదాలు లేవు. ఏ కీటకం మానవుడు కాదని ఇది అనుసరిస్తుంది."
-    },
-    {
-        "id": "e5631f7b-ab47-450c-8a53-234b21ca674f",
-        "syllogism": "పిల్లులు కుక్కలు కావు. కుక్కలు ఏనుగులు కావు. అందువల్ల కొన్ని ఏనుగులు పిల్లులు అని అనుసరిస్తుంది."
-    },
-    {
-        "id": "42e7f0af-0813-4ec4-a3e3-9a07da8cd76c",
-        "syllogism": "Tout ce qui est une voiture est aussi un moyen de transport. Certaines voitures, qui sont des véhicules, peuvent être trouvées. Cela implique qu'une partie des véhicules sont des modes de transport."
-    },
-    {
-        "id": "11b8ca92-ad55-4294-a3c6-35c4908b497b",
-        "syllogism": "Jedes einzelne Rind ist ein Insekt. Nichts, was eine Kuh ist, ist ein Insekt. Man kann sagen, dass einige Kühe keine Rinder sind."
-    },
-    {
-        "id": "8e2668db-efc8-4ce6-8687-ac28fcb32e35",
-        "syllogism": "Не существует пауков, которые являются млекопитающими. Ни одно насекомое не считается пауком. Некоторые насекомые не являются млекопитающими."
-    },
-    {
-        "id": "a9439ee5-6ef1-4f23-acbd-fcf3446c1fee",
-        "syllogism": "పక్షులు అనే క్షీరదాలు లేవు. ఏదైనా సరీసృపాలు క్షీరదమే అన్నది నిజం కాదు. కొన్ని సరీసృపాలు పక్షులు అనే విషయం ఇది."
-    },
-    {
-        "id": "ad5b56d1-d0d0-48e0-b5a2-55bd1ab7f5f3",
-        "syllogism": "Hakuna televisheni ambazo sio hisia. Ni ukweli kwamba kila mhemko ni kiumbe mdogo. Hii inasababisha hitimisho kwamba mambo kadhaa madogo ni televisheni."
-    },
-    {
-        "id": "325efe21-8c46-4171-b870-190e28b307ff",
-        "syllogism": "Alle gereedschappen zijn dingen die kunnen worden omschreven als gemaakt van metaal. Het is zo dat geen enkele hamer iets van metaal is. Het is dus zo dat geen enkele hamer een stuk gereedschap is."
-    },
-    {
-        "id": "27f552a5-891c-4694-b2aa-f7c345d3ae30",
-        "syllogism": "并非所有羽毛都是纸制成的。没有一本书是一根羽毛。因此，没有一本书是纸做的。"
-    },
-    {
-        "id": "89a56316-a3ce-46c4-8a5e-8f553d2d6981",
-        "syllogism": "O conjunto dos animais aquáticos não tem intersecção com o conjunto dos vertebrados com brânquias. Todos os peixes são vertebrados com guelras. Os peixes não podem ser considerados animais aquáticos."
-    },
-    {
-        "id": "0ef838e7-a27c-4f33-a852-6dd37e9b0d62",
-        "syllogism": "Alles wat een stoel is, is een vloeistof. Alles wat een stoel is, is een gas. Bijgevolg zijn sommige gassen vloeistoffen."
-    },
-    {
-        "id": "fafec48c-8520-48aa-8868-a3161eab5774",
-        "syllogism": "Não existe vegetal que também seja uma baga. Alguns dos itens que são frutas não são bagas. Segue-se que algumas frutas não são vegetais."
-    },
-    {
-        "id": "79a5bc3c-3b34-4c2b-9927-04dc47bc93dd",
-        "syllogism": "Manche Tiere sind keine Fleischfresser. Es gibt einige Löwen, die Tiere sind. Folglich ist jeder Löwe ein Fleischfresser."
-    },
-    {
-        "id": "15428912-887a-473e-927d-b96da3ccb727",
-        "syllogism": "Les tables et les canapés ne se chevauchent pas. Une partie des canapés sont des meubles. Certains meubles ne sont pas des tables."
-    },
-    {
-        "id": "8b2091de-64b6-4c3d-8057-8ea0f518275b",
-        "syllogism": "Não existem plantas que sejam vegetais que também possam ser chamadas de carnívoras. Todo repolho é um vegetal. Portanto, nenhum repolho é carnívoro."
-    },
-    {
-        "id": "d6c103ed-48b9-476f-928b-372930ff2547",
-        "syllogism": "一切自行车都是带有踏板的交通工具。该滑板组不包含带有踏板的车辆。存在不是自行车的滑板。"
-    },
-    {
-        "id": "471b958f-12c1-473b-b660-e7bf6a7bc8a5",
-        "syllogism": "没有椅子是桌子。有些桌子是家具。这意味着有些家具不是椅子。"
-    },
-    {
-        "id": "df3818f6-ac5d-4cc3-8b73-a63b356b724e",
-        "syllogism": "Acontece que nenhuma carne é algo que cresce no solo. Cada vegetal é algo que cresce no solo. Pode-se deduzir que existem alguns vegetais que não são carnes."
-    },
-    {
-        "id": "71ce63cd-6cfe-4516-a4f0-b3153f751ced",
-        "syllogism": "Existem algumas plantas que são computadores. Cada computador é uma máquina. Assim, algumas máquinas são plantas."
-    },
-    {
-        "id": "3cbec47e-2693-47fe-8e9a-2afa90c0a833",
-        "syllogism": "Ni kesi kwamba hakuna nambari ni sehemu. Pia sio kesi kwamba decimal yoyote ni sehemu. Kwa hivyo, decimals zote ni nambari."
-    },
-    {
-        "id": "a6b9a38f-f372-4ffe-b48a-ea17557c2b24",
-        "syllogism": "Hakuna simba ambao ni mamalia. Hakuna tembo anayezingatiwa simba. Tembo wengine sio mamalia."
-    },
-    {
-        "id": "af28a974-3e5d-408e-9549-9ed33acf89b8",
-        "syllogism": "Ce n’est pas vrai que tous les chiens sont des caniches. Toute créature qui est un chien est un chien. Il s’ensuit donc que certains chiens ne sont pas des caniches."
-    },
-    {
-        "id": "03f61ab2-4d2d-4bef-bbf7-93147dd49130",
-        "syllogism": "উপন্যাস কোনোভাবেই নন-ফিকশন বই নয়।উপন্যাস যা কিছু তা একটি বই।এটা এমন যে কিছু বই নন-ফিকশন বই নয়।"
-    },
-    {
-        "id": "eb9e2873-3e72-42ff-a4de-c0e0f0036415",
-        "syllogism": "Algunas criaturas que son lagartos no son animales. Todo lo que es un lagarto es un reptil. Por tanto, se puede concluir que algunos reptiles no son animales."
-    },
-    {
-        "id": "9fa82985-9169-4636-b972-01d478e6360e",
-        "syllogism": "Kila buibui moja ni chombo cha muziki. Chochote ambacho ni tarantula ni buibui. Kwa hivyo, tarantulas zingine ni vyombo vya muziki."
-    },
-    {
-        "id": "33401764-6b38-4c64-8983-e1c1062d1f98",
-        "syllogism": "Não existem peixes que sejam insetos. É fato que nenhum inseto é um animal aquático. Isto leva à conclusão de que alguns animais aquáticos são peixes."
-    },
-    {
-        "id": "94062d61-4540-49d2-b040-2af4bc860cbc",
-        "syllogism": "Il n’est pas vrai que les animaux à sang chaud soient des reptiles. Certains animaux à sang chaud sont des chiens. Les chiens ne sont donc pas des reptiles."
-    },
-    {
-        "id": "b1769aba-611d-4aa9-a25a-394c14d97b59",
-        "syllogism": "No hay leones que sean gacelas. También se da el caso de que ningún tigre es una gacela. Por tanto, ningún tigre es un león."
-    },
-    {
-        "id": "a72b459b-ada0-479b-9289-7df3a908349b",
-        "syllogism": "একটি গ্রহ যা একটি স্বর্গীয় বস্তু হতে পারে না. পৃথিবী যা কিছু তা একটি গ্রহ।তাই এই সিদ্ধান্তে আসা যায় যে কোন পৃথিবীই মহাকাশীয় বস্তু নয়।"
-    },
-    {
-        "id": "88163ca8-bd47-4ec6-bc84-efc5923fa8fb",
-        "syllogism": "Er zijn geen zoogdieren die insecten zijn. Het is ook waar dat geen enkele hond insecten is. Daarom wordt beweerd dat er geen honden zijn die zoogdieren zijn."
-    },
-    {
-        "id": "70312fe3-c315-41e6-af39-09210c44f6f6",
-        "syllogism": "Todo lo que sea un planeta orbita una estrella. Cada cosa en la Tierra es un planeta. Existe al menos una parte de la Tierra que orbita una estrella."
-    },
-    {
-        "id": "bc05f308-0b8a-4c9a-9ab3-20479b8653e6",
-        "syllogism": "Hakuna samaki ambao ni mamalia. Hakuna mamalia ambao ni miamba. Inafuata kwamba miamba kadhaa ni samaki."
-    },
-    {
-        "id": "58aeed6e-5e10-4770-8642-f22981d061ae",
-        "syllogism": "గ్రహాలు అని చంద్రులు ఉండరు. ఏ నక్షత్రాలు చంద్రులు కావు అనే విషయం కూడా ఇదే. దీని నుండి, కొన్ని నక్షత్రాలు గ్రహాలు అని చెప్పబడింది."
-    },
-    {
-        "id": "6560647d-6e13-4095-bbbb-504011ff9a2e",
-        "syllogism": "Non una sola cosa che sia un edificio è un albero. Una parte delle cose che sono case sono edifici. Quindi è chiaro che alcune case non sono alberi."
-    },
-    {
-        "id": "25b7dd4a-82d4-45dd-907d-c8bfa77c5dab",
-        "syllogism": "একটি বড় মেশিন একটি যানবাহন নয়।জানা যায়, ট্রাকের একটি অংশ বড় মেশিন।এটি নিশ্চিত করে যে বেশ কয়েকটি ট্রাক যানবাহন নয়।"
-    },
-    {
-        "id": "66c02944-2444-4a21-87f3-4c6a4e3f2c7c",
-        "syllogism": "No se trata de que cada llave sea un objeto. Todo lo que sea una llave inglesa es una herramienta. Por tanto, se puede concluir que algunas herramientas no son objetos."
-    },
-    {
-        "id": "a3a39ff5-8c7c-49bf-b23f-50abe575a8f0",
-        "syllogism": "এমন কোন কুকুর নেই যে বিড়াল।এমন কোন বিড়াল নেই যা পশু।সুতরাং, প্রাণীদের একটি অংশ কুকুর।"
-    },
-    {
-        "id": "30cc1fd2-d0b2-4679-8a40-c737de2c6a8d",
-        "syllogism": "Es gibt keinen Kreis, der ein Dreieck ist. Kein Dreieck ist überhaupt ein Quadrat. Daher ist kein Quadrat ein Kreis."
-    },
-    {
-        "id": "7456ee77-ef88-4f4d-955c-b525b4668845",
-        "syllogism": "Niente di ciò che è pianta è un animale. Almeno un frutto è una pianta. Almeno un frutto è un animale."
-    },
-    {
-        "id": "c2ca08ab-0b24-4c69-871c-3ea2e3309137",
-        "syllogism": "ఒక్క క్షీరదం కూడా పక్షి కాదు. కొన్ని పెంపుడు జంతువులు క్షీరదాలు ఉన్నాయి. అందువలన, కొన్ని పెంపుడు జంతువులు పక్షులు."
-    },
-    {
-        "id": "4f37d2a5-f2d2-4615-982a-331b9cbe9be2",
-        "syllogism": "No hay animales que también sean plantas. De los elementos que son mamíferos, una parte no son plantas. De ello se deduce que algunos mamíferos no son animales."
-    },
-    {
-        "id": "11f637a0-e606-41de-b12a-dfe12dfb87f1",
-        "syllogism": "Es gibt keine Fleischfresser, die auch Pflanzenfresser sind. Es wird davon ausgegangen, dass eine Reihe von Löwen Fleischfresser sind. Daher sind einige Löwen keine Pflanzenfresser."
-    },
-    {
-        "id": "b0adc0e7-5435-4b7b-a957-82c87255700e",
-        "syllogism": "Não há professores que sejam alunos. Não é verdade que qualquer estudante seja um profissional. Um certo número de profissionais não são professores."
-    },
-    {
-        "id": "343a5a3e-16c8-4c63-b883-052f22ea3000",
-        "syllogism": "প্রতিটি পত্রিকাই একটি সাময়িকী।কিছু চিঠি সাময়িকী নয়।এটি যৌক্তিকভাবে এই উপসংহারে নিয়ে যায় যে কিছু চিঠি পত্রিকা নয়।"
-    },
-    {
-        "id": "e0f0cf16-5aa7-4e3f-a6ae-7e1ed05bbf59",
-        "syllogism": "Nessun elefante è un velocista professionista. Ogni singolo individuo che è un velocista olimpico è un velocista professionista. Ne consegue che una parte dei velocisti olimpici non sono elefanti."
-    },
-    {
-        "id": "e0f6b16e-3979-40d8-82ff-01b00edc2e18",
-        "syllogism": "Il est vrai qu’aucun carré n’a quatre côtés égaux. Tous les carrés parfaits sont des choses qui sont des carrés. La conclusion selon laquelle certains carrés parfaits n’ont pas quatre côtés égaux est nécessairement vraie."
-    },
-    {
-        "id": "fba9dd9e-2617-4b21-8a4c-ebd682d2419d",
-        "syllogism": "每只贵宾犬都是一只狗。所有贵宾犬都是动物。动物的一个子集不是狗。"
-    },
-    {
-        "id": "a56035bf-d2d3-46d3-8865-27b7846c5126",
-        "syllogism": "Tudo o que é um livro também é um objeto. É impossível que um objeto seja um sentimento. Portanto, podemos deduzir que alguns sentimentos não são livros."
-    },
-    {
-        "id": "29aec5d0-43b1-4e65-baf7-5a69d3d6e397",
-        "syllogism": "Hakuna kitu ambacho ni sura ambayo ni takwimu ya jiometri. Duru zote ni takwimu za jiometri. Inafuata kutoka kwa hii kwamba duru zingine sio maumbo."
-    },
-    {
-        "id": "9d286c8e-0c97-4332-b63c-ba27fc32e348",
-        "syllogism": "Er is geen enkele cirkel die een veelhoek is. Elke vorm die een driehoek is, is een veelhoek. Driehoeken zijn geen cirkels."
-    },
-    {
-        "id": "84ae9313-2f3b-4ce5-9ced-737644159945",
-        "syllogism": "Elke kunstenaar is een creatief persoon. Elke schilder is een creatief persoon. Daarom zijn alle schilders kunstenaars."
-    },
-    {
-        "id": "f6ee2223-9624-4392-8189-4226b361e519",
-        "syllogism": "Jede einzelne Tasse kann als Behälter bezeichnet werden. Es gibt keine Behälter, die Gefühle sind. Es ist daher eine gute Schlussfolgerung, dass manche Gefühle keine Tassen sind."
-    },
-    {
-        "id": "b0275480-6465-4414-b9d1-7fa4c1a5ee88",
-        "syllogism": "Alles wat een leraar is, is een professional. Er zijn docenten die docenten zijn. Daarom zijn sommige docenten professionals."
-    },
-    {
-        "id": "67a4f302-fe12-4347-a5a7-125373ae6e0b",
-        "syllogism": "Entre los estudiantes, algunos han aprendido a codificar. Se considera que todos los que han aprendido a codificar han aprendido una habilidad. De ello se deduce que algunos de los que han aprendido una habilidad son estudiantes."
-    },
-    {
-        "id": "6a3912d2-fbfe-4fbc-877f-ca956282dfca",
-        "syllogism": "చేప ఏదైనా క్షీరదం కాదు. చేపలు అని తిమింగలాలు లేవు. పర్యవసానంగా, ప్రతి తిమింగలం సరీసృపాలు."
-    },
-    {
-        "id": "d0da7e98-3321-482c-b114-bac6a8f5c71a",
-        "syllogism": "కుక్కలు అనే జంతువులు కొన్ని ఉన్నాయి. పిల్లులన్నీ జంతువులే అన్నది కూడా నిజం. ఈ రెండు ప్రకటనల నుండి, కొన్ని పిల్లులు కుక్కలు కాదని నిర్ధారించవచ్చు."
-    },
-    {
-        "id": "14a48322-c73a-4e79-a8ab-04a9b4d559f9",
-        "syllogism": "形状事物的一部分也是四边形。在正方形的事物中，有些是形状的。由此，我们可以说并非所有的正方形都是四边形。"
-    },
-    {
-        "id": "235d9e5b-73a3-4f10-ac6c-6d60e8693c3f",
-        "syllogism": "Bidhaa yoyote iliyoainishwa kama meza ina uso ambao uko gorofa juu. Vipande kadhaa vya fanicha ya ofisi ni meza. Kwa hivyo, fanicha zingine za ofisi zina uso wa gorofa juu."
-    },
-    {
-        "id": "fd43035c-045c-4f27-8238-c6c51fbdd640",
-        "syllogism": "У каждого позвоночного есть позвоночник. Все существа, относящиеся к человеку, являются позвоночными. По крайней мере, у некоторых людей есть позвоночник."
-    },
-    {
-        "id": "26f1c895-ceba-49a2-b0d1-6fa858d98e56",
-        "syllogism": "Unter den Künstlern sind einige Wissenschaftler. Jeder einzelne Künstler ist ein Musiker. Es muss so sein, dass kein einziger Musiker ein Künstler ist."
-    },
-    {
-        "id": "7448654d-1b67-417c-8e36-918c53e8a1f4",
-        "syllogism": "Vitu vyote ambavyo ni mijusi ni vertebrates. Idadi ya mijusi pia ni reptilia. Kwa hivyo, reptilia zingine ni vertebrates."
-    },
-    {
-        "id": "4c762814-a34e-40ef-86ff-cefb24d6e5d7",
-        "syllogism": "Alle Stühle sind Wolken. Keine der Wolken ist ein Möbelstück. Daher ist kein Möbelstück ein Stuhl."
-    },
-    {
-        "id": "bf41199c-cdb9-49c6-a606-6109d5ec16e4",
-        "syllogism": "Eine bestimmte Anzahl von Studenten sind Sportler. Unter den Teenagern sind einige Studenten. Dies lässt uns feststellen, dass einige Teenager keine Sportler sind."
-    },
-    {
-        "id": "82a89276-2076-4a69-95ef-78636b092f3b",
-        "syllogism": "Es gibt keine Flüssigkeiten, die tierischen Ursprungs sind. Es stimmt auch, dass keine Tische Flüssigkeiten sind. Daher gibt es keine Tische mit Tieren."
-    },
-    {
-        "id": "818d3f86-e66d-45e6-b347-a73c2a3c843d",
-        "syllogism": "É verdade que nenhuma rocha é uma coisa inanimada. Nenhuma árvore é rocha. Segue-se que todas as árvores são coisas não vivas."
-    },
-    {
-        "id": "f1a7617c-3f1d-4aa1-a685-e2ed53f46d3c",
-        "syllogism": "Gli individui che sono scrittori non sono, in alcun modo, persone. Ogni scrittore è un individuo che scrive libri. Le persone non sono scrittori."
-    },
-    {
-        "id": "cd5fb935-7363-45b4-ab10-50fa485447c9",
-        "syllogism": "Ряд птиц — пингвины. Все пингвины — нелетающие животные. Следовательно, некоторые нелетающие животные являются птицами."
-    },
-    {
-        "id": "91d5d4bc-2295-494c-ac9f-74319ac189fc",
-        "syllogism": "任何有电话的东西都是鸟。所有鸟类都是由液体光构成的。从这些事实来看，很明显，手机是由液态光制成的一些东西。"
-    },
-    {
-        "id": "0fb75c34-6bea-4cf3-a1bc-4f1076a5c521",
-        "syllogism": "没有鸟类是哺乳动物。没有鱼类是哺乳动物。因此，有些鱼是鸟类。"
-    },
-    {
-        "id": "484e2490-f1d1-48b9-b44f-39eb8540275e",
-        "syllogism": "Absolument aucun chien n’est un amphibien. Aucun chat n’est amphibien. La seule conclusion est qu’aucun chat n’est un chien."
-    },
-    {
-        "id": "615403d0-4ba9-4739-9cee-f39e1be73ad6",
-        "syllogism": "任何鸟都有翅膀。每只昆虫都有翅膀。这意味着所有昆虫都是鸟类。"
-    },
-    {
-        "id": "1a8460fa-6c7c-4118-8610-9fab85aa6c32",
-        "syllogism": "Дело в том, что ни одно земноводное не является птицей. Все лягушки относятся к категории амфибий. Отсюда логически следует, что никакие лягушки не являются птицами."
-    },
-    {
-        "id": "497d159a-3702-4c43-8395-74a58f6ba139",
-        "syllogism": "Existem flores que não são animais. Cada flor é uma planta. Segue-se que nem uma única planta é um animal."
-    },
-    {
-        "id": "70649005-03c7-40f6-88b1-bc87f97c5429",
-        "syllogism": "এমন কোন কুকুর নেই যা বিড়াল।কিছু বিড়াল একটি বিড়াল।এটি অনুসরণ করে যে কোনও বিড়াল কুকুর নয়।"
-    },
-    {
-        "id": "15541c10-d7a3-4580-a09e-84182fb65d42",
-        "syllogism": "Não existem vegetais que sejam frutas. Tudo que é vegetal é planta. Acontece que algumas plantas deixam de ser frutos."
-    },
-    {
-        "id": "0a8e104e-5fd5-41e3-b410-e8bcc38b642b",
-        "syllogism": "每只蝴蝶都不是蚂蚁。有一些昆虫是蚂蚁。由此可见，有些昆虫不是蝴蝶。"
-    },
-    {
-        "id": "56283415-6c0a-42e6-9207-a37f1ed5cb23",
-        "syllogism": "যে কোন বস্তু যে একটি সেতু একটি মাছ. গোল্ডেন গেট মাছ নয়।এটি বোঝায় যে গোল্ডেন গেটটি সেতু নয়।"
-    },
-    {
-        "id": "9e69e5b8-bee5-41ad-bbe0-3bfea26b0819",
-        "syllogism": "Il est vrai qu'aucun chien n'est un chat. Aucun animal de compagnie n'est un chien. Il s’ensuit qu’aucun animal de compagnie n’est un chat."
-    },
-    {
-        "id": "6a4a6a96-2a79-4f42-9120-1cadc05fc95b",
-        "syllogism": "Hakuna baiskeli ambazo ni magari. Kila baiskeli moja ni gari. Magari mengine yanashindwa kuwa magari."
-    },
-    {
-        "id": "3b001a4a-e30b-48c7-bebb-2ce02b06637f",
-        "syllogism": "Есть камни, которые не легкие. Нет перьев, которые были бы камнями. Следовательно, каждое перо легкое."
-    },
-    {
-        "id": "9d5d2453-b206-4a17-8897-53ceaaa8b63a",
-        "syllogism": "বিড়াল বলে কোনো স্তন্যপায়ী প্রাণী নেই।কোনো বিড়ালই কুকুর নয়।ফলস্বরূপ, এটি উপসংহারে আসা যেতে পারে যে সমস্ত কুকুরই স্তন্যপায়ী।"
-    },
-    {
-        "id": "332a0a85-30f9-4341-b27c-e30197e0b994",
-        "syllogism": "Набор животных и набор растений исключают друг друга. Группа растений и группа кошек не пересекаются. Определенное количество кошек не являются животными."
-    },
-    {
-        "id": "fdeb867c-fd78-448e-9aab-8b528d533532",
-        "syllogism": "Die Gruppe der Sterne und die Gruppe der Monde sind völlig getrennt. Die Mondgruppe und die Planetengruppe sind disjunkt. Folglich sind einige Planeten keine Sterne."
-    },
-    {
-        "id": "e4563324-5364-418d-a8b7-ca1686a8df61",
-        "syllogism": "Non esiste una rana che sia un mammifero. Niente di ciò che è un rettile è un mammifero. Si può concludere che nessuna rana è un rettile."
-    },
-    {
-        "id": "23c32d17-4e6c-4589-b414-107f6421dfc7",
-        "syllogism": "Ni kweli kwamba kila mto ni mwili wa maji. Miili yote ya maji inachukuliwa kuwa matukio ya asili. Kwa hivyo tunaweza kuhitimisha kuwa matukio fulani ya asili ni mito."
-    },
-    {
-        "id": "6b72dcd6-fd40-49f2-ad05-ac7cf319b4dc",
-        "syllogism": "Не существует фруктов, которые являются планетами. Не существует планеты, которая была бы мясом. Следует сделать вывод, что некоторые виды мяса не являются фруктами."
-    },
-    {
-        "id": "04098300-a9af-411d-9d92-088df29f0a0e",
-        "syllogism": "Ni kesi kwamba hakuna matunda ni machungwa. Kila machungwa moja ni machungwa. Inafuata kutoka kwa hii kwamba machungwa kadhaa sio matunda."
-    },
-    {
-        "id": "a676f828-73d3-48f6-be30-2623625da25e",
-        "syllogism": "Es gibt keine Vögel, die Fische sind. Es stimmt auch, dass kein Fisch ein Säugetier ist. Man könnte daraus schließen, dass keine Säugetiere Vögel sind."
-    },
-    {
-        "id": "387ccffa-07d9-4b59-9668-aa5370d1594e",
-        "syllogism": "Ni kweli kwamba waganga wengine ni wataalamu. Waganga wote wanachukuliwa kuwa madaktari. Kwa hivyo, inafuata kimantiki kuwa madaktari wengine ni wataalamu."
-    },
-    {
-        "id": "8c3eb056-4c7d-46ed-8311-456035f8bdeb",
-        "syllogism": "పక్షులు ఏ విధంగానూ చేపలు కావు. ఉభయచరాలు అనే చేపలు లేవు. ఉభయచరాలు ఏ విధంగానూ పక్షులు కావు."
-    },
-    {
-        "id": "89899917-ed94-40ec-8601-0b69da754a08",
-        "syllogism": "Non esiste gatto che sia un uccello. Nessun uccello è un cane. È possibile concludere che nessun cane è un gatto."
-    },
-    {
-        "id": "a91ce532-15af-4906-a690-b0ff4d4ce829",
-        "syllogism": "È vero che nessuna maglietta è un pantalone. Tutte le magliette sono cose che sono camicie. Pertanto, alcune magliette non sono pantaloni."
-    },
-    {
-        "id": "3f37120d-8f38-41d2-aedb-9906f3fd3c7c",
-        "syllogism": "Cada livro é uma pessoa. Todos os livros são feitos de água. Portanto, algumas coisas feitas de água são pessoas."
-    },
-    {
-        "id": "2f1bc027-a95e-4087-a4d1-a15f3c7dd637",
-        "syllogism": "ప్రతి మనిషి రోబో. పిల్లలైన ఏ వ్యక్తి అయినా మానవుడే. ప్రతి బిడ్డ రోబో అని నిర్ధారించవచ్చు."
-    },
-    {
-        "id": "fc39ab38-fc18-44b4-a8e7-ddf8224f998b",
-        "syllogism": "Los científicos no son de ninguna manera profesores. No existen profesores que sean académicos. Es cierto que ningún científico es académico."
-    },
-    {
-        "id": "f1bea42f-abe8-43fd-b15d-eb33c62cec71",
-        "syllogism": "Ni kweli kwamba hakuna mwenyekiti aliyetengenezwa kwa kuni. Ni ukweli kwamba hakuna gari iliyotengenezwa kwa kuni. Kwa hivyo, magari mengine ni viti."
-    },
-    {
-        "id": "d44227b2-2b2e-4c8c-92c9-3415b1323d6a",
-        "syllogism": "Los insectos no son de ninguna manera mamíferos. No existen mamíferos que sean reptiles. Es cierto que ningún insecto es un reptil."
-    },
-    {
-        "id": "4f6a051b-b6bc-401d-bf4e-c77b4b3fe833",
-        "syllogism": "Non esiste oggetto che sia un insetto che sia anche un animale. Degli oggetti che sono formiche, una parte di essi sono animali. Deve essere vero che alcune formiche non sono insetti."
-    },
-    {
-        "id": "d71881bb-97b0-4154-85b8-bb49a95fedc2",
-        "syllogism": "任何属于裤子的衣服也是服装。众所周知，有些鞋子不是服装。这必然意味着有些鞋子不是裤子。"
-    },
-    {
-        "id": "196f3b9f-739b-45c8-b515-9009dbd14670",
-        "syllogism": "একটি কফি যা কিছু একটি তরল. চা যা কিছু তা তরল।ফলে কিছু চা কফি নয়।"
-    },
-    {
-        "id": "4c6df3a7-885f-4003-ba84-8a17fb279f9d",
-        "syllogism": "No es cierto que cualquier verdura sea computadora. No es cierto que ningún vegetal sea animal. Esto significa que las computadoras no son animales."
-    },
-    {
-        "id": "cb83372b-29bf-4c18-9077-b050fd6f5e21",
-        "syllogism": "Ogni singolo mobile canta l'opera. Non esistono sedie che non siano mobili. Alcune sedie cantano l'opera."
-    },
-    {
-        "id": "3550ed18-92b8-4bbe-bc64-12ce120e3eac",
-        "syllogism": "没有一种方言是官方语言。一些官方语言是口语系统。因此，某些口语系统不是方言。"
-    },
-    {
-        "id": "f1bb008a-0410-432b-b478-a34378d21244",
-        "syllogism": "È vero che nessuna stella è fredda. Alcuni pianeti sono freddi. Pertanto, tutti i pianeti sono stelle."
-    },
-    {
-        "id": "d3f30118-1d76-44fe-b781-0f5ca59c1064",
-        "syllogism": "Il n'y a pas de chien qui soit un chat. Parmi les chiens qui existent, un certain nombre sont des caniches. Il doit être vrai que certains caniches ne sont pas des chats."
-    },
-    {
-        "id": "834712fc-57e0-4e34-9a51-10ff1a43bf8e",
-        "syllogism": "Tra le creature che appartengono ai mammiferi, alcune sono cani. Ogni singola creatura che sia un mammifero è un animale. Deve essere vero che nessun animale è un cane."
-    },
-    {
-        "id": "b12fc6db-bfb1-40f9-8f77-453c9fb5a0e4",
-        "syllogism": "有一些昆虫是鸡。根据定义，所有鸡都是鸟类。因此，有些鸟类是昆虫。"
-    },
-    {
-        "id": "23987e66-ca96-4ac7-adc0-74233f4b872d",
-        "syllogism": "具有足够引力而接近圆形的天体绝不是小行星。一切可以归类为行星的天体都是具有足够引力的接近圆形的天体。行星与小行星不同。"
-    },
-    {
-        "id": "3833c1e0-8229-480c-a600-8ea9dd34cd08",
-        "syllogism": "కీటకాలు అనే చేపలు లేవు. క్షీరదాలు అనే చేపలు లేవు. పర్యవసానంగా, క్షీరదాలు ఏవీ కీటకాలు కావు."
-    },
-    {
-        "id": "8c0d6906-7d13-4dfa-992e-e6535c337f67",
-        "syllogism": "Дело в том, что ни одна рептилия не является птицей. Это также не тот случай, когда какая-либо птица является млекопитающим. Таким образом, не каждое млекопитающее является рептилией."
-    },
-    {
-        "id": "b2b10e70-a6c2-4039-b33c-f83c63f23406",
-        "syllogism": "Il n’existe pas de voitures liquides. Il n’y a pas de voitures qui soient des nuages. Certains nuages ​​sont donc liquides."
-    },
-    {
-        "id": "cfc5a2e0-56ee-459b-8bbf-04c56ad517c3",
-        "syllogism": "Ni kesi kwamba hakuna mbwa ni paka. Pia ni kesi kwamba hakuna ndege ni paka. Kwa hivyo, hakuna ndege ni mbwa."
-    },
-    {
-        "id": "3fb546db-f239-4494-8809-99a5d580567f",
-        "syllogism": "జంతువు అని మానవుడు లేడు. ఏ జంతువులు స్త్రీలు కావు. అందువల్ల, ఏ స్త్రీ కూడా మనిషి కాదు."
-    },
-    {
-        "id": "dd848d38-a877-49b5-b8fa-1438e88027a6",
-        "syllogism": "Jede einzelne vierseitige Form ist ein Rechteck. Alle vierseitigen Formen sind Quadrate. Daraus folgt, dass einige Quadrate keine Rechtecke sind."
-    },
-    {
-        "id": "c78c557c-4809-47a0-8286-ee3b176365be",
-        "syllogism": "మనుషులకు చెందిన కీటకాలు కూడా లేవు. కనీసం ఒక్క విద్యార్థి అయినా మనిషి. కనీసం ఒక విద్యార్థి కీటకం."
-    },
-    {
-        "id": "dbe92bc3-f074-4d82-ac6b-fcfaca3a773a",
-        "syllogism": "Ни один человек, являющийся спортсменом, не является одновременно человеком, не занимающимся спортом. Среди всех студентов есть люди, не занимающиеся спортом. Совершенно верно, что некоторые студенты не являются спортсменами."
-    },
-    {
-        "id": "7ff4af6d-5f00-4088-bd1c-edb77f97bba6",
-        "syllogism": "Het is een gegeven dat elk apparaat een plant is. Geen planten zijn telefoons. Daarom is het een noodzakelijke conclusie dat sommige telefoons geen apparaten zijn."
-    },
-    {
-        "id": "9c7f3e50-75b6-44dd-8e8f-46b62d37014f",
-        "syllogism": "Er is niets dat een kat is dat ook een hond is. Het is een feit dat geen enkele vis hond is. Daarom volgt hieruit dat sommige vissen katten zijn."
-    },
-    {
-        "id": "6d113ce6-4d1e-486c-a02c-92bc4b79d930",
-        "syllogism": "Каждая река представляет собой водоем. Никакие горы не входят в категорию водоемов. Дело в том, что некоторые горы не являются реками."
-    },
-    {
-        "id": "edf902f6-48d1-4564-bc03-996b98dcbfdd",
-        "syllogism": "Toute substance qui est de la vapeur d’eau est composée de granit. Certains nuages ​​sont composés de vapeur d’eau. Par conséquent, certains nuages ​​sont composés de granite."
-    },
-    {
-        "id": "d7828ad4-acbb-4ae9-ae3a-deafd6ca1c7e",
-        "syllogism": "Es gibt keinen Vogel, der ein Insekt ist. Es gibt einige Wespen, die Insekten sind. Daraus lässt sich ableiten, dass es keine Wespen gibt, die Vögel sind."
-    },
-    {
-        "id": "791a7c05-096b-496f-a635-c389138ae2d3",
-        "syllogism": "No hay líquidos que sean sólidos. Ningún gas es sólido. De ello se deduce que algunos gases no son líquidos."
-    },
-    {
-        "id": "aad00fc7-00e9-4fff-88b4-93ad92f098a3",
-        "syllogism": "Un albero non può essere una pianta. Un certo numero di alberi sono querce. Da ciò possiamo concludere che alcune querce non sono piante."
-    },
-    {
-        "id": "5f2028b1-f449-4a1f-860a-73b5922d94c1",
-        "syllogism": "确实，每个单身汉都是已婚男人。没有已婚男人是单身男人。由此得出的结论是，有些单身男子并不是单身汉。"
-    },
-    {
-        "id": "bce58a1d-b5e7-42c2-9f67-4d4efe313297",
-        "syllogism": "Es gibt keine Flüssigkeit, die Wasser ist. Es gibt keine Feststoffe, die Wasser sind. Daraus lässt sich ableiten, dass es keine Feststoffe gibt, die Flüssigkeiten sind."
-    },
-    {
-        "id": "34346def-8f46-46dc-892b-5dc199478f4c",
-        "syllogism": "Каждый карандаш сделан из свинца. Есть некоторые пишущие инструменты, которые представляют собой карандаши. Это означает, что некоторые пишущие инструменты сделаны из свинца."
-    },
-    {
-        "id": "e98ebcf8-9497-4cfd-8a0e-c59427714746",
-        "syllogism": "De categorie vogels en de categorie auto's sluiten elkaar uit. Elke auto is een mus. Het is noodzakelijkerwijs waar dat sommige mussen geen vogels zijn."
-    },
-    {
-        "id": "dbb022c6-1f59-4404-8769-903e6924ccf0",
-        "syllogism": "Alle olifanten kunnen worden omschreven als zoogdieren. Alle olifanten kunnen worden omschreven als grote dieren. Het is daarom waar dat er grote dieren zijn die zoogdieren zijn."
-    },
-    {
-        "id": "2043e1ac-7595-40bd-8c69-a263b6c20747",
-        "syllogism": "বায়ু যা কিছু তা গ্যাস নয়।অক্সিজেন সব জিনিস বায়ু. ফলস্বরূপ, কিছু অক্সিজেন একটি গ্যাস নয়।"
-    },
-    {
-        "id": "94944427-7a45-495b-82f6-3b2b8d53bf18",
-        "syllogism": "Non esistono piante che siano animali. È anche vero che nessun metallo è vegetale. Pertanto, si sostiene che non esistono metalli che siano animali."
-    },
-    {
-        "id": "7fd6b868-00b7-4778-8176-144c3421970d",
-        "syllogism": "চেয়ারের সমস্ত বস্তুই মেঘ।এটা সত্য যে কোন মেঘ আসবাবপত্রের টুকরো নয়।এটি এই থেকে অনুসরণ করে যে আসবাবের কোন টুকরা একটি চেয়ার নয়।"
-    },
-    {
-        "id": "556a300e-0638-4b85-955a-f1d3b497523a",
-        "syllogism": "কোনো আকাশই যে নীল, এটা ঠিক নয়।আকাশ বলে কোনো গাড়ি নেই।এটি এই সিদ্ধান্তে পৌঁছে যে কোনও গাড়িই নীল নয়।"
-    },
-    {
-        "id": "5cc8a10c-4c9e-4878-ba9e-691ae2f34c8d",
-        "syllogism": "একটি চেয়ার যা কিছু আসবাবপত্র একটি টুকরা. আসবাবপত্র কোন টুকরা একটি টেবিল. এটি এই উপসংহারে বাড়ে যে কোনও টেবিল একটি চেয়ার নয়।"
-    },
-    {
-        "id": "6c4ccd63-678c-4f1b-a556-516e68e1aae8",
-        "syllogism": "Todo lo que sea un ser humano es un mamífero. Cada ser humano es un primate. De ello se deduce que todo primate es un mamífero."
-    },
-    {
-        "id": "24c72068-73c7-4ede-bc41-03f2229ddbcf",
-        "syllogism": "Es gibt keinen einzigen Menschen, der sowohl ein Mensch als auch ein unbelebtes Ding ist. Es ist eine Tatsache, dass manche Musiker leblose Wesen sind. Die einzig logische Schlussfolgerung ist, dass einige Musiker keine Menschen sind."
-    },
-    {
-        "id": "bf5b5254-869c-4d4d-8be0-f0f3c6ac3d93",
-        "syllogism": "Qualquer maçã é uma fruta. Cada fruta é uma planta comestível. É uma conclusão lógica que algumas plantas comestíveis sejam maçãs."
-    },
-    {
-        "id": "cc459699-0aa1-483e-9c3b-776b127f0404",
-        "syllogism": "এটা এমন নয় যে প্রতিটি সবজি একটি গাজর।প্রতিটি সবজি একটি খাদ্য।সুতরাং, এটি উপসংহারে আসা যেতে পারে যে কিছু খাবার গাজর নয়।"
-    },
-    {
-        "id": "eccdb752-fde0-484b-a586-bb90c1c69ad8",
-        "syllogism": "Есть женщины, которые являются людьми. Нет людей, которые были бы мужчинами. Следовательно, некоторые мужчины — люди."
-    },
-    {
-        "id": "5cca940a-e5b3-42a1-83ab-186baba11f7f",
-        "syllogism": "Toute créature qui est une vache est un mammifère. Il n’existe pas d’êtres vivants qui soient des mammifères. Par conséquent, aucun être vivant n’est une vache."
-    },
-    {
-        "id": "a65f60f9-313a-4fb1-90fc-6d5327918778",
-        "syllogism": "Niente che sia un uccello può volare. È vero che alcune aquile non possono volare. L'unica conclusione è che alcune aquile non sono uccelli."
-    },
-    {
-        "id": "af51a83a-c1f0-4f5e-93b0-19a9233e7f68",
-        "syllogism": "Alles, was ein Künstler ist, ist keine Person. Ein Teil der Künstler sind auch Maler. Dies beweist, dass mindestens ein Maler keine Person ist."
-    },
-    {
-        "id": "2aadf950-2305-48c3-89f0-a7528a0dae8e",
-        "syllogism": "Kati ya viumbe ambavyo ni mbwa, wengine sio samaki. Kila kiumbe mmoja ambaye ni mbwa ni paka. Lazima iwe hivyo kwamba sio paka moja ni samaki."
-    },
-    {
-        "id": "e2da3b2b-a0e8-4cc8-b401-c163ce11facb",
-        "syllogism": "ఏ పిల్లి కూడా ఉభయచరం కాదు. పిల్లులు అనే చేపలు లేవు. అనేక చేపలు ఉభయచరాలు కావు."
-    },
-    {
-        "id": "ca559434-ddc8-4cfa-928a-bc847d731571",
-        "syllogism": "Il n’existe pas de meubles qui ne soient pas des chaises. Il est également vrai qu’aucune table n’est un meuble. De ces deux affirmations, on peut conclure que certaines tables sont des chaises."
-    },
-    {
-        "id": "f0c312d0-7a22-48ee-bc8e-1a6d7db54d7b",
-        "syllogism": "కొన్ని మేఘాలు క్షీరదాలు. ప్రతి క్షీరదం ఒక జంతువు. కొన్ని జంతువులు మేఘాలు అని దీని నుండి ఇది అనుసరిస్తుంది."
-    },
-    {
-        "id": "4f1911da-5730-4f99-a975-7df5a924be19",
-        "syllogism": "చతురస్రాకారంలో ఉన్న ఏదైనా వృత్తం కాదు. చతురస్రాలుగా ఉండే త్రిభుజాలు లేవు. పర్యవసానంగా, ప్రతి త్రిభుజం ఒక వృత్తం."
-    }
+  {
+    "id": "e0f0cf16-5aa7-4e3f-a6ae-7e1ed05bbf59",
+    "syllogism": "Not a single elephant is a professional sprinter. Every single individual who is an Olympic sprinter is a professional sprinter. It follows from this that a portion of Olympic sprinters are not elephants.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Nessun elefante è un velocista professionista. Ogni singolo individuo che è un velocista olimpico è un velocista professionista. Ne consegue che una parte dei velocisti olimpici non sono elefanti.",
+    "lang": "it"
+  },
+  {
+    "id": "89899917-ed94-40ec-8601-0b69da754a08",
+    "syllogism": "There is no cat that is a bird. No birds are dogs whatsoever. It possible to conclude that no dog is a cat.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Non esiste gatto che sia un uccello. Nessun uccello è un cane. È possibile concludere che nessun cane è un gatto.",
+    "lang": "it"
+  },
+  {
+    "id": "a65f60f9-313a-4fb1-90fc-6d5327918778",
+    "syllogism": "Nothing that is a bird can fly. It is the case that some eagles cannot fly. The only conclusion is that some eagles are not birds.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Niente che sia un uccello può volare. È vero che alcune aquile non possono volare. L'unica conclusione è che alcune aquile non sono uccelli.",
+    "lang": "it"
+  },
+  {
+    "id": "7456ee77-ef88-4f4d-955c-b525b4668845",
+    "syllogism": "Nothing that is a plant is an animal. At least one fruit is a plant. At least one fruit is an animal.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Niente di ciò che è pianta è un animale. Almeno un frutto è una pianta. Almeno un frutto è un animale.",
+    "lang": "it"
+  },
+  {
+    "id": "51a7724d-80e2-4ee0-b45f-a39eedec648f",
+    "syllogism": "There is no person who is smart who is also a slow runner. There is no athlete who is a slow runner. This means that athletes are not smart people.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Non esiste persona intelligente che sia anche un corridore lento. Non esiste atleta che corra lentamente. Ciò significa che gli atleti non sono persone intelligenti.",
+    "lang": "it"
+  },
+  {
+    "id": "f1bb008a-0410-432b-b478-a34378d21244",
+    "syllogism": "It is true that no stars are cold. A few planets are cold. Thus, all planets are stars.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "È vero che nessuna stella è fredda. Alcuni pianeti sono freddi. Pertanto, tutti i pianeti sono stelle.",
+    "lang": "it"
+  },
+  {
+    "id": "8b7e4bc2-dc6f-4207-bd39-e15bde988ac5",
+    "syllogism": "Every single person who is a doctor is a healthcare worker. An engineer is not a healthcare worker. From this, it can be concluded that no engineer is a doctor.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Ogni singola persona che è medico è un operatore sanitario. Un ingegnere non è un operatore sanitario. Da ciò si può concludere che nessun ingegnere è un medico.",
+    "lang": "it"
+  },
+  {
+    "id": "6560647d-6e13-4095-bbbb-504011ff9a2e",
+    "syllogism": "Not a single thing that is a building is a tree. A portion of the things that are houses are buildings. Thus, it is clear that some houses are not trees.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Non una sola cosa che sia un edificio è un albero. Una parte delle cose che sono case sono edifici. Quindi è chiaro che alcune case non sono alberi.",
+    "lang": "it"
+  },
+  {
+    "id": "a91ce532-15af-4906-a690-b0ff4d4ce829",
+    "syllogism": "It is true that no shirts are pants. All t-shirts are things that are shirts. Therefore, some t-shirts are not pants.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "È vero che nessuna maglietta è un pantalone. Tutte le magliette sono cose che sono camicie. Pertanto, alcune magliette non sono pantaloni.",
+    "lang": "it"
+  },
+  {
+    "id": "243ec258-430d-4a22-9eec-ee08ff723294",
+    "syllogism": "There are no birds that are mammals. No bats are considered birds. Some bats are not mammals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Non ci sono uccelli che siano mammiferi. Nessun pipistrello è considerato uccello. Alcuni pipistrelli non sono mammiferi.",
+    "lang": "it"
+  },
+  {
+    "id": "4f6a051b-b6bc-401d-bf4e-c77b4b3fe833",
+    "syllogism": "There is no item that is an insect which is also an animal. Of the items that are ants, a portion of them are animals. It must be the case that some ants are not insects.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Non esiste oggetto che sia un insetto che sia anche un animale. Degli oggetti che sono formiche, una parte di essi sono animali. Deve essere vero che alcune formiche non sono insetti.",
+    "lang": "it"
+  },
+  {
+    "id": "aad00fc7-00e9-4fff-88b4-93ad92f098a3",
+    "syllogism": "A tree cannot be a plant. A number of trees are oaks. From this, we can conclude that some oaks are not plants.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Un albero non può essere una pianta. Un certo numero di alberi sono querce. Da ciò possiamo concludere che alcune querce non sono piante.",
+    "lang": "it"
+  },
+  {
+    "id": "834712fc-57e0-4e34-9a51-10ff1a43bf8e",
+    "syllogism": "Among the creatures that are mammals, some are dogs. Every single creature that is a mammal is an animal. It must be the case that not a single animal is a dog.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Tra le creature che appartengono ai mammiferi, alcune sono cani. Ogni singola creatura che sia un mammifero è un animale. Deve essere vero che nessun animale è un cane.",
+    "lang": "it"
+  },
+  {
+    "id": "e4563324-5364-418d-a8b7-ca1686a8df61",
+    "syllogism": "There is no such thing as a frog that is a mammal. Nothing that is a reptile is a mammal. It can be concluded that no frog is a reptile.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Non esiste una rana che sia un mammifero. Niente di ciò che è un rettile è un mammifero. Si può concludere che nessuna rana è un rettile.",
+    "lang": "it"
+  },
+  {
+    "id": "f1a7617c-3f1d-4aa1-a685-e2ed53f46d3c",
+    "syllogism": "Individuals who are writers are not, in any way, people. Every writer is an individual who writes books. People are not writers.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Gli individui che sono scrittori non sono, in alcun modo, persone. Ogni scrittore è un individuo che scrive libri. Le persone non sono scrittori.",
+    "lang": "it"
+  },
+  {
+    "id": "a3af7489-e377-4235-9aca-a48018f2446a",
+    "syllogism": "Metals are in no way elements. There exist no elements which are solids. It is the case that no metal is a solid.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "I metalli non sono in alcun modo elementi. Non esistono elementi che siano solidi. È vero che nessun metallo è solido.",
+    "lang": "it"
+  },
+  {
+    "id": "cb83372b-29bf-4c18-9077-b050fd6f5e21",
+    "syllogism": "Every single item of furniture sings opera. There are no chairs that are not furniture. A number of chairs sing opera.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Ogni singolo mobile canta l'opera. Non esistono sedie che non siano mobili. Alcune sedie cantano l'opera.",
+    "lang": "it"
+  },
+  {
+    "id": "94944427-7a45-495b-82f6-3b2b8d53bf18",
+    "syllogism": "There are no plants that are animals. It is also true that no metals are plants. Therefore, it is argued that there are no metals which are animals.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Non esistono piante che siano animali. È anche vero che nessun metallo è vegetale. Pertanto, si sostiene che non esistono metalli che siano animali.",
+    "lang": "it"
+  },
+  {
+    "id": "70312fe3-c315-41e6-af39-09210c44f6f6",
+    "syllogism": "Anything that is a planet orbits a star. Every single thing on Earth is a planet. There exists at least one part of Earth that orbits a star.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Todo lo que sea un planeta orbita una estrella. Cada cosa en la Tierra es un planeta. Existe al menos una parte de la Tierra que orbita una estrella.",
+    "lang": "es"
+  },
+  {
+    "id": "b1769aba-611d-4aa9-a25a-394c14d97b59",
+    "syllogism": "There are no lions that are gazelles. It is also the case that no tiger is a gazelle. Therefore, no tiger is a lion.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "No hay leones que sean gacelas. También se da el caso de que ningún tigre es una gacela. Por tanto, ningún tigre es un león.",
+    "lang": "es"
+  },
+  {
+    "id": "fc39ab38-fc18-44b4-a8e7-ddf8224f998b",
+    "syllogism": "Scientists are in no way professors. There exist no professors that are academics. It is the case that no scientist is an academic.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Los científicos no son de ninguna manera profesores. No existen profesores que sean académicos. Es cierto que ningún científico es académico.",
+    "lang": "es"
+  },
+  {
+    "id": "cc371423-3ea9-4d03-a41b-e6538b858dfa",
+    "syllogism": "There are no cows that are reptiles. It is not true that any lizard is a cow. It is the case that some lizards are cows.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "No hay vacas que sean reptiles. No es cierto que cualquier lagarto sea una vaca. Se da el caso de que algunas lagartijas son vacas.",
+    "lang": "es"
+  },
+  {
+    "id": "4a729564-eaeb-4ad0-ad1e-6650bfe992bf",
+    "syllogism": "It is true that some books contain pictures. Every single book is a printed material. Therefore, some printed materials have pictures.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Es cierto que algunos libros contienen imágenes. Cada libro es un material impreso. Por lo tanto, algunos materiales impresos tienen imágenes.",
+    "lang": "es"
+  },
+  {
+    "id": "8f2f99ab-25fb-469e-9cfc-71467c3cccf3",
+    "syllogism": "Every single human is a primate. The entire collection of humans is a subset of people. A portion of people are not primates.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Cada ser humano es un primate. Toda la colección de humanos es un subconjunto de personas. Una parte de las personas no son primates.",
+    "lang": "es"
+  },
+  {
+    "id": "963c540a-971f-4c75-8b51-abb3a504987c",
+    "syllogism": "Every single animal is a cloud. All animals are dogs. This means that every single dog is a cloud.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Cada animal es una nube. Todos los animales son perros. Esto significa que cada perro es una nube.",
+    "lang": "es"
+  },
+  {
+    "id": "54dc1377-0261-4c16-af95-fa6e837b6540",
+    "syllogism": "Oxygen is a thing that is an element. It is impossible for water to be an element. Nothing that is water is oxygen.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "El oxígeno es algo que es un elemento. Es imposible que el agua sea un elemento. Nada de lo que es agua es oxígeno.",
+    "lang": "es"
+  },
+  {
+    "id": "791a7c05-096b-496f-a635-c389138ae2d3",
+    "syllogism": "There are no liquids that are solids. Not one gas is a solid. It follows that some gases are not liquids.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "No hay líquidos que sean sólidos. Ningún gas es sólido. De ello se deduce que algunos gases no son líquidos.",
+    "lang": "es"
+  },
+  {
+    "id": "4f37d2a5-f2d2-4615-982a-331b9cbe9be2",
+    "syllogism": "There are no animals that are also plants. Of the items that are mammals, a portion are not plants. It follows that some mammals are not animals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "No hay animales que también sean plantas. De los elementos que son mamíferos, una parte no son plantas. De ello se deduce que algunos mamíferos no son animales.",
+    "lang": "es"
+  },
+  {
+    "id": "67a4f302-fe12-4347-a5a7-125373ae6e0b",
+    "syllogism": "Among those who are students, some have learned to code. All who have learned to code are considered to have learned a skill. It follows that some of those who have learned a skill are students.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Entre los estudiantes, algunos han aprendido a codificar. Se considera que todos los que han aprendido a codificar han aprendido una habilidad. De ello se deduce que algunos de los que han aprendido una habilidad son estudiantes.",
+    "lang": "es"
+  },
+  {
+    "id": "4c6df3a7-885f-4003-ba84-8a17fb279f9d",
+    "syllogism": "It is not true that any vegetables are computers. It is not true that any vegetables are animals. This means computers are not animals.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "No es cierto que cualquier verdura sea computadora. No es cierto que ningún vegetal sea animal. Esto significa que las computadoras no son animales.",
+    "lang": "es"
+  },
+  {
+    "id": "ed732d53-d206-41f3-a3dc-8c03dcc9d37b",
+    "syllogism": "Not a single car is an airplane. It is also true that no bicycle is a car. It follows that no bicycle is an airplane.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Ningún coche es un avión. También es cierto que ninguna bicicleta es un coche. De ello se deduce que ninguna bicicleta es un avión.",
+    "lang": "es"
+  },
+  {
+    "id": "d44227b2-2b2e-4c8c-92c9-3415b1323d6a",
+    "syllogism": "Insects are in no way mammals. There exist no mammals that are reptiles. It is the case that no insect is a reptile.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Los insectos no son de ninguna manera mamíferos. No existen mamíferos que sean reptiles. Es cierto que ningún insecto es un reptil.",
+    "lang": "es"
+  },
+  {
+    "id": "eb9e2873-3e72-42ff-a4de-c0e0f0036415",
+    "syllogism": "Some creatures that are lizards are not animals. Anything that is a lizard is a reptile. One can thus conclude that some reptiles are not animals.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Algunas criaturas que son lagartos no son animales. Todo lo que es un lagarto es un reptil. Por tanto, se puede concluir que algunos reptiles no son animales.",
+    "lang": "es"
+  },
+  {
+    "id": "6c4ccd63-678c-4f1b-a556-516e68e1aae8",
+    "syllogism": "Anything that is a human being is a mammal. Every single human is a primate. It follows that every primate is a mammal.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Todo lo que sea un ser humano es un mamífero. Cada ser humano es un primate. De ello se deduce que todo primate es un mamífero.",
+    "lang": "es"
+  },
+  {
+    "id": "21700c62-87ce-4a56-b92c-0603136a9e23",
+    "syllogism": "Anything that is a number is never a concept. A subset of integers is composed of numbers. Therefore, some integers are not concepts.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Todo lo que es un número nunca es un concepto. Un subconjunto de números enteros está compuesto de números. Por tanto, algunos números enteros no son conceptos.",
+    "lang": "es"
+  },
+  {
+    "id": "66c02944-2444-4a21-87f3-4c6a4e3f2c7c",
+    "syllogism": "It is not the case that every single wrench is an object. Anything that is a wrench is a tool. One can thus conclude that some tools are not objects.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "No se trata de que cada llave sea un objeto. Todo lo que sea una llave inglesa es una herramienta. Por tanto, se puede concluir que algunas herramientas no son objetos.",
+    "lang": "es"
+  },
+  {
+    "id": "b2b10e70-a6c2-4039-b33c-f83c63f23406",
+    "syllogism": "There are no cars that are liquids. There are no cars that are clouds. Consequently, some clouds are liquids.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Il n’existe pas de voitures liquides. Il n’y a pas de voitures qui soient des nuages. Certains nuages ​​sont donc liquides.",
+    "lang": "fr"
+  },
+  {
+    "id": "70125ddb-b5a8-403a-8f61-b7784b695242",
+    "syllogism": "There are no spiders that are mammals. No insects are considered spiders. There are some insects that are not mammals.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Il n’existe pas d’araignées qui soient des mammifères. Aucun insecte n'est considéré comme une araignée. Certains insectes ne sont pas des mammifères.",
+    "lang": "fr"
+  },
+  {
+    "id": "15428912-887a-473e-927d-b96da3ccb727",
+    "syllogism": "Tables and sofas do not overlap. A portion of sofas are furniture. Some furniture are not tables.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Les tables et les canapés ne se chevauchent pas. Une partie des canapés sont des meubles. Certains meubles ne sont pas des tables.",
+    "lang": "fr"
+  },
+  {
+    "id": "d3f30118-1d76-44fe-b781-0f5ca59c1064",
+    "syllogism": "There is no dog that is a cat. Among the dogs that exist, a certain amount are poodles. It must be true that some poodles are not cats.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Il n'y a pas de chien qui soit un chat. Parmi les chiens qui existent, un certain nombre sont des caniches. Il doit être vrai que certains caniches ne sont pas des chats.",
+    "lang": "fr"
+  },
+  {
+    "id": "484e2490-f1d1-48b9-b44f-39eb8540275e",
+    "syllogism": "Absolutely no dog is an amphibian. There is no cat that is an amphibian. The only conclusion is that no cat is a dog.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Absolument aucun chien n’est un amphibien. Aucun chat n’est amphibien. La seule conclusion est qu’aucun chat n’est un chien.",
+    "lang": "fr"
+  },
+  {
+    "id": "d3cc620e-2438-4c98-a79e-96f1ad1c849a",
+    "syllogism": "There are no cats which are dogs. Not a single fish is a dog. From this, we can say that all fish are cats.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Il n'y a pas de chats qui soient des chiens. Pas un seul poisson n’est un chien. De là, nous pouvons dire que tous les poissons sont des chats.",
+    "lang": "fr"
+  },
+  {
+    "id": "42e7f0af-0813-4ec4-a3e3-9a07da8cd76c",
+    "syllogism": "Anything that is a car is also a mode of transportation. Some cars, which are vehicles, can be found. This implies that a portion of vehicles are modes of transportation.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Tout ce qui est une voiture est aussi un moyen de transport. Certaines voitures, qui sont des véhicules, peuvent être trouvées. Cela implique qu'une partie des véhicules sont des modes de transport.",
+    "lang": "fr"
+  },
+  {
+    "id": "94062d61-4540-49d2-b040-2af4bc860cbc",
+    "syllogism": "It is not true that any warm-blooded animals are reptiles. Some warm-blooded animals are dogs. Consequently, dogs are not reptiles.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Il n’est pas vrai que les animaux à sang chaud soient des reptiles. Certains animaux à sang chaud sont des chiens. Les chiens ne sont donc pas des reptiles.",
+    "lang": "fr"
+  },
+  {
+    "id": "e0f6b16e-3979-40d8-82ff-01b00edc2e18",
+    "syllogism": "It is the case that no square has four equal sides. All perfect squares are things that are squares. The conclusion that some perfect squares do not have four equal sides is necessarily true.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Il est vrai qu’aucun carré n’a quatre côtés égaux. Tous les carrés parfaits sont des choses qui sont des carrés. La conclusion selon laquelle certains carrés parfaits n’ont pas quatre côtés égaux est nécessairement vraie.",
+    "lang": "fr"
+  },
+  {
+    "id": "fb437353-9988-4fbb-bf9e-c550ae6e60ff",
+    "syllogism": "There are no trees that are mammals. There are no trees that are shrubs. Consequently, no shrubs are mammals.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Il n'y a pas d'arbres qui soient des mammifères. Il n'y a pas d'arbres qui soient des arbustes. Par conséquent, aucun arbuste n’est un mammifère.",
+    "lang": "fr"
+  },
+  {
+    "id": "af28a974-3e5d-408e-9549-9ed33acf89b8",
+    "syllogism": "It is not true that every dog is a poodle. Every creature that is a dog is a canine. Thus, it follows that some canines are not poodles.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Ce n’est pas vrai que tous les chiens sont des caniches. Toute créature qui est un chien est un chien. Il s’ensuit donc que certains chiens ne sont pas des caniches.",
+    "lang": "fr"
+  },
+  {
+    "id": "5cca940a-e5b3-42a1-83ab-186baba11f7f",
+    "syllogism": "Any creature that is a cow is a mammal. There are no living things that are mammals. Consequently, no living thing is a cow.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Toute créature qui est une vache est un mammifère. Il n’existe pas d’êtres vivants qui soient des mammifères. Par conséquent, aucun être vivant n’est une vache.",
+    "lang": "fr"
+  },
+  {
+    "id": "ca559434-ddc8-4cfa-928a-bc847d731571",
+    "syllogism": "There exist no things which are furniture that are not chairs. It is also true that no tables are furniture. From these two statements, it can be concluded that some tables are chairs.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Il n’existe pas de meubles qui ne soient pas des chaises. Il est également vrai qu’aucune table n’est un meuble. De ces deux affirmations, on peut conclure que certaines tables sont des chaises.",
+    "lang": "fr"
+  },
+  {
+    "id": "e4178301-df8f-47f7-bc8b-130e68904862",
+    "syllogism": "Anything that is a chair is a piece of furniture. Every single object that is an office chair is a chair. It can be concluded that every office chair is furniture.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Tout ce qui est une chaise est un meuble. Chaque objet qui est une chaise de bureau est une chaise. On peut en conclure que chaque chaise de bureau est un meuble.",
+    "lang": "fr"
+  },
+  {
+    "id": "edf902f6-48d1-4564-bc03-996b98dcbfdd",
+    "syllogism": "Every substance that is water vapor is composed of granite. There are some clouds that are composed of water vapor. Consequently, some clouds are composed of granite.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Toute substance qui est de la vapeur d’eau est composée de granit. Certains nuages ​​sont composés de vapeur d’eau. Par conséquent, certains nuages ​​sont composés de granite.",
+    "lang": "fr"
+  },
+  {
+    "id": "92427535-4c9f-485a-a2dd-1f116abc9fa6",
+    "syllogism": "Every single priest is a man. All priests are human. It follows from this that some humans are not men.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Chaque prêtre est un homme. Tous les prêtres sont humains. Il s’ensuit que certains humains ne sont pas des hommes.",
+    "lang": "fr"
+  },
+  {
+    "id": "79d780f7-0f45-4abb-b74e-2f83c9e1c6cd",
+    "syllogism": "Anything which is an object can sing opera. It is the case that some lamps cannot sing opera. This logically leads to the conclusion that some lamps are not objects.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Tout ce qui est objet peut chanter de l'opéra. Il arrive que certaines lampes ne puissent pas chanter l'opéra. Cela conduit logiquement à la conclusion que certaines lampes ne sont pas des objets.",
+    "lang": "fr"
+  },
+  {
+    "id": "9e69e5b8-bee5-41ad-bbe0-3bfea26b0819",
+    "syllogism": "It is true that no dogs are cats. No pets are dogs. It follows that no pets are cats.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Il est vrai qu'aucun chien n'est un chat. Aucun animal de compagnie n'est un chien. Il s’ensuit qu’aucun animal de compagnie n’est un chat.",
+    "lang": "fr"
+  },
+  {
+    "id": "d71881bb-97b0-4154-85b8-bb49a95fedc2",
+    "syllogism": "Any article of clothing that is a pair of trousers is also a garment. Some shoes, it is known, are not garments. This necessarily implies that some shoes are not trousers.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "任何属于裤子的衣服也是服装。众所周知，有些鞋子不是服装。这必然意味着有些鞋子不是裤子。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "14a48322-c73a-4e79-a8ab-04a9b4d559f9",
+    "syllogism": "A portion of things that are shapes are also quadrilaterals. Among the things that are squares, some are shapes. From this, we can state that not all squares are quadrilaterals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "形状事物的一部分也是四边形。在正方形的事物中，有些是形状的。由此，我们可以说并非所有的正方形都是四边形。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "0a8e104e-5fd5-41e3-b410-e8bcc38b642b",
+    "syllogism": "Every single butterfly is not an ant. There are some insects that are ants. It follows that some of the insects are not butterflies.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "每只蝴蝶都不是蚂蚁。有一些昆虫是蚂蚁。由此可见，有些昆虫不是蝴蝶。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "471b958f-12c1-473b-b660-e7bf6a7bc8a5",
+    "syllogism": "There is no chair that is a table. Some tables are pieces of furniture. This implies that some pieces of furniture are not chairs.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "没有椅子是桌子。有些桌子是家具。这意味着有些家具不是椅子。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "23987e66-ca96-4ac7-adc0-74233f4b872d",
+    "syllogism": "Celestial bodies that have enough gravity to be nearly round are in no way asteroids. Everything that can be classified as a planet is a celestial body with enough gravity to be nearly round. Planets are distinct from asteroids.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "具有足够引力而接近圆形的天体绝不是小行星。一切可以归类为行星的天体都是具有足够引力的接近圆形的天体。行星与小行星不同。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "0fb75c34-6bea-4cf3-a1bc-4f1076a5c521",
+    "syllogism": "There are no birds that are mammals. There are no mammals that are fish. Therefore, some fish are birds.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "没有鸟类是哺乳动物。没有鱼类是哺乳动物。因此，有些鱼是鸟类。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "d6c103ed-48b9-476f-928b-372930ff2547",
+    "syllogism": "Everything that is a bicycle is a vehicle with pedals. The set of skateboards contains no vehicles with pedals. There exist skateboards which are not bicycles.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "一切自行车都是带有踏板的交通工具。该滑板组不包含带有踏板的车辆。存在不是自行车的滑板。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "2695b34b-ab4c-40e7-8e5f-4d3ec868e323",
+    "syllogism": "Not one of the chairs is a table. All recliners are things that are chairs. It follows that some recliners are not tables.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "没有一张椅子是桌子。所有躺椅都是椅子。由此可见，有些躺椅不是桌子。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "615403d0-4ba9-4739-9cee-f39e1be73ad6",
+    "syllogism": "Any bird has wings. Every single insect has wings. This means that all insects are birds.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "任何鸟都有翅膀。每只昆虫都有翅膀。这意味着所有昆虫都是鸟类。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "730749f1-0990-4b95-94a7-ae252ec0209e",
+    "syllogism": "Any and all squirrels have fur. There are some squirrels that are also trees. This implies that a certain number of trees are creatures with fur.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "所有松鼠都有毛皮。有一些松鼠也是树。这意味着一定数量的树木是有毛皮的生物。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "3550ed18-92b8-4bbe-bc64-12ce120e3eac",
+    "syllogism": "There is no dialect that is an official language. Some official languages are spoken systems. Therefore, some spoken systems are not dialects.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "没有一种方言是官方语言。一些官方语言是口语系统。因此，某些口语系统不是方言。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "b12fc6db-bfb1-40f9-8f77-453c9fb5a0e4",
+    "syllogism": "There are some insects which are chickens. All chickens are, by definition, birds. Therefore, some birds are insects.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "有一些昆虫是鸡。根据定义，所有鸡都是鸟类。因此，有些鸟类是昆虫。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "91d5d4bc-2295-494c-ac9f-74319ac189fc",
+    "syllogism": "Anything that is a phone is a bird. All birds are things that are made of liquid light. From these facts, it is clear that a few things made of liquid light are phones.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "任何有电话的东西都是鸟。所有鸟类都是由液体光构成的。从这些事实来看，很明显，手机是由液态光制成的一些东西。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "a980265f-e07a-4e65-a7dd-76a8751338f6",
+    "syllogism": "There is no plant that is a shrub which is an animal. There are no trees that are shrubs. Therefore, no tree is an animal.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "没有一种植物是灌木，又是动物。没有树木是灌木。因此，没有一棵树是动物。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "27f552a5-891c-4694-b2aa-f7c345d3ae30",
+    "syllogism": "It is not true that any feather is made of paper. There is not a single book that is a feather. Therefore, no book is made of paper.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "并非所有羽毛都是纸制成的。没有一本书是一根羽毛。因此，没有一本书是纸做的。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "23efcdf6-e40f-4da6-b834-09b576683e2c",
+    "syllogism": "Anything that is a profession is a job that requires skill. Practicing medicine as a doctor is a profession. Consequently, all doctors are required to have skill.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "任何职业都是需要技能的工作。作为一名医生行医是一种职业。因此，所有医生都必须具备技能。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "5f2028b1-f449-4a1f-860a-73b5922d94c1",
+    "syllogism": "It is true that every bachelor is a married man. No married men are single men. This leads to the conclusion that some single men are not bachelors.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "确实，每个单身汉都是已婚男人。没有已婚男人是单身男人。由此得出的结论是，有些单身男子并不是单身汉。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "fba9dd9e-2617-4b21-8a4c-ebd682d2419d",
+    "syllogism": "Every single poodle is a dog. All poodles are animals. A subset of animals are not dogs.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "每只贵宾犬都是一只狗。所有贵宾犬都是动物。动物的一个子集不是狗。",
+    "lang": "zh-CN"
+  },
+  {
+    "id": "d7828ad4-acbb-4ae9-ae3a-deafd6ca1c7e",
+    "syllogism": "There is no bird that is an insect. There are some wasps that are insects. It can be deduced that there are no wasps that are birds.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Es gibt keinen Vogel, der ein Insekt ist. Es gibt einige Wespen, die Insekten sind. Daraus lässt sich ableiten, dass es keine Wespen gibt, die Vögel sind.",
+    "lang": "de"
+  },
+  {
+    "id": "24c72068-73c7-4ede-bc41-03f2229ddbcf",
+    "syllogism": "There is not a single person who is a human and also a non-living thing. It is a fact that some musicians are non-living things. The only logical conclusion is that some musicians are not humans.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Es gibt keinen einzigen Menschen, der sowohl ein Mensch als auch ein unbelebtes Ding ist. Es ist eine Tatsache, dass manche Musiker leblose Wesen sind. Die einzig logische Schlussfolgerung ist, dass einige Musiker keine Menschen sind.",
+    "lang": "de"
+  },
+  {
+    "id": "a676f828-73d3-48f6-be30-2623625da25e",
+    "syllogism": "There are no birds that are fish. It is also true that no fish are mammals. One might conclude that no mammals are birds.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Es gibt keine Vögel, die Fische sind. Es stimmt auch, dass kein Fisch ein Säugetier ist. Man könnte daraus schließen, dass keine Säugetiere Vögel sind.",
+    "lang": "de"
+  },
+  {
+    "id": "30cc1fd2-d0b2-4679-8a40-c737de2c6a8d",
+    "syllogism": "There is no circle that is a triangle. No triangle is a square whatsoever. Therefore, no square is a circle.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Es gibt keinen Kreis, der ein Dreieck ist. Kein Dreieck ist überhaupt ein Quadrat. Daher ist kein Quadrat ein Kreis.",
+    "lang": "de"
+  },
+  {
+    "id": "1427a63e-c71d-473c-82f0-ef2d7980d2a1",
+    "syllogism": "Any politician is a reptile. There exist some politicians who are prime ministers. It must follow that a portion of prime ministers are reptiles.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Jeder Politiker ist ein Reptil. Es gibt einige Politiker, die Premierminister sind. Daraus muss man schließen, dass ein Teil der Premierminister Reptilien sind.",
+    "lang": "de"
+  },
+  {
+    "id": "82a89276-2076-4a69-95ef-78636b092f3b",
+    "syllogism": "There are no liquids that are animals. It is also true that no tables are liquids. Therefore, there are no tables which are animals.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Es gibt keine Flüssigkeiten, die tierischen Ursprungs sind. Es stimmt auch, dass keine Tische Flüssigkeiten sind. Daher gibt es keine Tische mit Tieren.",
+    "lang": "de"
+  },
+  {
+    "id": "11b8ca92-ad55-4294-a3c6-35c4908b497b",
+    "syllogism": "Every single bovine is an insect. Nothing that is a cow is an insect. It can be said that some cows are not bovine.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Jedes einzelne Rind ist ein Insekt. Nichts, was eine Kuh ist, ist ein Insekt. Man kann sagen, dass einige Kühe keine Rinder sind.",
+    "lang": "de"
+  },
+  {
+    "id": "26f1c895-ceba-49a2-b0d1-6fa858d98e56",
+    "syllogism": "Among the people that are artists, some are scientists. Every single person who is an artist is a musician. It must be the case that not a single musician is an artist.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Unter den Künstlern sind einige Wissenschaftler. Jeder einzelne Künstler ist ein Musiker. Es muss so sein, dass kein einziger Musiker ein Künstler ist.",
+    "lang": "de"
+  },
+  {
+    "id": "f6ee2223-9624-4392-8189-4226b361e519",
+    "syllogism": "Every single cup can be described as a container. There are no containers that are feelings. It is therefore a sound deduction that some feelings are not cups.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Jede einzelne Tasse kann als Behälter bezeichnet werden. Es gibt keine Behälter, die Gefühle sind. Es ist daher eine gute Schlussfolgerung, dass manche Gefühle keine Tassen sind.",
+    "lang": "de"
+  },
+  {
+    "id": "79a5bc3c-3b34-4c2b-9927-04dc47bc93dd",
+    "syllogism": "Some animals are not carnivores. There are some lions that are animals. Consequently, every lion is a carnivore.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Manche Tiere sind keine Fleischfresser. Es gibt einige Löwen, die Tiere sind. Folglich ist jeder Löwe ein Fleischfresser.",
+    "lang": "de"
+  },
+  {
+    "id": "dd848d38-a877-49b5-b8fa-1438e88027a6",
+    "syllogism": "Every single four-sided-shape is a rectangle. All four-sided-shapes are squares. It follows from this that some squares are not rectangles.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Jede einzelne vierseitige Form ist ein Rechteck. Alle vierseitigen Formen sind Quadrate. Daraus folgt, dass einige Quadrate keine Rechtecke sind.",
+    "lang": "de"
+  },
+  {
+    "id": "fdeb867c-fd78-448e-9aab-8b528d533532",
+    "syllogism": "The set of stars and the set of moons are entirely separate. The group of moons and the group of planets are disjoint. Consequently, some planets are not stars.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Die Gruppe der Sterne und die Gruppe der Monde sind völlig getrennt. Die Mondgruppe und die Planetengruppe sind disjunkt. Folglich sind einige Planeten keine Sterne.",
+    "lang": "de"
+  },
+  {
+    "id": "bce58a1d-b5e7-42c2-9f67-4d4efe313297",
+    "syllogism": "There is no liquid that is water. There are no solids that are water. It can be deduced that there are no solids that are liquids.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Es gibt keine Flüssigkeit, die Wasser ist. Es gibt keine Feststoffe, die Wasser sind. Daraus lässt sich ableiten, dass es keine Feststoffe gibt, die Flüssigkeiten sind.",
+    "lang": "de"
+  },
+  {
+    "id": "af51a83a-c1f0-4f5e-93b0-19a9233e7f68",
+    "syllogism": "Anything that is an artist is not a person. A subset of those who are artists are also painters. This proves that at least one painter is not a person.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Alles, was ein Künstler ist, ist keine Person. Ein Teil der Künstler sind auch Maler. Dies beweist, dass mindestens ein Maler keine Person ist.",
+    "lang": "de"
+  },
+  {
+    "id": "11f637a0-e606-41de-b12a-dfe12dfb87f1",
+    "syllogism": "There are no carnivores which are also herbivores. It is understood that a number of lions are carnivores. Hence, some lions are not herbivores.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Es gibt keine Fleischfresser, die auch Pflanzenfresser sind. Es wird davon ausgegangen, dass eine Reihe von Löwen Fleischfresser sind. Daher sind einige Löwen keine Pflanzenfresser.",
+    "lang": "de"
+  },
+  {
+    "id": "bf41199c-cdb9-49c6-a606-6109d5ec16e4",
+    "syllogism": "A certain number of students are athletes. Among the people that are teenagers, a few are students. This allows us to state that some teenagers are not athletes.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Eine bestimmte Anzahl von Studenten sind Sportler. Unter den Teenagern sind einige Studenten. Dies lässt uns feststellen, dass einige Teenager keine Sportler sind.",
+    "lang": "de"
+  },
+  {
+    "id": "4c762814-a34e-40ef-86ff-cefb24d6e5d7",
+    "syllogism": "All chairs are clouds. None of the clouds are furniture. Therefore, no piece of furniture is a chair.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Alle Stühle sind Wolken. Keine der Wolken ist ein Möbelstück. Daher ist kein Möbelstück ein Stuhl.",
+    "lang": "de"
+  },
+  {
+    "id": "79a6a4f1-95fe-4385-99f2-d87a029d6e53",
+    "syllogism": "Not a single politician is a child. It is also true that no actor is a politician. It follows that no actor is a child.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Kein einziger Politiker ist ein Kind. Es stimmt auch, dass kein Schauspieler ein Politiker ist. Daraus folgt, dass kein Schauspieler ein Kind ist.",
+    "lang": "de"
+  },
+  {
+    "id": "c78c557c-4809-47a0-8286-ee3b176365be",
+    "syllogism": "There exist no insects that are also humans. At least one student is a human. At least one student is an insect.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "మనుషులకు చెందిన కీటకాలు కూడా లేవు. కనీసం ఒక్క విద్యార్థి అయినా మనిషి. కనీసం ఒక విద్యార్థి కీటకం.",
+    "lang": "te"
+  },
+  {
+    "id": "6a3912d2-fbfe-4fbc-877f-ca956282dfca",
+    "syllogism": "Anything that is a fish is not a mammal. There are no whales that are fish. Consequently, every whale is a reptile.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "చేప ఏదైనా క్షీరదం కాదు. చేపలు అని తిమింగలాలు లేవు. పర్యవసానంగా, ప్రతి తిమింగలం సరీసృపాలు.",
+    "lang": "te"
+  },
+  {
+    "id": "e5631f7b-ab47-450c-8a53-234b21ca674f",
+    "syllogism": "No cats are dogs. No dogs are elephants. It therefore follows that some elephants are cats.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "పిల్లులు కుక్కలు కావు. కుక్కలు ఏనుగులు కావు. అందువల్ల కొన్ని ఏనుగులు పిల్లులు అని అనుసరిస్తుంది.",
+    "lang": "te"
+  },
+  {
+    "id": "77280b1f-86d3-4978-8e24-911afb041753",
+    "syllogism": "Every single human being is a mammal. There are no mammals whatsoever that are insects. It follows that no insect is a human.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "ప్రతి ఒక్క మానవుడు క్షీరదమే. కీటకాలు అంటే క్షీరదాలు లేవు. ఏ కీటకం మానవుడు కాదని ఇది అనుసరిస్తుంది.",
+    "lang": "te"
+  },
+  {
+    "id": "a9439ee5-6ef1-4f23-acbd-fcf3446c1fee",
+    "syllogism": "There are no mammals that are birds. It is not true that any reptile is a mammal. It is the case that some reptiles are birds.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "పక్షులు అనే క్షీరదాలు లేవు. ఏదైనా సరీసృపాలు క్షీరదమే అన్నది నిజం కాదు. కొన్ని సరీసృపాలు పక్షులు అనే విషయం ఇది.",
+    "lang": "te"
+  },
+  {
+    "id": "8c3eb056-4c7d-46ed-8311-456035f8bdeb",
+    "syllogism": "Birds are in no way fish. There exist no fish that are amphibians. Amphibians are in no way birds.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "పక్షులు ఏ విధంగానూ చేపలు కావు. ఉభయచరాలు అనే చేపలు లేవు. ఉభయచరాలు ఏ విధంగానూ పక్షులు కావు.",
+    "lang": "te"
+  },
+  {
+    "id": "a6e441f6-ef07-4761-a2de-196d802c37fd",
+    "syllogism": "Every single object that is a spoon is a musical instrument. Any object that is a fork is a spoon. Therefore, it must be the case that all forks are musical instruments.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "చెంచా అయిన ప్రతి ఒక్క వస్తువు సంగీత వాయిద్యమే. ఫోర్క్ అయిన ఏదైనా వస్తువు ఒక చెంచా. అందువల్ల, అన్ని ఫోర్క్‌లు సంగీత వాయిద్యాలే అని చెప్పాలి.",
+    "lang": "te"
+  },
+  {
+    "id": "4e88a5ca-2ed3-4fe8-b8d6-32a58acaab84",
+    "syllogism": "There is nothing that is both a living thing and an animal. Not a single thing known as a human is a living thing. This demonstrates that a portion of humans are not animals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "జీవుడు మరియు జంతువు రెండూ లేవు. మనిషి అని తెలిసిన ఏ ఒక్క వస్తువు కూడా జీవి కాదు. మానవులలో కొంత భాగం జంతువులు కాదని ఇది నిరూపిస్తుంది.",
+    "lang": "te"
+  },
+  {
+    "id": "4f1911da-5730-4f99-a975-7df5a924be19",
+    "syllogism": "Anything that is a square is not a circle. There are no triangles that are squares. Consequently, every triangle is a circle.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "చతురస్రాకారంలో ఉన్న ఏదైనా వృత్తం కాదు. చతురస్రాలుగా ఉండే త్రిభుజాలు లేవు. పర్యవసానంగా, ప్రతి త్రిభుజం ఒక వృత్తం.",
+    "lang": "te"
+  },
+  {
+    "id": "2f1bc027-a95e-4087-a4d1-a15f3c7dd637",
+    "syllogism": "Every human is a robot. Any person that is a child is a human. It can be concluded that every child is a robot.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "ప్రతి మనిషి రోబో. పిల్లలైన ఏ వ్యక్తి అయినా మానవుడే. ప్రతి బిడ్డ రోబో అని నిర్ధారించవచ్చు.",
+    "lang": "te"
+  },
+  {
+    "id": "58aeed6e-5e10-4770-8642-f22981d061ae",
+    "syllogism": "There are no moons that are planets. It is also the case that no stars are moons. From this, it is said that some stars are planets.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "గ్రహాలు అని చంద్రులు ఉండరు. ఏ నక్షత్రాలు చంద్రులు కావు అనే విషయం కూడా ఇదే. దీని నుండి, కొన్ని నక్షత్రాలు గ్రహాలు అని చెప్పబడింది.",
+    "lang": "te"
+  },
+  {
+    "id": "3833c1e0-8229-480c-a600-8ea9dd34cd08",
+    "syllogism": "There are no fish that are insects. There are no fish that are mammals. Consequently, no mammals are insects.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "కీటకాలు అనే చేపలు లేవు. క్షీరదాలు అనే చేపలు లేవు. పర్యవసానంగా, క్షీరదాలు ఏవీ కీటకాలు కావు.",
+    "lang": "te"
+  },
+  {
+    "id": "e2da3b2b-a0e8-4cc8-b401-c163ce11facb",
+    "syllogism": "It is the case that no cat is an amphibian. There are no fish that are cats. A number of fish are not amphibians.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "ఏ పిల్లి కూడా ఉభయచరం కాదు. పిల్లులు అనే చేపలు లేవు. అనేక చేపలు ఉభయచరాలు కావు.",
+    "lang": "te"
+  },
+  {
+    "id": "d0da7e98-3321-482c-b114-bac6a8f5c71a",
+    "syllogism": "There exist some things which are animals that are dogs. It is also true that all cats are animals. From these two statements, it can be concluded that some cats are not dogs.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "కుక్కలు అనే జంతువులు కొన్ని ఉన్నాయి. పిల్లులన్నీ జంతువులే అన్నది కూడా నిజం. ఈ రెండు ప్రకటనల నుండి, కొన్ని పిల్లులు కుక్కలు కాదని నిర్ధారించవచ్చు.",
+    "lang": "te"
+  },
+  {
+    "id": "c2ca08ab-0b24-4c69-871c-3ea2e3309137",
+    "syllogism": "Not a single mammal is a bird. There are some pets which are mammals. Thus, some pets are birds.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "ఒక్క క్షీరదం కూడా పక్షి కాదు. కొన్ని పెంపుడు జంతువులు క్షీరదాలు ఉన్నాయి. అందువలన, కొన్ని పెంపుడు జంతువులు పక్షులు.",
+    "lang": "te"
+  },
+  {
+    "id": "f0c312d0-7a22-48ee-bc8e-1a6d7db54d7b",
+    "syllogism": "A few clouds are mammals. Every mammal is an animal. It follows from this that some animals are clouds.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "కొన్ని మేఘాలు క్షీరదాలు. ప్రతి క్షీరదం ఒక జంతువు. కొన్ని జంతువులు మేఘాలు అని దీని నుండి ఇది అనుసరిస్తుంది.",
+    "lang": "te"
+  },
+  {
+    "id": "3fb546db-f239-4494-8809-99a5d580567f",
+    "syllogism": "There is no human that is an animal. No animals are women whatsoever. Therefore, no woman is a human.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "జంతువు అని మానవుడు లేడు. ఏ జంతువులు స్త్రీలు కావు. అందువల్ల, ఏ స్త్రీ కూడా మనిషి కాదు.",
+    "lang": "te"
+  },
+  {
+    "id": "9fa82985-9169-4636-b972-01d478e6360e",
+    "syllogism": "Every single spider is a musical instrument. Anything that is a tarantula is a spider. Therefore, some tarantulas are musical instruments.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Kila buibui moja ni chombo cha muziki. Chochote ambacho ni tarantula ni buibui. Kwa hivyo, tarantulas zingine ni vyombo vya muziki.",
+    "lang": "sw"
+  },
+  {
+    "id": "7448654d-1b67-417c-8e36-918c53e8a1f4",
+    "syllogism": "All things that are lizards are vertebrates. A number of lizards are also reptiles. Consequently, some reptiles are vertebrates.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Vitu vyote ambavyo ni mijusi ni vertebrates. Idadi ya mijusi pia ni reptilia. Kwa hivyo, reptilia zingine ni vertebrates.",
+    "lang": "sw"
+  },
+  {
+    "id": "cfc5a2e0-56ee-459b-8bbf-04c56ad517c3",
+    "syllogism": "It is the case that no dog is a cat. It is also the case that no bird is a cat. Therefore, no bird is a dog.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Ni kesi kwamba hakuna mbwa ni paka. Pia ni kesi kwamba hakuna ndege ni paka. Kwa hivyo, hakuna ndege ni mbwa.",
+    "lang": "sw"
+  },
+  {
+    "id": "a6b9a38f-f372-4ffe-b48a-ea17557c2b24",
+    "syllogism": "There are no lions that are mammals. No elephants are considered lions. Some elephants are not mammals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Hakuna simba ambao ni mamalia. Hakuna tembo anayezingatiwa simba. Tembo wengine sio mamalia.",
+    "lang": "sw"
+  },
+  {
+    "id": "74186e65-643f-4843-8443-02e6ad512587",
+    "syllogism": "Every flower is an animal. No rose is an animal. There are roses that are not flowers.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Kila ua ni mnyama. Hakuna Rose ni mnyama. Kuna maua ambayo sio maua.",
+    "lang": "sw"
+  },
+  {
+    "id": "3cbec47e-2693-47fe-8e9a-2afa90c0a833",
+    "syllogism": "It is the case that no integer is a fraction. It is also not the case that any decimal is a fraction. Consequently, all decimals are integers.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Ni kesi kwamba hakuna nambari ni sehemu. Pia sio kesi kwamba decimal yoyote ni sehemu. Kwa hivyo, decimals zote ni nambari.",
+    "lang": "sw"
+  },
+  {
+    "id": "525bac06-7136-4770-a6da-19a35cab2610",
+    "syllogism": "There are no circles that are polygons. Every single circle is a triangle. There are triangles which are not polygons.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Hakuna miduara ambayo ni polygons. Kila mduara mmoja ni pembetatu. Kuna pembetatu ambazo sio polygons.",
+    "lang": "sw"
+  },
+  {
+    "id": "23c32d17-4e6c-4589-b414-107f6421dfc7",
+    "syllogism": "It is true that every river is a body of water. All bodies of water are considered to be natural phenomena. We can thus conclude that some natural phenomena are rivers.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Ni kweli kwamba kila mto ni mwili wa maji. Miili yote ya maji inachukuliwa kuwa matukio ya asili. Kwa hivyo tunaweza kuhitimisha kuwa matukio fulani ya asili ni mito.",
+    "lang": "sw"
+  },
+  {
+    "id": "04098300-a9af-411d-9d92-088df29f0a0e",
+    "syllogism": "It is the case that no fruit is citrus. Every single orange is citrus. It follows from this that some oranges are not fruits.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Ni kesi kwamba hakuna matunda ni machungwa. Kila machungwa moja ni machungwa. Inafuata kutoka kwa hii kwamba machungwa kadhaa sio matunda.",
+    "lang": "sw"
+  },
+  {
+    "id": "235d9e5b-73a3-4f10-ac6c-6d60e8693c3f",
+    "syllogism": "Any item classified as a table has a surface that is flat on top. Some pieces of office furniture are tables. Thus, some office furniture has a flat surface on top.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Bidhaa yoyote iliyoainishwa kama meza ina uso ambao uko gorofa juu. Vipande kadhaa vya fanicha ya ofisi ni meza. Kwa hivyo, fanicha zingine za ofisi zina uso wa gorofa juu.",
+    "lang": "sw"
+  },
+  {
+    "id": "bc05f308-0b8a-4c9a-9ab3-20479b8653e6",
+    "syllogism": "There are no fish that are mammals. There are no mammals that are rocks. It follows that some rocks are fish.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Hakuna samaki ambao ni mamalia. Hakuna mamalia ambao ni miamba. Inafuata kwamba miamba kadhaa ni samaki.",
+    "lang": "sw"
+  },
+  {
+    "id": "f1bea42f-abe8-43fd-b15d-eb33c62cec71",
+    "syllogism": "It is true that no chair is made of wood. It is a fact that no car is made of wood. Therefore, some cars are chairs.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Ni kweli kwamba hakuna mwenyekiti aliyetengenezwa kwa kuni. Ni ukweli kwamba hakuna gari iliyotengenezwa kwa kuni. Kwa hivyo, magari mengine ni viti.",
+    "lang": "sw"
+  },
+  {
+    "id": "29aec5d0-43b1-4e65-baf7-5a69d3d6e397",
+    "syllogism": "There is nothing which is a shape that is a geometric figure. All circles are geometric figures. It follows from this that some circles are not shapes.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Hakuna kitu ambacho ni sura ambayo ni takwimu ya jiometri. Duru zote ni takwimu za jiometri. Inafuata kutoka kwa hii kwamba duru zingine sio maumbo.",
+    "lang": "sw"
+  },
+  {
+    "id": "2aadf950-2305-48c3-89f0-a7528a0dae8e",
+    "syllogism": "Among the creatures that are dogs, some are not fish. Every single creature that is a dog is a cat. It must be the case that not a single cat is a fish.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Kati ya viumbe ambavyo ni mbwa, wengine sio samaki. Kila kiumbe mmoja ambaye ni mbwa ni paka. Lazima iwe hivyo kwamba sio paka moja ni samaki.",
+    "lang": "sw"
+  },
+  {
+    "id": "387ccffa-07d9-4b59-9668-aa5370d1594e",
+    "syllogism": "It is true that some physicians are specialists. All physicians are considered doctors. Therefore, it logically follows that some doctors are specialists.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Ni kweli kwamba waganga wengine ni wataalamu. Waganga wote wanachukuliwa kuwa madaktari. Kwa hivyo, inafuata kimantiki kuwa madaktari wengine ni wataalamu.",
+    "lang": "sw"
+  },
+  {
+    "id": "ad5b56d1-d0d0-48e0-b5a2-55bd1ab7f5f3",
+    "syllogism": "There are no televisions that are not emotions. It is a fact that every emotion is a tiny creature. This leads to the conclusion that some tiny things are televisions.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Hakuna televisheni ambazo sio hisia. Ni ukweli kwamba kila mhemko ni kiumbe mdogo. Hii inasababisha hitimisho kwamba mambo kadhaa madogo ni televisheni.",
+    "lang": "sw"
+  },
+  {
+    "id": "6a4a6a96-2a79-4f42-9120-1cadc05fc95b",
+    "syllogism": "There are no bicycles which are vehicles. Every single bicycle is a car. Some cars fail to be vehicles.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Hakuna baiskeli ambazo ni magari. Kila baiskeli moja ni gari. Magari mengine yanashindwa kuwa magari.",
+    "lang": "sw"
+  },
+  {
+    "id": "b0adc0e7-5435-4b7b-a957-82c87255700e",
+    "syllogism": "There are no teachers that are students. It is not true that any student is a professional. A certain number of professionals are not teachers.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Não há professores que sejam alunos. Não é verdade que qualquer estudante seja um profissional. Um certo número de profissionais não são professores.",
+    "lang": "pt"
+  },
+  {
+    "id": "a56035bf-d2d3-46d3-8865-27b7846c5126",
+    "syllogism": "Anything that is a book is also an object. It is impossible for an object to be a feeling. Therefore, we can deduce that some feelings are not books.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Tudo o que é um livro também é um objeto. É impossível que um objeto seja um sentimento. Portanto, podemos deduzir que alguns sentimentos não são livros.",
+    "lang": "pt"
+  },
+  {
+    "id": "89a56316-a3ce-46c4-8a5e-8f553d2d6981",
+    "syllogism": "The set of aquatic animals has no intersection with the set of vertebrates with gills. All fish are vertebrates with gills. Fish cannot be considered aquatic animals.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "O conjunto dos animais aquáticos não tem intersecção com o conjunto dos vertebrados com brânquias. Todos os peixes são vertebrados com guelras. Os peixes não podem ser considerados animais aquáticos.",
+    "lang": "pt"
+  },
+  {
+    "id": "15541c10-d7a3-4580-a09e-84182fb65d42",
+    "syllogism": "There are no vegetables that are fruits. Anything that is a vegetable is a plant. It's the case that some plants fail to be fruits.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Não existem vegetais que sejam frutas. Tudo que é vegetal é planta. Acontece que algumas plantas deixam de ser frutos.",
+    "lang": "pt"
+  },
+  {
+    "id": "df3818f6-ac5d-4cc3-8b73-a63b356b724e",
+    "syllogism": "It is the case that no meat is a thing that grows in the ground. Every single vegetable is a thing that grows in the ground. It can be deduced that there are some vegetables who are not meats.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Acontece que nenhuma carne é algo que cresce no solo. Cada vegetal é algo que cresce no solo. Pode-se deduzir que existem alguns vegetais que não são carnes.",
+    "lang": "pt"
+  },
+  {
+    "id": "9bdc92be-0708-4acd-8271-cda879cc2602",
+    "syllogism": "There is no animal that is a mineral. Not one dog is a mineral. As a result, no dog is an animal.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Não existe animal que seja mineral. Nenhum cachorro é um mineral. Como resultado, nenhum cachorro é um animal.",
+    "lang": "pt"
+  },
+  {
+    "id": "8b2091de-64b6-4c3d-8057-8ea0f518275b",
+    "syllogism": "There are no plants that are vegetables which can also be called carnivores. Every cabbage is a vegetable. Therefore, no cabbage is a carnivore.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Não existem plantas que sejam vegetais que também possam ser chamadas de carnívoras. Todo repolho é um vegetal. Portanto, nenhum repolho é carnívoro.",
+    "lang": "pt"
+  },
+  {
+    "id": "9ff293bd-554c-4858-aff3-3b7bede232f9",
+    "syllogism": "The set of letters in the alphabet and the set of numbers are disjoint. Every single number is a vowel. Therefore, some vowels are not letters of the alphabet.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "O conjunto de letras do alfabeto e o conjunto de números são disjuntos. Cada número é uma vogal. Portanto, algumas vogais não são letras do alfabeto.",
+    "lang": "pt"
+  },
+  {
+    "id": "3f37120d-8f38-41d2-aedb-9906f3fd3c7c",
+    "syllogism": "Each and every book is a person. All books are made of water. Therefore, it is the case that some things made of water are people.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Cada livro é uma pessoa. Todos os livros são feitos de água. Portanto, algumas coisas feitas de água são pessoas.",
+    "lang": "pt"
+  },
+  {
+    "id": "fd048dba-0796-42f0-a6b0-c531b5393d72",
+    "syllogism": "The set of snakes and the set of lizards are mutually exclusive. Every single lizard is a reptile. It is a logical consequence that some reptiles are not snakes.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "O conjunto das cobras e o conjunto dos lagartos são mutuamente exclusivos. Cada lagarto é um réptil. É uma consequência lógica que alguns répteis não sejam cobras.",
+    "lang": "pt"
+  },
+  {
+    "id": "33401764-6b38-4c64-8983-e1c1062d1f98",
+    "syllogism": "There are no fish that are insects. It is a fact that no insect is an acquatic animal. This leads to the conclusion that some acquatic animals are fish.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Não existem peixes que sejam insetos. É fato que nenhum inseto é um animal aquático. Isto leva à conclusão de que alguns animais aquáticos são peixes.",
+    "lang": "pt"
+  },
+  {
+    "id": "14c5cb30-91db-4489-8cbb-f0ce8a396fdd",
+    "syllogism": "No animal is a cat. At least one dog is an animal. There is at least one dog that is a cat.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Nenhum animal é um gato. Pelo menos um cachorro é um animal. Há pelo menos um cachorro que é gato.",
+    "lang": "pt"
+  },
+  {
+    "id": "71ce63cd-6cfe-4516-a4f0-b3153f751ced",
+    "syllogism": "There exist some plants that are computers. Every single computer is a machine. Thus, some machines are plants.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Existem algumas plantas que são computadores. Cada computador é uma máquina. Assim, algumas máquinas são plantas.",
+    "lang": "pt"
+  },
+  {
+    "id": "bf5b5254-869c-4d4d-8be0-f0f3c6ac3d93",
+    "syllogism": "Any apple is a fruit. Every single fruit is an edible plant. It is a logical conclusion that some edible plants are apples.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Qualquer maçã é uma fruta. Cada fruta é uma planta comestível. É uma conclusão lógica que algumas plantas comestíveis sejam maçãs.",
+    "lang": "pt"
+  },
+  {
+    "id": "497d159a-3702-4c43-8395-74a58f6ba139",
+    "syllogism": "There exist flowers that are not animals. Every single flower is a plant. It follows that not a single plant is an animal.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Existem flores que não são animais. Cada flor é uma planta. Segue-se que nem uma única planta é um animal.",
+    "lang": "pt"
+  },
+  {
+    "id": "818d3f86-e66d-45e6-b347-a73c2a3c843d",
+    "syllogism": "It is true that no rocks are non-living things. No trees are rocks. It follows that all trees are non-living things.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "É verdade que nenhuma rocha é uma coisa inanimada. Nenhuma árvore é rocha. Segue-se que todas as árvores são coisas não vivas.",
+    "lang": "pt"
+  },
+  {
+    "id": "fafec48c-8520-48aa-8868-a3161eab5774",
+    "syllogism": "There is no vegetable that is also a berry. A number of the items that are fruits are not berries. It follows that some fruits are not vegetables.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Não existe vegetal que também seja uma baga. Alguns dos itens que são frutas não são bagas. Segue-se que algumas frutas não são vegetais.",
+    "lang": "pt"
+  },
+  {
+    "id": "9d286c8e-0c97-4332-b63c-ba27fc32e348",
+    "syllogism": "There isn't a single circle that is a polygon. Every shape that is a triangle is a polygon. Triangles are not circles.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Er is geen enkele cirkel die een veelhoek is. Elke vorm die een driehoek is, is een veelhoek. Driehoeken zijn geen cirkels.",
+    "lang": "nl"
+  },
+  {
+    "id": "64de6256-16a8-4378-be6b-613d20d71a6f",
+    "syllogism": "There exist no creatures which are animals that are predators. It is also true that no prey are animals. From these two statements, it can be concluded that some prey are predators.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Er bestaan ​​geen wezens die roofdieren zijn. Het is ook waar dat geen enkele prooi dieren zijn. Uit deze twee uitspraken kan worden geconcludeerd dat sommige prooien roofdieren zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "7ff4af6d-5f00-4088-bd1c-edb77f97bba6",
+    "syllogism": "It is a given that every device is a plant. No plants are phones. Therefore, it is a necessary conclusion that some phones are not devices.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Het is een gegeven dat elk apparaat een plant is. Geen planten zijn telefoons. Daarom is het een noodzakelijke conclusie dat sommige telefoons geen apparaten zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "b0275480-6465-4414-b9d1-7fa4c1a5ee88",
+    "syllogism": "Anything that is a teacher is a professional. There are some educators who are teachers. Consequently, some educators are professionals.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Alles wat een leraar is, is een professional. Er zijn docenten die docenten zijn. Daarom zijn sommige docenten professionals.",
+    "lang": "nl"
+  },
+  {
+    "id": "834d9056-3a64-4342-be1a-10be9456f4fd",
+    "syllogism": "There are no hexagons that are circles. Among the circles, a few are shapes with six sides. Not all shapes with six sides are hexagons.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Er zijn geen zeshoeken die cirkels zijn. Onder de cirkels zijn er enkele vormen met zes zijden. Niet alle vormen met zes zijden zijn zeshoeken.",
+    "lang": "nl"
+  },
+  {
+    "id": "28608dbf-22a9-4fcd-97af-05149b762a40",
+    "syllogism": "It is true that no cars are boats. It is a fact that no sedans are boats. Therefore, some sedans are cars.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Het is waar dat geen enkele auto een boot is. Het is een feit dat sedans geen boten zijn. Daarom zijn sommige sedans auto's.",
+    "lang": "nl"
+  },
+  {
+    "id": "0cb859e3-b7cf-411c-8616-f71e1e43e19e",
+    "syllogism": "There are no animals that are rocks. It is also true that no birds are rocks. Therefore, it is argued that there are no birds which are animals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Er zijn geen dieren die rotsen zijn. Het is ook waar dat geen enkele vogel rotsen is. Daarom wordt betoogd dat er geen vogels zijn die dieren zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "84ae9313-2f3b-4ce5-9ced-737644159945",
+    "syllogism": "Every artist is a creative person. Every painter is a creative person. Consequently, all painters are artists.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Elke kunstenaar is een creatief persoon. Elke schilder is een creatief persoon. Daarom zijn alle schilders kunstenaars.",
+    "lang": "nl"
+  },
+  {
+    "id": "9035925b-22bf-4b70-9bae-1caa5fb090a6",
+    "syllogism": "The group of asteroids and the group of animals are mutually exclusive. There are no fruits which are animals. Asteroids and fruits do not belong to the same category.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "De groep asteroïden en de groep dieren sluiten elkaar uit. Er zijn geen vruchten die dieren zijn. Asteroïden en fruit behoren niet tot dezelfde categorie.",
+    "lang": "nl"
+  },
+  {
+    "id": "325efe21-8c46-4171-b870-190e28b307ff",
+    "syllogism": "All tools are things that can be described as being made of metal. It is the case that no hammer is a thing made of metal. It is thus the case that no hammer is a tool.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Alle gereedschappen zijn dingen die kunnen worden omschreven als gemaakt van metaal. Het is zo dat geen enkele hamer iets van metaal is. Het is dus zo dat geen enkele hamer een stuk gereedschap is.",
+    "lang": "nl"
+  },
+  {
+    "id": "0ef838e7-a27c-4f33-a852-6dd37e9b0d62",
+    "syllogism": "Anything that is a chair is a liquid. Anything that is a chair is a gas. Consequently, some gases are liquids.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Alles wat een stoel is, is een vloeistof. Alles wat een stoel is, is een gas. Bijgevolg zijn sommige gassen vloeistoffen.",
+    "lang": "nl"
+  },
+  {
+    "id": "9c7f3e50-75b6-44dd-8e8f-46b62d37014f",
+    "syllogism": "There is nothing that is a cat that is also a dog. It is a fact that no fish are dogs. Therefore, it follows that some fish are cats.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Er is niets dat een kat is dat ook een hond is. Het is een feit dat geen enkele vis hond is. Daarom volgt hieruit dat sommige vissen katten zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "e98ebcf8-9497-4cfd-8a0e-c59427714746",
+    "syllogism": "The category of birds and the category of cars are mutually exclusive. Every single car is a sparrow. It is necessarily true that some sparrows are not birds.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "De categorie vogels en de categorie auto's sluiten elkaar uit. Elke auto is een mus. Het is noodzakelijkerwijs waar dat sommige mussen geen vogels zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "dbb022c6-1f59-4404-8769-903e6924ccf0",
+    "syllogism": "All elephants can be described as mammals. All elephants can be described as large animals. It is therefore true that there are large animals which are mammals.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Alle olifanten kunnen worden omschreven als zoogdieren. Alle olifanten kunnen worden omschreven als grote dieren. Het is daarom waar dat er grote dieren zijn die zoogdieren zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "1a0094de-3636-48cb-8801-17717a2b9788",
+    "syllogism": "All things which are poets are writers. All things which are poets are creative people. It follows that some creative people are writers.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Alle dingen die dichters zijn, zijn schrijvers. Alle dingen die dichters zijn, zijn creatieve mensen. Hieruit volgt dat sommige creatieve mensen schrijvers zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "735f9cfe-73ba-443d-bc47-929bdf348afa",
+    "syllogism": "It is the case that some musicians are singers. It is also true that some dancers are musicians. From these statements, one can conclude that some dancers are singers.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Het is zo dat sommige muzikanten zangers zijn. Het is ook waar dat sommige dansers muzikanten zijn. Uit deze uitspraken kun je concluderen dat sommige dansers zangers zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "88163ca8-bd47-4ec6-bc84-efc5923fa8fb",
+    "syllogism": "There are no mammals that are insects. It is also true that no dogs are insects. Therefore, it is argued that there are no dogs which are mammals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Er zijn geen zoogdieren die insecten zijn. Het is ook waar dat geen enkele hond insecten is. Daarom wordt beweerd dat er geen honden zijn die zoogdieren zijn.",
+    "lang": "nl"
+  },
+  {
+    "id": "cc459699-0aa1-483e-9c3b-776b127f0404",
+    "syllogism": "It is not the case that every single vegetable is a carrot. Every vegetable is a food. Thus, it can be concluded that some foods are not carrots.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "এটা এমন নয় যে প্রতিটি সবজি একটি গাজর।প্রতিটি সবজি একটি খাদ্য।সুতরাং, এটি উপসংহারে আসা যেতে পারে যে কিছু খাবার গাজর নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "ed6cc81e-e798-478d-b910-230cba6c40a7",
+    "syllogism": "There is no object with a screen that is an electronic device. Not a single thing that is a laptop is an object with a screen. From this, we can deduce that some laptops are not electronic devices.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "একটি ইলেকট্রনিক ডিভাইস একটি পর্দা সঙ্গে কোন বস্তু নেই. একটি ল্যাপটপ যে একটি জিনিস একটি পর্দা সঙ্গে একটি বস্তু নয়. এটি থেকে, আমরা অনুমান করতে পারি যে কিছু ল্যাপটপ ইলেকট্রনিক ডিভাইস নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "5cc8a10c-4c9e-4878-ba9e-691ae2f34c8d",
+    "syllogism": "Anything that is a chair is a piece of furniture. No piece of furniture is a table. This leads to the conclusion that no table is a chair.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "একটি চেয়ার যা কিছু আসবাবপত্র একটি টুকরা. আসবাবপত্র কোন টুকরা একটি টেবিল. এটি এই উপসংহারে বাড়ে যে কোনও টেবিল একটি চেয়ার নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "2043e1ac-7595-40bd-8c69-a263b6c20747",
+    "syllogism": "Anything that is air is not a gas. Oxygen is all things that are air. Consequently, some oxygen is not a gas.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "বায়ু যা কিছু তা গ্যাস নয়।অক্সিজেন সব জিনিস বায়ু. ফলস্বরূপ, কিছু অক্সিজেন একটি গ্যাস নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "9d5d2453-b206-4a17-8897-53ceaaa8b63a",
+    "syllogism": "There is no mammal that is a cat. No cats are dogs whatsoever. Consequently, it can be concluded that all dogs are mammals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "বিড়াল বলে কোনো স্তন্যপায়ী প্রাণী নেই।কোনো বিড়ালই কুকুর নয়।ফলস্বরূপ, এটি উপসংহারে আসা যেতে পারে যে সমস্ত কুকুরই স্তন্যপায়ী।",
+    "lang": "bn"
+  },
+  {
+    "id": "25b7dd4a-82d4-45dd-907d-c8bfa77c5dab",
+    "syllogism": "Not a single large machine is a vehicle. It is known that a portion of trucks are large machines. This confirms that a number of trucks are not vehicles.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "একটি বড় মেশিন একটি যানবাহন নয়।জানা যায়, ট্রাকের একটি অংশ বড় মেশিন।এটি নিশ্চিত করে যে বেশ কয়েকটি ট্রাক যানবাহন নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "094f2f4f-36f6-4dcf-b703-d4b12effbc30",
+    "syllogism": "It is true that some crocodiles are furniture. Anything that is a crocodile is a reptile. Consequently, it must be the case that some reptiles are furniture.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "এটা সত্য যে কিছু কুমির আসবাবপত্র।কুমির যা কিছু তা সরীসৃপ।ফলস্বরূপ, কিছু সরীসৃপ আসবাবপত্র যে ক্ষেত্রে হতে হবে.",
+    "lang": "bn"
+  },
+  {
+    "id": "d605c2e9-4adb-45b7-9871-5c38fa7cb52c",
+    "syllogism": "A living being is never able to speak. Every human is a living being. Therefore, no human is able to speak.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "জীব কখনো কথা বলতে পারে না।প্রতিটি মানুষই একটি জীবন্ত প্রাণী।তাই কোনো মানুষ কথা বলতে পারে না।",
+    "lang": "bn"
+  },
+  {
+    "id": "03f61ab2-4d2d-4bef-bbf7-93147dd49130",
+    "syllogism": "Novels are in no way non-fiction books. Anything that is a novel is a book. It's the case that some books are not non-fiction books.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "উপন্যাস কোনোভাবেই নন-ফিকশন বই নয়।উপন্যাস যা কিছু তা একটি বই।এটা এমন যে কিছু বই নন-ফিকশন বই নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "a72b459b-ada0-479b-9289-7df3a908349b",
+    "syllogism": "Nothing that is a planet can be a celestial body. Everything that is the Earth is a planet. It can therefore be concluded that no Earths are celestial bodies.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "একটি গ্রহ যা একটি স্বর্গীয় বস্তু হতে পারে না. পৃথিবী যা কিছু তা একটি গ্রহ।তাই এই সিদ্ধান্তে আসা যায় যে কোন পৃথিবীই মহাকাশীয় বস্তু নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "343a5a3e-16c8-4c63-b883-052f22ea3000",
+    "syllogism": "Every single magazine is a periodical. Some letters are not periodicals. This logically leads to the conclusion that some letters are not magazines.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "প্রতিটি পত্রিকাই একটি সাময়িকী।কিছু চিঠি সাময়িকী নয়।এটি যৌক্তিকভাবে এই উপসংহারে নিয়ে যায় যে কিছু চিঠি পত্রিকা নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "70649005-03c7-40f6-88b1-bc87f97c5429",
+    "syllogism": "There are no dogs which are cats. Some cat is a feline. It follows that no feline is a dog.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "এমন কোন কুকুর নেই যা বিড়াল।কিছু বিড়াল একটি বিড়াল।এটি অনুসরণ করে যে কোনও বিড়াল কুকুর নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "7fd6b868-00b7-4778-8176-144c3421970d",
+    "syllogism": "All objects that are chairs are clouds. It is true that no cloud is a piece of furniture. It follows from this that no piece of furniture is a chair.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "চেয়ারের সমস্ত বস্তুই মেঘ।এটা সত্য যে কোন মেঘ আসবাবপত্রের টুকরো নয়।এটি এই থেকে অনুসরণ করে যে আসবাবের কোন টুকরা একটি চেয়ার নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "56283415-6c0a-42e6-9207-a37f1ed5cb23",
+    "syllogism": "Any object that is a bridge is a fish. The Golden Gate is not fish. This implies that the Golden Gate is not bridge.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "যে কোন বস্তু যে একটি সেতু একটি মাছ. গোল্ডেন গেট মাছ নয়।এটি বোঝায় যে গোল্ডেন গেটটি সেতু নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "196f3b9f-739b-45c8-b515-9009dbd14670",
+    "syllogism": "Anything which is a coffee is a liquid. Anything which is a tea is a liquid. As a result, some tea is not coffee.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "একটি কফি যা কিছু একটি তরল. চা যা কিছু তা তরল।ফলে কিছু চা কফি নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "a3a39ff5-8c7c-49bf-b23f-50abe575a8f0",
+    "syllogism": "There are no dogs that are cats. There are no cats that are animals. Thus, a portion of animals are dogs.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "এমন কোন কুকুর নেই যে বিড়াল।এমন কোন বিড়াল নেই যা পশু।সুতরাং, প্রাণীদের একটি অংশ কুকুর।",
+    "lang": "bn"
+  },
+  {
+    "id": "556a300e-0638-4b85-955a-f1d3b497523a",
+    "syllogism": "It is not true that any sky is blue. There is no car that is a sky. This leads to the conclusion that no car is blue.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "কোনো আকাশই যে নীল, এটা ঠিক নয়।আকাশ বলে কোনো গাড়ি নেই।এটি এই সিদ্ধান্তে পৌঁছে যে কোনও গাড়িই নীল নয়।",
+    "lang": "bn"
+  },
+  {
+    "id": "6b72dcd6-fd40-49f2-ad05-ac7cf319b4dc",
+    "syllogism": "There are no fruits which are planets. There is no planet that is a meat. It must be concluded that some meats are not fruits.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Не существует фруктов, которые являются планетами. Не существует планеты, которая была бы мясом. Следует сделать вывод, что некоторые виды мяса не являются фруктами.",
+    "lang": "ru"
+  },
+  {
+    "id": "295d89e2-51ff-4b93-beb1-02a71e5210ac",
+    "syllogism": "Anything that is a rock is not a living thing. A portion of the things that are rocks are also stones. From this, we can conclude that some stones are not living things.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Все, что является камнем, не является живым существом. Часть вещей, которые являются камнями, также являются камнями. Отсюда можно сделать вывод, что некоторые камни не являются живыми существами.",
+    "lang": "ru"
+  },
+  {
+    "id": "cd5fb935-7363-45b4-ab10-50fa485447c9",
+    "syllogism": "A number of birds are penguins. All penguins are flightless animals. Consequently, some flightless animals are birds.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Ряд птиц — пингвины. Все пингвины — нелетающие животные. Следовательно, некоторые нелетающие животные являются птицами.",
+    "lang": "ru"
+  },
+  {
+    "id": "6d113ce6-4d1e-486c-a02c-92bc4b79d930",
+    "syllogism": "Every river is a body of water. No mountains are included in the category of bodies of water. It is the case that some mountains are not rivers.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Каждая река представляет собой водоем. Никакие горы не входят в категорию водоемов. Дело в том, что некоторые горы не являются реками.",
+    "lang": "ru"
+  },
+  {
+    "id": "a27bfbf5-54dd-47d6-904b-d999d045fd7d",
+    "syllogism": "There is nothing that is a fruit that is also a baked good. Not one baked good is a rock. As a result, no rock is a fruit.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Ни один фрукт не является одновременно и выпечкой. Ни одна выпечка не является камнем. В результате ни один камень не является фруктом.",
+    "lang": "ru"
+  },
+  {
+    "id": "1a8460fa-6c7c-4118-8610-9fab85aa6c32",
+    "syllogism": "It is the case that no amphibian is a bird. All frogs fall under the category of amphibians. It logically follows that no frogs are birds.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Дело в том, что ни одно земноводное не является птицей. Все лягушки относятся к категории амфибий. Отсюда логически следует, что никакие лягушки не являются птицами.",
+    "lang": "ru"
+  },
+  {
+    "id": "dbe92bc3-f074-4d82-ac6b-fcfaca3a773a",
+    "syllogism": "Not a single person who is an athlete is also a person who is non-sporty. Of all the students, some of them are non-sporty people. It is necessarily true that some students are not athletes.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Ни один человек, являющийся спортсменом, не является одновременно человеком, не занимающимся спортом. Среди всех студентов есть люди, не занимающиеся спортом. Совершенно верно, что некоторые студенты не являются спортсменами.",
+    "lang": "ru"
+  },
+  {
+    "id": "fd43035c-045c-4f27-8238-c6c51fbdd640",
+    "syllogism": "Every single vertebrate has a spine. All things that are human are vertebrates. At least some humans are things with a spine.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "У каждого позвоночного есть позвоночник. Все существа, относящиеся к человеку, являются позвоночными. По крайней мере, у некоторых людей есть позвоночник.",
+    "lang": "ru"
+  },
+  {
+    "id": "1f605900-fb2f-41f7-9191-0d1e08b8122e",
+    "syllogism": "It is not the case that sodas are water. All of the water that exists is a beverage. Some of the beverages that exist are not sodas.",
+    "validity": true,
+    "plausibility": true,
+    "syllogism_t": "Дело не в том, что газированные напитки — это вода. Вся существующая вода является напитком. Некоторые из существующих напитков не являются газировкой.",
+    "lang": "ru"
+  },
+  {
+    "id": "0e5eccac-e294-42b0-96eb-f34acf0ceb1a",
+    "syllogism": "Anything which is a coffee is a liquid. Anything which is a water is a liquid. As a result, some water is not coffee.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Все, что является кофе, является жидкостью. Все, что является водой, является жидкостью. В результате немного воды — это не кофе.",
+    "lang": "ru"
+  },
+  {
+    "id": "34346def-8f46-46dc-892b-5dc199478f4c",
+    "syllogism": "Every single pencil is made of lead. There are some writing instruments that are pencils. This means that some writing instruments are made of lead.",
+    "validity": true,
+    "plausibility": false,
+    "syllogism_t": "Каждый карандаш сделан из свинца. Есть некоторые пишущие инструменты, которые представляют собой карандаши. Это означает, что некоторые пишущие инструменты сделаны из свинца.",
+    "lang": "ru"
+  },
+  {
+    "id": "8c0d6906-7d13-4dfa-992e-e6535c337f67",
+    "syllogism": "It is the case that no reptile is a bird. It is also not the case that any bird is a mammal. Thus, every single mammal is not a reptile.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Дело в том, что ни одна рептилия не является птицей. Это также не тот случай, когда какая-либо птица является млекопитающим. Таким образом, не каждое млекопитающее является рептилией.",
+    "lang": "ru"
+  },
+  {
+    "id": "3b001a4a-e30b-48c7-bebb-2ce02b06637f",
+    "syllogism": "There are some stones that are not light. There are no feathers that are stones. Consequently, every feather is light.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Есть камни, которые не легкие. Нет перьев, которые были бы камнями. Следовательно, каждое перо легкое.",
+    "lang": "ru"
+  },
+  {
+    "id": "8e2668db-efc8-4ce6-8687-ac28fcb32e35",
+    "syllogism": "There are no spiders that are mammals. No insects are considered spiders. Some insects are not mammals.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Не существует пауков, которые являются млекопитающими. Ни одно насекомое не считается пауком. Некоторые насекомые не являются млекопитающими.",
+    "lang": "ru"
+  },
+  {
+    "id": "332a0a85-30f9-4341-b27c-e30197e0b994",
+    "syllogism": "The set of animals and the set of plants are mutually exclusive. The group of plants and the group of cats are disjoint. A certain number of cats are not animals.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Набор животных и набор растений исключают друг друга. Группа растений и группа кошек не пересекаются. Определенное количество кошек не являются животными.",
+    "lang": "ru"
+  },
+  {
+    "id": "cd3b3363-37b2-487e-a4ba-f36f26f74703",
+    "syllogism": "There is no such thing as a building that is a chair. It is also true that no chair is a house. It follows that no house is a building.",
+    "validity": false,
+    "plausibility": false,
+    "syllogism_t": "Не существует такой вещи, как здание, которое было бы стулом. Верно также и то, что ни один стул не является домом. Отсюда следует, что ни один дом не является зданием.",
+    "lang": "ru"
+  },
+  {
+    "id": "eccdb752-fde0-484b-a586-bb90c1c69ad8",
+    "syllogism": "There are some women who are people. There are no people who are men. Therefore, some men are humans.",
+    "validity": false,
+    "plausibility": true,
+    "syllogism_t": "Есть женщины, которые являются людьми. Нет людей, которые были бы мужчинами. Следовательно, некоторые мужчины — люди.",
+    "lang": "ru"
+  }
 ]
