@@ -183,7 +183,8 @@ If you found this repository useful, please consider citing our work:
                Pucci, Giulia and
                Ranaldi, Federico and
                Freitas, Andr{\'e}},
-    booktitle = "Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)"
+    booktitle = "Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)",
+   year = "2026"
 }
 ```
 
