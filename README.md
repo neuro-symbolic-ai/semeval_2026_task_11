@@ -184,7 +184,7 @@ If you found this repository useful, please consider citing our work:
                Ranaldi, Federico and
                Freitas, Andr{\'e}},
     booktitle = "Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)",
-   year = "2026"
+    year = "2026"
 }
 ```
 
