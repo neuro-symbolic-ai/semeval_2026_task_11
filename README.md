@@ -173,6 +173,18 @@ The sutasks will include the following languages:
 
 ### References
 
+If you found this repository useful, please consider citing our work: 
+
+``
+@inproceedings{valentino-etal-2026-semeval,
+    title = "SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models",
+    author = { Valentino, Marco  and Ranaldi, Leonardo  and Pucci, Giulia and Ranaldi, Federico and Freitas, Andr{\'e}},
+    booktitle = "Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)"
+}
+``
+
+###Other Relevant References:
+
 Valentino, M., Kim, G., Dalal, D., Zhao, Z., & Freitas, A. (2025). Mitigating Content Effects on Reasoning in Language Models through Fine-Grained Activation Steering. arXiv preprint arXiv:2505.12189. 
 
 Ranaldi, L., Valentino, M., and Freitas, A. (2025). Improving chain-of-thought reasoning via quasi-symbolic abstractions. ACL 2025.
